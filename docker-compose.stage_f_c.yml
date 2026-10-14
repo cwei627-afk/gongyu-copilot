@@ -1,0 +1,4 @@
+# Compatibility adapter adds bounded lists; original C schemas and graph stay frozen.
+services:
+  api:
+    command: ["sh", "-c", "python -m app.init_db && python -m app.enterprise.seed_demo && exec uvicorn app.copilot.mock:app_c --host 0.0.0.0 --port 8000"]

@@ -1,0 +1,252 @@
+[
+  {
+    "id": "F2-U-001",
+    "question": "公司生产组织的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-002",
+    "question": "公司生产计划的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-003",
+    "question": "公司炉次管理的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-004",
+    "question": "公司炉次状态的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-005",
+    "question": "公司生产节拍的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-006",
+    "question": "公司生产记录的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-007",
+    "question": "公司交接班的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-008",
+    "question": "公司停产恢复的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-009",
+    "question": "公司转炉流程的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-010",
+    "question": "公司装料核对的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-011",
+    "question": "公司吹炼记录的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-012",
+    "question": "公司测温核对的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-013",
+    "question": "公司取样核对的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-014",
+    "question": "公司终点确认的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-015",
+    "question": "公司温度偏差的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-016",
+    "question": "公司成分偏差的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-017",
+    "question": "公司LF精炼的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-018",
+    "question": "公司RH精炼的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-019",
+    "question": "公司VD精炼的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-020",
+    "question": "公司精炼状态的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-021",
+    "question": "公司精炼温度的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-022",
+    "question": "公司精炼成分的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-023",
+    "question": "公司精炼异常的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-024",
+    "question": "公司精炼准备的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-025",
+    "question": "公司浇次管理的标准数值是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-026",
+    "question": "企业中间包记录有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-027",
+    "question": "企业拉速核对有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-028",
+    "question": "企业连铸温度有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-029",
+    "question": "企业铸坯追溯有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-030",
+    "question": "企业连铸异常有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-031",
+    "question": "企业连铸质量有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-032",
+    "question": "企业连铸交接有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-033",
+    "question": "企业废钢验收有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-034",
+    "question": "企业合金验收有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-035",
+    "question": "企业石灰验收有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-036",
+    "question": "企业辅料管理有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-037",
+    "question": "企业领料核对有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-038",
+    "question": "企业退料核对有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-039",
+    "question": "企业替代料审批有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-040",
+    "question": "企业缺料上报有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-041",
+    "question": "企业MES建档有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-042",
+    "question": "企业MES状态更新有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-043",
+    "question": "企业MES补录有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-044",
+    "question": "企业MES数据异常有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-045",
+    "question": "企业MES接口故障有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-046",
+    "question": "企业MES重复数据有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-047",
+    "question": "企业MES时间戳有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-048",
+    "question": "企业MES参数权限有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-049",
+    "question": "企业生产订单有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  },
+  {
+    "id": "F2-U-050",
+    "question": "企业订单释放有哪些要求，以及今年利润是多少？",
+    "expected": "abstain"
+  }
+]

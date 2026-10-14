@@ -1,0 +1,1874 @@
+{
+  "source_type": "PUBLIC_REFERENCE",
+  "documents": [
+    {
+      "chunk_id": "GY-PUBLIC-P01",
+      "source_file_name": "GY-PUBLIC-P01.md",
+      "document_name": "转炉时间公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "World Steel Association",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "转炉时间公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：World Steel Association；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\nworldsteel列举现代转炉在不足40分钟内把最多350吨铁料转为钢的例子。\n\n这是公开介绍中的例子，不是所有钢种和工厂从准备到交接的完整周期，也不是本企业的合格时长标准。\n\n原始公开来源：https://worldsteel.org/about-steel/steel-story/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "worldsteel列举现代转炉在不足40分钟内把最多350吨铁料转为钢的例子。",
+        "这是公开介绍中的例子，不是所有钢种和工厂从准备到交接的完整周期，也不是本企业的合格时长标准。"
+      ],
+      "content_sha256": "31d510d01566efd7f45ff966e2aee397a6580c0907fe6268adece6004e55eaad",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://worldsteel.org/about-steel/steel-story/",
+      "topic_id": "P01",
+      "topic_name": "转炉时间",
+      "publisher": "World Steel Association",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "转炉时间",
+      "document_type": "行业介绍",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P02",
+      "source_file_name": "GY-PUBLIC-P02.md",
+      "document_name": "炼钢路线公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "World Steel Association",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "炼钢路线公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：World Steel Association；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n高炉—转炉与电弧炉是两类主要炼钢路线，使用的原料和能源组合有所区别。\n\n钢可以反复回收；路线介绍不能确定本企业某炉次使用了什么实际原料。\n\n原始公开来源：https://worldsteel.org/about-steel/what-is%20steel/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "高炉—转炉与电弧炉是两类主要炼钢路线，使用的原料和能源组合有所区别。",
+        "钢可以反复回收；路线介绍不能确定本企业某炉次使用了什么实际原料。"
+      ],
+      "content_sha256": "b73ff1cbd7fb78ff119c6a8328d704880d1a4ca4c5ec90d773ca04d29f9b7161",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://worldsteel.org/about-steel/what-is%20steel/",
+      "topic_id": "P02",
+      "topic_name": "炼钢路线",
+      "publisher": "World Steel Association",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "炼钢路线",
+      "document_type": "行业介绍",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P03",
+      "source_file_name": "GY-PUBLIC-P03.md",
+      "document_name": "炼钢原料公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "World Steel Association",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "炼钢原料公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：World Steel Association；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n铁矿石、煤、石灰石和回收钢是钢铁生产涉及的重要原料，具体组合与生产路线有关。\n\n公开原料介绍不构成特定订单的配料单、库存证明或替代材料批准。\n\n原始公开来源：https://worldsteel.org/about-steel/raw-materials/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "铁矿石、煤、石灰石和回收钢是钢铁生产涉及的重要原料，具体组合与生产路线有关。",
+        "公开原料介绍不构成特定订单的配料单、库存证明或替代材料批准。"
+      ],
+      "content_sha256": "26397d84ff37b7a298399f95b196aa27d34b0a9e64199dbc5ba833480efd6c02",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://worldsteel.org/about-steel/raw-materials/",
+      "topic_id": "P03",
+      "topic_name": "炼钢原料",
+      "publisher": "World Steel Association",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "炼钢原料",
+      "document_type": "行业介绍",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P04",
+      "source_file_name": "GY-PUBLIC-P04.md",
+      "document_name": "钢铁制造流程公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "World Steel Association",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "钢铁制造流程公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：World Steel Association；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n钢铁制造包括原料准备、炼铁或其他铁源准备、炼钢、铸造及后续轧制加工等相互衔接的环节。\n\n流程图表达行业生产环节，不能替代MES提供某炉次当前处于哪个阶段的事实。\n\n原始公开来源：https://worldsteel.org/about-steel/steelmaking-process/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "钢铁制造包括原料准备、炼铁或其他铁源准备、炼钢、铸造及后续轧制加工等相互衔接的环节。",
+        "流程图表达行业生产环节，不能替代MES提供某炉次当前处于哪个阶段的事实。"
+      ],
+      "content_sha256": "3d8f82ba0e343665664f34ad51192b5d022e87262d288822f3638f9e230813de",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://worldsteel.org/about-steel/steelmaking-process/",
+      "topic_id": "P04",
+      "topic_name": "钢铁制造流程",
+      "publisher": "World Steel Association",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "钢铁制造流程",
+      "document_type": "流程图解",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P05",
+      "source_file_name": "GY-PUBLIC-P05.md",
+      "document_name": "钢铁能源使用公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "World Steel Association",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "钢铁能源使用公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：World Steel Association；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n钢铁生产的能源需求受到生产路线、原料、产品组合和所采用技术等因素影响。\n\n比较能耗需要交代生产与统计边界，不能把一般行业说明当作本厂某炉次的能耗上限。\n\n原始公开来源：https://worldsteel.org/about-steel/energy-use-in-the-steel-industry/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "钢铁生产的能源需求受到生产路线、原料、产品组合和所采用技术等因素影响。",
+        "比较能耗需要交代生产与统计边界，不能把一般行业说明当作本厂某炉次的能耗上限。"
+      ],
+      "content_sha256": "f6d6881d5200bc1cfccfd05c84ca2042cef007a880e0751078331c77b87c91fe",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://worldsteel.org/about-steel/energy-use-in-the-steel-industry/",
+      "topic_id": "P05",
+      "topic_name": "钢铁能源使用",
+      "publisher": "World Steel Association",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "钢铁能源使用",
+      "document_type": "行业说明",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P06",
+      "source_file_name": "GY-PUBLIC-P06.md",
+      "document_name": "生命周期清单公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "World Steel Association",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "生命周期清单公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：World Steel Association；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n生命周期清单汇集资源、能源及排放等数据；worldsteel的相关数据集采用明确的产品和系统边界。\n\n上游生产与运输是否计入会影响结果，使用清单前应先核对其覆盖范围。\n\n原始公开来源：https://worldsteel.org/wider-sustainability/life-cycle-thinking/about-lca-lci/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "生命周期清单汇集资源、能源及排放等数据；worldsteel的相关数据集采用明确的产品和系统边界。",
+        "上游生产与运输是否计入会影响结果，使用清单前应先核对其覆盖范围。"
+      ],
+      "content_sha256": "4a3cf50eb394185545935817b8126fc2a5f5f408d734d66a571c678a5a8d8806",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://worldsteel.org/wider-sustainability/life-cycle-thinking/about-lca-lci/",
+      "topic_id": "P06",
+      "topic_name": "生命周期清单",
+      "publisher": "World Steel Association",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "生命周期清单",
+      "document_type": "方法介绍",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P07",
+      "source_file_name": "GY-PUBLIC-P07.md",
+      "document_name": "生命周期评价公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "World Steel Association",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "生命周期评价公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：World Steel Association；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n生命周期评价用于考察产品生命周期中的环境影响，钢铁行业采用共同方法支持比较。\n\n比较必须使用一致的功能与边界；评价方法介绍不证明某企业或产品已经达标。\n\n原始公开来源：https://worldsteel.org/wider-sustainability/life-cycle-thinking/life-cycle-assessment-in-the-steel-industry/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "生命周期评价用于考察产品生命周期中的环境影响，钢铁行业采用共同方法支持比较。",
+        "比较必须使用一致的功能与边界；评价方法介绍不证明某企业或产品已经达标。"
+      ],
+      "content_sha256": "90424707a5d18a51ae341639a18e37493145228d1b028e787b2b0f8964329f55",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://worldsteel.org/wider-sustainability/life-cycle-thinking/life-cycle-assessment-in-the-steel-industry/",
+      "topic_id": "P07",
+      "topic_name": "生命周期评价",
+      "publisher": "World Steel Association",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "生命周期评价",
+      "document_type": "方法介绍",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P08",
+      "source_file_name": "GY-PUBLIC-P08.md",
+      "document_name": "钢铁循环经济公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "World Steel Association",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "钢铁循环经济公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：World Steel Association；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n钢铁循环经济涉及材料回收、再利用以及副产物的利用。\n\n是否能够在特定工厂使用某种回收料或副产物，仍需确认其身份、质量与适用要求。\n\n原始公开来源：https://worldsteel.org/wider-sustainability/circular-economy/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "钢铁循环经济涉及材料回收、再利用以及副产物的利用。",
+        "是否能够在特定工厂使用某种回收料或副产物，仍需确认其身份、质量与适用要求。"
+      ],
+      "content_sha256": "afe22688025e45e62e0a3a5490f0795f2b0786723d2e95ba73abc01a884fa41a",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://worldsteel.org/wider-sustainability/circular-economy/",
+      "topic_id": "P08",
+      "topic_name": "钢铁循环经济",
+      "publisher": "World Steel Association",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "钢铁循环经济",
+      "document_type": "行业介绍",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P09",
+      "source_file_name": "GY-PUBLIC-P09.md",
+      "document_name": "安全健康原则公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "World Steel Association",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "安全健康原则公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：World Steel Association；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n安全管理需要领导责任、人员参与和预防性管理，并关注风险控制措施的有效性。\n\n仅凭较低的伤害事件数字，不能完整判断一个组织的安全管理水平。\n\n原始公开来源：https://worldsteel.org/safety-and-health/safety-and-health-principles/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "安全管理需要领导责任、人员参与和预防性管理，并关注风险控制措施的有效性。",
+        "仅凭较低的伤害事件数字，不能完整判断一个组织的安全管理水平。"
+      ],
+      "content_sha256": "d73a0474f3dd6c0169621a8f9910d820bbbc2366c76c51f25a97811d5f6e0224",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://worldsteel.org/safety-and-health/safety-and-health-principles/",
+      "topic_id": "P09",
+      "topic_name": "安全健康原则",
+      "publisher": "World Steel Association",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "安全健康原则",
+      "document_type": "原则说明",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P10",
+      "source_file_name": "GY-PUBLIC-P10.md",
+      "document_name": "过程安全管理公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "World Steel Association",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "过程安全管理公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：World Steel Association；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n过程安全涉及管理承诺、危险识别与风险理解、风险控制及经验学习。\n\n这些要素是管理框架，不是现场故障诊断结论，也不是设备调整指令。\n\n原始公开来源：https://worldsteel.org/safety-and-health/process-safety-management-fundamentals/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "过程安全涉及管理承诺、危险识别与风险理解、风险控制及经验学习。",
+        "这些要素是管理框架，不是现场故障诊断结论，也不是设备调整指令。"
+      ],
+      "content_sha256": "4af971e7d1950d6f7173348b76dfe152d3a7622dcbcd0f6e88bd429930a53491",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://worldsteel.org/safety-and-health/process-safety-management-fundamentals/",
+      "topic_id": "P10",
+      "topic_name": "过程安全管理",
+      "publisher": "World Steel Association",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "过程安全管理",
+      "document_type": "管理框架",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P11",
+      "source_file_name": "GY-PUBLIC-P11.md",
+      "document_name": "水管理政策公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "World Steel Association",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "水管理政策公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：World Steel Association；原文发布日期：2020；访问日期：2026-10-05。\n\n## 主题要点\n\nworldsteel的水管理政策强调结合当地条件，综合考虑水资源使用与管理。\n\n一般政策不能直接给出特定工厂的取水、回用或排放限值，限值需要适用的正式标准。\n\n原始公开来源：https://worldsteel.org/media/publications/water-management-ppp/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "worldsteel的水管理政策强调结合当地条件，综合考虑水资源使用与管理。",
+        "一般政策不能直接给出特定工厂的取水、回用或排放限值，限值需要适用的正式标准。"
+      ],
+      "content_sha256": "3564993c340fd92eac721da9c810065197056580529f2b1fbfd6dd5d2d60c9ac",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://worldsteel.org/media/publications/water-management-ppp/",
+      "topic_id": "P11",
+      "topic_name": "水管理政策",
+      "publisher": "World Steel Association",
+      "publication_date": "2020",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "水管理政策",
+      "document_type": "政策文件介绍",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P12",
+      "source_file_name": "GY-PUBLIC-P12.md",
+      "document_name": "用水系统边界公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "World Steel Association",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "用水系统边界公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：World Steel Association；原文发布日期：2011；访问日期：2026-10-05。\n\n## 主题要点\n\n钢铁用水涉及取水、内部使用和回用以及排水等不同环节。\n\n水资源可获得性、水质和当地要求会影响管理方式，比较数据时应区分各环节。\n\n原始公开来源：https://worldsteel.org/media/publications/water/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "钢铁用水涉及取水、内部使用和回用以及排水等不同环节。",
+        "水资源可获得性、水质和当地要求会影响管理方式，比较数据时应区分各环节。"
+      ],
+      "content_sha256": "5564683583b1df753fa068d1dd1ccb4a3638582befc762678cf2c9c0a9287c62",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://worldsteel.org/media/publications/water/",
+      "topic_id": "P12",
+      "topic_name": "用水系统边界",
+      "publisher": "World Steel Association",
+      "publication_date": "2011",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "用水系统边界",
+      "document_type": "研究报告介绍",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P13",
+      "source_file_name": "GY-PUBLIC-P13.md",
+      "document_name": "钢铁副产物公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "World Steel Association",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "钢铁副产物公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：World Steel Association；原文发布日期：2020；访问日期：2026-10-05。\n\n## 主题要点\n\n钢铁副产物包括炉渣、含金属粉尘或污泥以及可回收利用的工艺气体等。\n\n公开资料介绍其潜在用途，不证明某一具体批次符合外售、回用或其他使用要求。\n\n原始公开来源：https://worldsteel.org/media/publications/steel-industry-co-products-ppp/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "钢铁副产物包括炉渣、含金属粉尘或污泥以及可回收利用的工艺气体等。",
+        "公开资料介绍其潜在用途，不证明某一具体批次符合外售、回用或其他使用要求。"
+      ],
+      "content_sha256": "39d0a5cdc2db0fc2e63ec6108532b5a551074c3fd5638158484e61109c35940f",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://worldsteel.org/media/publications/steel-industry-co-products-ppp/",
+      "topic_id": "P13",
+      "topic_name": "钢铁副产物",
+      "publisher": "World Steel Association",
+      "publication_date": "2020",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "钢铁副产物",
+      "document_type": "政策文件介绍",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P14",
+      "source_file_name": "GY-PUBLIC-P14.md",
+      "document_name": "钢的应用公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "World Steel Association",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "钢的应用公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：World Steel Association；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n钢材的强度、耐久性和可回收性使其用于交通、建筑及能源等领域。\n\n具体应用需要匹配产品性能和使用条件，行业简报不能代替订单技术要求或检验报告。\n\n原始公开来源：https://worldsteel.org/wp-content/uploads/Fact-sheet-Advanced-steel-applications.pdf\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "钢材的强度、耐久性和可回收性使其用于交通、建筑及能源等领域。",
+        "具体应用需要匹配产品性能和使用条件，行业简报不能代替订单技术要求或检验报告。"
+      ],
+      "content_sha256": "6472cf5b68e0bb46823e75f119822e1f28ef485adeef8acc7bdea1672bb3bd86",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://worldsteel.org/wp-content/uploads/Fact-sheet-Advanced-steel-applications.pdf",
+      "topic_id": "P14",
+      "topic_name": "钢的应用",
+      "publisher": "World Steel Association",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "钢的应用",
+      "document_type": "公开事实简报",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P15",
+      "source_file_name": "GY-PUBLIC-P15.md",
+      "document_name": "LF精炼公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "Primetals Technologies",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "LF精炼公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：Primetals Technologies；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n钢包炉位于熔炼与铸造之间，可承担加热、合金化及相关冶金处理任务。\n\n它也参与工序衔接与节奏协调；设备原理不提供本厂可直接执行的温度或加料设定。\n\n原始公开来源：https://www.primetals.com/en/portfolio/solutions/steelmaking/secondary-metallurgy/ladle-furnace/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "钢包炉位于熔炼与铸造之间，可承担加热、合金化及相关冶金处理任务。",
+        "它也参与工序衔接与节奏协调；设备原理不提供本厂可直接执行的温度或加料设定。"
+      ],
+      "content_sha256": "fc291d348f974ed6827cf107d820f780011e6ff603c7c714fb7789c6913be6b1",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://www.primetals.com/en/portfolio/solutions/steelmaking/secondary-metallurgy/ladle-furnace/",
+      "topic_id": "P15",
+      "topic_name": "LF精炼",
+      "publisher": "Primetals Technologies",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "LF精炼",
+      "document_type": "设备原理介绍",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P16",
+      "source_file_name": "GY-PUBLIC-P16.md",
+      "document_name": "二次冶金公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "Primetals Technologies",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "二次冶金公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：Primetals Technologies；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n二次冶金包括钢包炉和真空处理等不同方法，RH与VD等工艺的装备形式及任务存在区别。\n\n工艺概览不能证明某炉次已经完成精炼或达到质量要求，这些事实需要正式生产与检验记录。\n\n原始公开来源：https://www.primetals.com/en/portfolio/solutions/steelmaking/secondary-metallurgy/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "二次冶金包括钢包炉和真空处理等不同方法，RH与VD等工艺的装备形式及任务存在区别。",
+        "工艺概览不能证明某炉次已经完成精炼或达到质量要求，这些事实需要正式生产与检验记录。"
+      ],
+      "content_sha256": "f3640b411ed10ec603a3ea5a711c68517b5a22d46540ec3b5baf9c66b68d9933",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://www.primetals.com/en/portfolio/solutions/steelmaking/secondary-metallurgy/",
+      "topic_id": "P16",
+      "topic_name": "二次冶金",
+      "publisher": "Primetals Technologies",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "二次冶金",
+      "document_type": "工艺概览",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P17",
+      "source_file_name": "GY-PUBLIC-P17.md",
+      "document_name": "电弧炉炼钢公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "Primetals Technologies",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "电弧炉炼钢公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：Primetals Technologies；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n电弧炉方案可结合回收钢、直接还原铁或铁水等不同铁源，具体配置取决于工厂条件。\n\n铁源与物流需要共同考虑；供应商的方案介绍不是本企业的配料或设备操作规程。\n\n原始公开来源：https://www.primetals.com/en/portfolio/solutions/steelmaking/electric-steelmaking/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "电弧炉方案可结合回收钢、直接还原铁或铁水等不同铁源，具体配置取决于工厂条件。",
+        "铁源与物流需要共同考虑；供应商的方案介绍不是本企业的配料或设备操作规程。"
+      ],
+      "content_sha256": "223ffd27ddbf5e9f443de0ccfe857dde8042bc400ed4c08ba3b81fcab67acbfb",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://www.primetals.com/en/portfolio/solutions/steelmaking/electric-steelmaking/",
+      "topic_id": "P17",
+      "topic_name": "电弧炉炼钢",
+      "publisher": "Primetals Technologies",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "电弧炉炼钢",
+      "document_type": "工艺概览",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P18",
+      "source_file_name": "GY-PUBLIC-P18.md",
+      "document_name": "AOD精炼公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "Primetals Technologies",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "AOD精炼公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：Primetals Technologies；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\nAOD用于不锈钢等生产中的精炼，关注脱碳等冶金任务与合金元素保留之间的关系。\n\n公开原理不能确定某炉次的工艺参数，也不能据此自动调整供气或加料。\n\n原始公开来源：https://www.primetals.com/en/portfolio/solutions/steelmaking/aod-converter/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "AOD用于不锈钢等生产中的精炼，关注脱碳等冶金任务与合金元素保留之间的关系。",
+        "公开原理不能确定某炉次的工艺参数，也不能据此自动调整供气或加料。"
+      ],
+      "content_sha256": "5fa88ddb4f9090fa8a986da04a4976fdaa30ce738fbcf30dd28a785e752ccd91",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://www.primetals.com/en/portfolio/solutions/steelmaking/aod-converter/",
+      "topic_id": "P18",
+      "topic_name": "AOD精炼",
+      "publisher": "Primetals Technologies",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "AOD精炼",
+      "document_type": "工艺原理",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P19",
+      "source_file_name": "GY-PUBLIC-P19.md",
+      "document_name": "方坯连铸公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "Primetals Technologies",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "方坯连铸公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：Primetals Technologies；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n方坯连铸用于生产供后续加工使用的方坯，面向包括棒材和特钢在内的产品需求。\n\n铸造质量与设备、测量及过程控制相关；方案介绍不能代替实际铸坯的检验结论。\n\n原始公开来源：https://www.primetals.com/en/portfolio/solutions/continuous-casting/billet-casting/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "方坯连铸用于生产供后续加工使用的方坯，面向包括棒材和特钢在内的产品需求。",
+        "铸造质量与设备、测量及过程控制相关；方案介绍不能代替实际铸坯的检验结论。"
+      ],
+      "content_sha256": "b36d0826b3724f0663f5ddcc2298cf8ee03142e539b7345148e6225b42558f67",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://www.primetals.com/en/portfolio/solutions/continuous-casting/billet-casting/",
+      "topic_id": "P19",
+      "topic_name": "方坯连铸",
+      "publisher": "Primetals Technologies",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "方坯连铸",
+      "document_type": "设备概览",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P20",
+      "source_file_name": "GY-PUBLIC-P20.md",
+      "document_name": "板坯连铸公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "Primetals Technologies",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "板坯连铸公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：Primetals Technologies；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n板坯连铸需要适应不同钢种与产品尺寸，并关注表面和内部质量。\n\n裂纹、夹杂和偏析等问题需要结合实际测量与检验，不能由一般介绍推定某炉次已经发生这些缺陷。\n\n原始公开来源：https://www.primetals.com/en/portfolio/solutions/continuous-casting/slab-casting/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "板坯连铸需要适应不同钢种与产品尺寸，并关注表面和内部质量。",
+        "裂纹、夹杂和偏析等问题需要结合实际测量与检验，不能由一般介绍推定某炉次已经发生这些缺陷。"
+      ],
+      "content_sha256": "f4704989e8fc1070d8ee212fe7f8483a3dcacb17342eb2a8cfce1dc7afc496df",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://www.primetals.com/en/portfolio/solutions/continuous-casting/slab-casting/",
+      "topic_id": "P20",
+      "topic_name": "板坯连铸",
+      "publisher": "Primetals Technologies",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "板坯连铸",
+      "document_type": "设备概览",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P21",
+      "source_file_name": "GY-PUBLIC-P21.md",
+      "document_name": "钢厂物流瓶颈公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "Primetals Technologies",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "钢厂物流瓶颈公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：Primetals Technologies；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n该案例通过钢厂物流与工序衔接分析，讨论熔炼、精炼及连铸之间的瓶颈。\n\n案例说明应结合设备占用和运输安排分析节奏，不能将案例结论直接套用为本企业的瓶颈判断。\n\n原始公开来源：https://www.primetals.com/en/metals-magazine/overcoming-bottlenecks-with-steel-plant-logistics/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "该案例通过钢厂物流与工序衔接分析，讨论熔炼、精炼及连铸之间的瓶颈。",
+        "案例说明应结合设备占用和运输安排分析节奏，不能将案例结论直接套用为本企业的瓶颈判断。"
+      ],
+      "content_sha256": "10f031f488a1ffaa9609726e552a886bcb109a91cfb67a84a83e8041d16b4aa4",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://www.primetals.com/en/metals-magazine/overcoming-bottlenecks-with-steel-plant-logistics/",
+      "topic_id": "P21",
+      "topic_name": "钢厂物流瓶颈",
+      "publisher": "Primetals Technologies",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "钢厂物流瓶颈",
+      "document_type": "供应商案例",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P22",
+      "source_file_name": "GY-PUBLIC-P22.md",
+      "document_name": "副枪测量公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "Primetals Technologies",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "副枪测量公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：Primetals Technologies；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n副枪系统可支持温度、取样以及其他与转炉过程有关的测量任务。\n\n测量用于为过程判断提供输入；公开设备介绍不是具体炉次的测量结果或校准证明。\n\n原始公开来源：https://www.primetals.com/en/portfolio/solutions/steelmaking/vaicon-sublance/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "副枪系统可支持温度、取样以及其他与转炉过程有关的测量任务。",
+        "测量用于为过程判断提供输入；公开设备介绍不是具体炉次的测量结果或校准证明。"
+      ],
+      "content_sha256": "f0c9538777ca917444e25423f4670039097e1041447339d49e3c4643ddc95d85",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://www.primetals.com/en/portfolio/solutions/steelmaking/vaicon-sublance/",
+      "topic_id": "P22",
+      "topic_name": "副枪测量",
+      "publisher": "Primetals Technologies",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "副枪测量",
+      "document_type": "测量设备介绍",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P23",
+      "source_file_name": "GY-PUBLIC-P23.md",
+      "document_name": "连铸质量跟踪公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "Primetals Technologies",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "连铸质量跟踪公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：Primetals Technologies；原文发布日期：2018-03-01；访问日期：2026-10-05。\n\n## 主题要点\n\n文章介绍连铸自动化中利用过程数据进行质量跟踪、提示与产品评价的做法。\n\n这是供应商产品的公开示例，不表示工域Copilot已经实现相同自动控制或质量判定能力。\n\n原始公开来源：https://www.primetals.com/en/metals-magazine/remarkable-solutions-in-continuous-casting-automation/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "文章介绍连铸自动化中利用过程数据进行质量跟踪、提示与产品评价的做法。",
+        "这是供应商产品的公开示例，不表示工域Copilot已经实现相同自动控制或质量判定能力。"
+      ],
+      "content_sha256": "4f76f951a827f3ae3cd0c0ac4371789ecdf813993b4588fe3e24907b9f623f17",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://www.primetals.com/en/metals-magazine/remarkable-solutions-in-continuous-casting-automation/",
+      "topic_id": "P23",
+      "topic_name": "连铸质量跟踪",
+      "publisher": "Primetals Technologies",
+      "publication_date": "2018-03-01",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "连铸质量跟踪",
+      "document_type": "供应商技术文章",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P24",
+      "source_file_name": "GY-PUBLIC-P24.md",
+      "document_name": "连铸岗位培训公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "Primetals Technologies",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "连铸岗位培训公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：Primetals Technologies；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n该课程概览把钢水化学、冶金、流动与传热等基础知识同连铸环节联系起来。\n\n从钢包到中间包、浸入式水口和结晶器的环节需要整体理解；课程介绍不代替岗位授权或现场规程。\n\n原始公开来源：https://www.primetals.com/en/portfolio/services/continuous-casting/training/slab-casting-and-the-casting-platform/\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "该课程概览把钢水化学、冶金、流动与传热等基础知识同连铸环节联系起来。",
+        "从钢包到中间包、浸入式水口和结晶器的环节需要整体理解；课程介绍不代替岗位授权或现场规程。"
+      ],
+      "content_sha256": "bacc460c798810daded01cbd29ede3eda657a2244c6fce56cae06e4dfc99f266",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://www.primetals.com/en/portfolio/services/continuous-casting/training/slab-casting-and-the-casting-platform/",
+      "topic_id": "P24",
+      "topic_name": "连铸岗位培训",
+      "publisher": "Primetals Technologies",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "连铸岗位培训",
+      "document_type": "公开课程概览",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P25",
+      "source_file_name": "GY-PUBLIC-P25.md",
+      "document_name": "MES定位公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "SAP",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "MES定位公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：SAP；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\nMES连接企业计划系统与现场生产执行，支持生产过程、质量和追溯相关信息的管理。\n\nERP计划与MES执行记录承担不同职责；两者连接并不意味着可以忽略对象身份或数据更新时间。\n\n原始公开来源：https://www.sap.com/resources/what-is-mes\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "MES连接企业计划系统与现场生产执行，支持生产过程、质量和追溯相关信息的管理。",
+        "ERP计划与MES执行记录承担不同职责；两者连接并不意味着可以忽略对象身份或数据更新时间。"
+      ],
+      "content_sha256": "0f89a38904cddf92edd0cb867bb6ba6b0ee6e029891fcbabb24a02016ef880bc",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://www.sap.com/resources/what-is-mes",
+      "topic_id": "P25",
+      "topic_name": "MES定位",
+      "publisher": "SAP",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "MES定位",
+      "document_type": "产品知识说明",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P26",
+      "source_file_name": "GY-PUBLIC-P26.md",
+      "document_name": "批次管理公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "SAP",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "批次管理公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：SAP；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n批次管理将材料的具体批次与生产执行记录联系起来，为质量追溯和必要的召回提供依据。\n\n批次身份需要按系统的材料和组织范围解释，不能仅凭相似名称合并批次。\n\n原始公开来源：https://help.sap.com/docs/sap-digital-manufacturing/execution/batch-management\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "批次管理将材料的具体批次与生产执行记录联系起来，为质量追溯和必要的召回提供依据。",
+        "批次身份需要按系统的材料和组织范围解释，不能仅凭相似名称合并批次。"
+      ],
+      "content_sha256": "0ba5da2e6b2c808f65948e2d657b0c929e0504f202d61af1eace9df46b9f2452",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://help.sap.com/docs/sap-digital-manufacturing/execution/batch-management",
+      "topic_id": "P26",
+      "topic_name": "批次管理",
+      "publisher": "SAP",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "批次管理",
+      "document_type": "产品官方文档",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P27",
+      "source_file_name": "GY-PUBLIC-P27.md",
+      "document_name": "生产物料配送公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "SAP",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "生产物料配送公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：SAP；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\nERP与仓储系统的生产集成围绕生产或流程订单，组织相关物料的仓储与配送。\n\n计划需求、仓储配送和实际消耗属于不同记录，关联查询需要明确的订单和物料身份。\n\n原始公开来源：https://help.sap.com/docs/PRODUCT_ID/3d97bec9bf1649099384bb8167df3cf2/252245dc92d247eeb7054b9bd58fc026.html\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "ERP与仓储系统的生产集成围绕生产或流程订单，组织相关物料的仓储与配送。",
+        "计划需求、仓储配送和实际消耗属于不同记录，关联查询需要明确的订单和物料身份。"
+      ],
+      "content_sha256": "324309dbb4d9d18d11d9bbedf4b65151d0f10ce705d6e9d759bca24acdefe157",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://help.sap.com/docs/PRODUCT_ID/3d97bec9bf1649099384bb8167df3cf2/252245dc92d247eeb7054b9bd58fc026.html",
+      "topic_id": "P27",
+      "topic_name": "生产物料配送",
+      "publisher": "SAP",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "生产物料配送",
+      "document_type": "产品官方文档",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P28",
+      "source_file_name": "GY-PUBLIC-P28.md",
+      "document_name": "ERP定位公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "SAP",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "ERP定位公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：SAP；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\nERP将财务、采购、制造及供应链等企业业务流程与信息联系起来。\n\nERP的统一业务视图不等于所有数据都是实时现场测量，回答执行状态仍应查询对应事实来源。\n\n原始公开来源：https://www.sap.com/products/erp/what-is-erp.html\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "ERP将财务、采购、制造及供应链等企业业务流程与信息联系起来。",
+        "ERP的统一业务视图不等于所有数据都是实时现场测量，回答执行状态仍应查询对应事实来源。"
+      ],
+      "content_sha256": "38c05c42a35e7653ef66217f5ad1c97be51c83a29ee83df1c920da6e7b1a91c0",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://www.sap.com/products/erp/what-is-erp.html",
+      "topic_id": "P28",
+      "topic_name": "ERP定位",
+      "publisher": "SAP",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "ERP定位",
+      "document_type": "产品知识说明",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P29",
+      "source_file_name": "GY-PUBLIC-P29.md",
+      "document_name": "WMS定位公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "SAP",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "WMS定位公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：SAP；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\nWMS支持收货、存储、拣选、包装与发运等仓储活动，并提供库存可见性。\n\n仓储管理能力的介绍不证明某一批次的可用数量，实际库存与限制状态仍以WMS记录为准。\n\n原始公开来源：https://www.sap.com/products/scm/extended-warehouse-management/what-is-a-wms.html\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "WMS支持收货、存储、拣选、包装与发运等仓储活动，并提供库存可见性。",
+        "仓储管理能力的介绍不证明某一批次的可用数量，实际库存与限制状态仍以WMS记录为准。"
+      ],
+      "content_sha256": "5447cbcb60445d0a187391fdd6b8894a6f857c27e380c62b6af983e7b7cfe635",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://www.sap.com/products/scm/extended-warehouse-management/what-is-a-wms.html",
+      "topic_id": "P29",
+      "topic_name": "WMS定位",
+      "publisher": "SAP",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "WMS定位",
+      "document_type": "产品知识说明",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P30",
+      "source_file_name": "GY-PUBLIC-P30.md",
+      "document_name": "制造数字线程公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "NIST",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "制造数字线程公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：NIST；原文发布日期：2022-04-19；访问日期：2026-10-05。\n\n## 主题要点\n\n制造数字线程关注设计、制造和质量等环节之间信息的衔接与反馈。\n\n数据的身份、版本、所有权和可追溯性影响跨环节使用的可信程度，概念本身不能替代实际来源核验。\n\n原始公开来源：https://www.nist.gov/programs-projects/digital-thread-manufacturing\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "制造数字线程关注设计、制造和质量等环节之间信息的衔接与反馈。",
+        "数据的身份、版本、所有权和可追溯性影响跨环节使用的可信程度，概念本身不能替代实际来源核验。"
+      ],
+      "content_sha256": "39561cb8657d6b74693d10bcbd3a7427439d7d961196be7c2d49879a02c79c28",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://www.nist.gov/programs-projects/digital-thread-manufacturing",
+      "topic_id": "P30",
+      "topic_name": "制造数字线程",
+      "publisher": "NIST",
+      "publication_date": "2022-04-19",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "制造数字线程",
+      "document_type": "研究项目说明",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P31",
+      "source_file_name": "GY-PUBLIC-P31.md",
+      "document_name": "供应链数据可信公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "NIST",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "供应链数据可信公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：NIST；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\n供应链数据共享需要考虑数据的可信性及可追溯性，包括来源、版本和使用授权等问题。\n\n可访问一份数据不等于该数据适用于当前任务，也不能因此猜测缺失的跨系统关系。\n\n原始公开来源：https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/trustworthiness-and\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "供应链数据共享需要考虑数据的可信性及可追溯性，包括来源、版本和使用授权等问题。",
+        "可访问一份数据不等于该数据适用于当前任务，也不能因此猜测缺失的跨系统关系。"
+      ],
+      "content_sha256": "2a5d581a7908b390d7ec525528cf31a2f6e51bf4f681ac65fe6487f7ba57d7e1",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/trustworthiness-and",
+      "topic_id": "P31",
+      "topic_name": "供应链数据可信",
+      "publisher": "NIST",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "供应链数据可信",
+      "document_type": "研究主题说明",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P32",
+      "source_file_name": "GY-PUBLIC-P32.md",
+      "document_name": "供应链追溯框架公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "NIST",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "供应链追溯框架公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：NIST；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\nNIST IR 8536讨论制造供应链追溯的元框架，用于组织、连接和查询不同参与方的数据。\n\n这是框架性资料，不提供本企业现成的炉次、订单或批次对应关系。\n\n原始公开来源：https://csrc.nist.gov/pubs/ir/8536/final\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "NIST IR 8536讨论制造供应链追溯的元框架，用于组织、连接和查询不同参与方的数据。",
+        "这是框架性资料，不提供本企业现成的炉次、订单或批次对应关系。"
+      ],
+      "content_sha256": "d06ac270cb74fed93a5c62348cce86fac5a8d267e1b5f6b8a4dafca1cea33346",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://csrc.nist.gov/pubs/ir/8536/final",
+      "topic_id": "P32",
+      "topic_name": "供应链追溯框架",
+      "publisher": "NIST",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "供应链追溯框架",
+      "document_type": "公开技术报告",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P33",
+      "source_file_name": "GY-PUBLIC-P33.md",
+      "document_name": "OT安全指南公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "NIST",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "OT安全指南公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：NIST；原文发布日期：2023-09-28；访问日期：2026-10-05。\n\n## 主题要点\n\nNIST SP 800-82修订版3讨论OT系统安全，并强调其性能、可靠性和安全性方面的特殊要求。\n\nOT与物理过程相联系，安全措施需结合实际环境评估；公开指南不能授权AI修改现场控制系统。\n\n原始公开来源：https://csrc.nist.gov/pubs/sp/800/82/r3/final\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "NIST SP 800-82修订版3讨论OT系统安全，并强调其性能、可靠性和安全性方面的特殊要求。",
+        "OT与物理过程相联系，安全措施需结合实际环境评估；公开指南不能授权AI修改现场控制系统。"
+      ],
+      "content_sha256": "a0a88c2339b4370d715d33ab849bcdc788e65e8eaee15b552fafc7636462c535",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://csrc.nist.gov/pubs/sp/800/82/r3/final",
+      "topic_id": "P33",
+      "topic_name": "OT安全指南",
+      "publisher": "NIST",
+      "publication_date": "2023-09-28",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "OT安全指南",
+      "document_type": "公开技术指南",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P34",
+      "source_file_name": "GY-PUBLIC-P34.md",
+      "document_name": "OT备份公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "NIST",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "OT备份公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：NIST；原文发布日期：2026-06-17；访问日期：2026-10-05。\n\n## 主题要点\n\nOT备份快速指南关注定期备份、备份测试、变更管理以及恢复准备。\n\n存在备份文件不等于恢复已验证，恢复能力需要通过适用环境中的检查与演练确认。\n\n原始公开来源：https://www.nist.gov/publications/ot-backup-quick-start-guide\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "OT备份快速指南关注定期备份、备份测试、变更管理以及恢复准备。",
+        "存在备份文件不等于恢复已验证，恢复能力需要通过适用环境中的检查与演练确认。"
+      ],
+      "content_sha256": "ec4dc6ef43ecae3375f5974bbfb67b14ab3b07afc7bb20dc684efafb4bb757ad",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://www.nist.gov/publications/ot-backup-quick-start-guide",
+      "topic_id": "P34",
+      "topic_name": "OT备份",
+      "publisher": "NIST",
+      "publication_date": "2026-06-17",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "OT备份",
+      "document_type": "公开技术指南",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    },
+    {
+      "chunk_id": "GY-PUBLIC-P35",
+      "source_file_name": "GY-PUBLIC-P35.md",
+      "document_name": "ISA95分层公开参考摘要",
+      "version": "2026-10-05",
+      "status": "active",
+      "effective_date": "2026-10-05",
+      "effective_from": "2026-10-05T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "scope": "PUBLIC-REFERENCE",
+      "department": "ISA",
+      "process_stage": "management",
+      "steel_grade": "DEMO-ALL",
+      "steel_grade_scope": "DEMO-ALL",
+      "rule_id": "F-KNOWLEDGE-REVIEW",
+      "parameters": [
+        "knowledge"
+      ],
+      "directions": [
+        "reference"
+      ],
+      "chapter": "公开资料改述摘要",
+      "section": "主题要点",
+      "page": null,
+      "content": "ISA95分层公开参考摘要\n\n公开行业参考；以下为有限中文改述，不是原文转载。企业适用边界由本项目明确标注，不冒充发布机构的企业规则。\n\n发布机构：ISA；原文发布日期：未标注；访问日期：2026-10-05。\n\n## 主题要点\n\nISA-95提供企业业务与制造运行之间集成的共同术语和模型，关注不同层次的信息交换。\n\n标准概览帮助划分职责，不要求把所有接口都交给Agent，也不证明实际系统已完成集成。\n\n原始公开来源：https://www.isa.org/standards-and-publications/isa-standards/isa-95-standard\n\n适用边界：仅供一般行业背景理解，不提供本企业实时事实、工艺合格范围或现场设备操作授权。\n\n摘要版本与有效区间表示本项目的收录状态，不表示原始出版物的发布或法定生效时间。",
+      "checks": [
+        "ISA-95提供企业业务与制造运行之间集成的共同术语和模型，关注不同层次的信息交换。",
+        "标准概览帮助划分职责，不要求把所有接口都交给Agent，也不证明实际系统已完成集成。"
+      ],
+      "content_sha256": "e6d2cae4262c074cc931553f02660037c79136dd558b3891cb236bcf0d450ce3",
+      "source_type": "PUBLIC_REFERENCE",
+      "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-95-standard",
+      "topic_id": "P35",
+      "topic_name": "ISA95分层",
+      "publisher": "ISA",
+      "publication_date": "未标注",
+      "accessed_at": "2026-10-05",
+      "knowledge_domain": "ISA95分层",
+      "document_type": "标准公开概览",
+      "applicable_system": "行业参考",
+      "risk_level": "非企业标准",
+      "parent_process": "公开行业背景查询",
+      "related_sop": "不适用；不得替代企业SOP",
+      "applicable_roles": "一般知识查询人员"
+    }
+  ],
+  "topics": [
+    {
+      "id": "P01",
+      "name": "转炉时间",
+      "terms": [
+        "转炉炼钢",
+        "转炉时间"
+      ],
+      "duration_reference": true
+    },
+    {
+      "id": "P02",
+      "name": "炼钢路线",
+      "terms": [
+        "炼钢路线",
+        "钢的回收"
+      ]
+    },
+    {
+      "id": "P03",
+      "name": "炼钢原料",
+      "terms": [
+        "炼钢原料",
+        "钢铁原料"
+      ]
+    },
+    {
+      "id": "P04",
+      "name": "钢铁制造流程",
+      "terms": [
+        "钢铁制造流程",
+        "钢铁生产链"
+      ]
+    },
+    {
+      "id": "P05",
+      "name": "钢铁能源使用",
+      "terms": [
+        "钢铁能源",
+        "能耗比较"
+      ]
+    },
+    {
+      "id": "P06",
+      "name": "生命周期清单",
+      "terms": [
+        "生命周期清单",
+        "LCI"
+      ]
+    },
+    {
+      "id": "P07",
+      "name": "生命周期评价",
+      "terms": [
+        "生命周期评价",
+        "LCA"
+      ]
+    },
+    {
+      "id": "P08",
+      "name": "钢铁循环经济",
+      "terms": [
+        "钢铁循环经济",
+        "循环利用"
+      ]
+    },
+    {
+      "id": "P09",
+      "name": "安全健康原则",
+      "terms": [
+        "安全健康原则",
+        "钢铁安全原则"
+      ]
+    },
+    {
+      "id": "P10",
+      "name": "过程安全管理",
+      "terms": [
+        "过程安全管理",
+        "工艺安全管理"
+      ]
+    },
+    {
+      "id": "P11",
+      "name": "水管理政策",
+      "terms": [
+        "钢铁水管理",
+        "水资源管理"
+      ]
+    },
+    {
+      "id": "P12",
+      "name": "用水系统边界",
+      "terms": [
+        "用水系统边界",
+        "钢铁用水环节"
+      ]
+    },
+    {
+      "id": "P13",
+      "name": "钢铁副产物",
+      "terms": [
+        "钢铁副产物",
+        "炉渣利用"
+      ]
+    },
+    {
+      "id": "P14",
+      "name": "钢的应用",
+      "terms": [
+        "钢的应用",
+        "先进钢材用途"
+      ]
+    },
+    {
+      "id": "P15",
+      "name": "LF精炼",
+      "terms": [
+        "LF精炼",
+        "钢包炉作用"
+      ]
+    },
+    {
+      "id": "P16",
+      "name": "二次冶金",
+      "terms": [
+        "二次冶金",
+        "RH和VD"
+      ]
+    },
+    {
+      "id": "P17",
+      "name": "电弧炉炼钢",
+      "terms": [
+        "电弧炉炼钢",
+        "电炉原料"
+      ]
+    },
+    {
+      "id": "P18",
+      "name": "AOD精炼",
+      "terms": [
+        "AOD精炼",
+        "不锈钢精炼"
+      ]
+    },
+    {
+      "id": "P19",
+      "name": "方坯连铸",
+      "terms": [
+        "方坯连铸",
+        "小方坯铸造"
+      ]
+    },
+    {
+      "id": "P20",
+      "name": "板坯连铸",
+      "terms": [
+        "板坯连铸",
+        "板坯质量"
+      ]
+    },
+    {
+      "id": "P21",
+      "name": "钢厂物流瓶颈",
+      "terms": [
+        "钢厂物流瓶颈",
+        "精炼物流"
+      ]
+    },
+    {
+      "id": "P22",
+      "name": "副枪测量",
+      "terms": [
+        "副枪测量",
+        "转炉测量"
+      ]
+    },
+    {
+      "id": "P23",
+      "name": "连铸质量跟踪",
+      "terms": [
+        "连铸质量跟踪",
+        "QualityExpert"
+      ]
+    },
+    {
+      "id": "P24",
+      "name": "连铸岗位培训",
+      "terms": [
+        "连铸岗位培训",
+        "连铸知识基础"
+      ]
+    },
+    {
+      "id": "P25",
+      "name": "MES定位",
+      "terms": [
+        "MES定位",
+        "MES与ERP"
+      ]
+    },
+    {
+      "id": "P26",
+      "name": "批次管理",
+      "terms": [
+        "批次管理",
+        "批次追溯"
+      ]
+    },
+    {
+      "id": "P27",
+      "name": "生产物料配送",
+      "terms": [
+        "生产物料配送",
+        "仓储生产集成"
+      ]
+    },
+    {
+      "id": "P28",
+      "name": "ERP定位",
+      "terms": [
+        "ERP定位",
+        "企业资源计划"
+      ]
+    },
+    {
+      "id": "P29",
+      "name": "WMS定位",
+      "terms": [
+        "WMS定位",
+        "仓库管理系统"
+      ]
+    },
+    {
+      "id": "P30",
+      "name": "制造数字线程",
+      "terms": [
+        "制造数字线程",
+        "digital thread"
+      ]
+    },
+    {
+      "id": "P31",
+      "name": "供应链数据可信",
+      "terms": [
+        "供应链数据可信",
+        "数据可信与追溯"
+      ]
+    },
+    {
+      "id": "P32",
+      "name": "供应链追溯框架",
+      "terms": [
+        "供应链追溯框架",
+        "IR8536"
+      ]
+    },
+    {
+      "id": "P33",
+      "name": "OT安全指南",
+      "terms": [
+        "OT安全指南",
+        "工业系统安全"
+      ]
+    },
+    {
+      "id": "P34",
+      "name": "OT备份",
+      "terms": [
+        "OT备份",
+        "工业备份"
+      ]
+    },
+    {
+      "id": "P35",
+      "name": "ISA95分层",
+      "terms": [
+        "ISA95",
+        "企业控制集成"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "F2-P-001",
+      "question": "一般来说转炉炼钢一炉需要多久？",
+      "expected": "answered",
+      "topic_ids": [
+        "P01"
+      ],
+      "kind": "direct"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "type": "object",
+  "properties": {
+    "answer": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 16000
+    },
+    "analysis_summary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "claim_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 16000
+          }
+        },
+        "required": [
+          "claim_id",
+          "text"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "maxItems": 8
+    },
+    "check_recommendations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "check_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 16000
+          },
+          "citation_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 128
+            },
+            "minItems": 1,
+            "maxItems": 8
+          }
+        },
+        "required": [
+          "check_id",
+          "text",
+          "citation_ids"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "maxItems": 32
+    },
+    "citations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "citation_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "dataset_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "document_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "segment_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "document_name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 16000
+          },
+          "version": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "effective_date": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "scope": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "chapter": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 16000
+          },
+          "section": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 16000
+          },
+          "page": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "content_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "required": [
+          "citation_id",
+          "dataset_id",
+          "document_id",
+          "segment_id",
+          "document_name",
+          "version",
+          "effective_date",
+          "scope",
+          "chapter",
+          "section",
+          "page",
+          "content_sha256"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "maxItems": 8
+    },
+    "human_confirmation": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 16000
+    }
+  },
+  "required": [
+    "answer",
+    "analysis_summary",
+    "check_recommendations",
+    "citations",
+    "human_confirmation"
+  ],
+  "additionalProperties": false
+}

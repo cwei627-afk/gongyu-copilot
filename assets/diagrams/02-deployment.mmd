@@ -1,0 +1,12 @@
+flowchart TD
+  Windows["Windows 本地 PoC / Docker Desktop"] --> Docker["现有 Docker Engine"]
+  Docker --> Dify["现有 Dify 1.17.1：Web / API / Worker / Agent backend"]
+  Dify --> Infra["既有 PostgreSQL / Redis / plugin daemon / sandbox / SSRF proxy"]
+  Dify --> Vector["既有 Weaviate：正式 Qwen 索引"]
+  Windows --> Ollama["宿主机 Ollama：Qwen3-Embedding-0.6B / 1024维"]
+  Dify -->|"host.docker.internal:11434"| Ollama
+  Docker --> CMock["Stage C Mock：18089 / 独立业务数据卷"]
+  Docker --> DMock["Stage D Mock与权限适配：18090 / 独立数据卷"]
+  Dify -->|"host.docker.internal"| CMock
+  Dify -->|"host.docker.internal"| DMock
+  Dify -->|"Provider HTTPS API"| Cloud["DeepSeek deepseek-flash"]

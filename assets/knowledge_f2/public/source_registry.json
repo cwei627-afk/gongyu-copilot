@@ -1,0 +1,562 @@
+[
+  {
+    "id": "P01",
+    "title": "转炉时间",
+    "publisher": "World Steel Association",
+    "url": "https://worldsteel.org/about-steel/steel-story/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "行业介绍",
+    "topic": "转炉时间",
+    "summary": [
+      "worldsteel列举现代转炉在不足40分钟内把最多350吨铁料转为钢的例子。",
+      "这是公开介绍中的例子，不是所有钢种和工厂从准备到交接的完整周期，也不是本企业的合格时长标准。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "31d510d01566efd7f45ff966e2aee397a6580c0907fe6268adece6004e55eaad"
+  },
+  {
+    "id": "P02",
+    "title": "炼钢路线",
+    "publisher": "World Steel Association",
+    "url": "https://worldsteel.org/about-steel/what-is%20steel/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "行业介绍",
+    "topic": "炼钢路线",
+    "summary": [
+      "高炉—转炉与电弧炉是两类主要炼钢路线，使用的原料和能源组合有所区别。",
+      "钢可以反复回收；路线介绍不能确定本企业某炉次使用了什么实际原料。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "b73ff1cbd7fb78ff119c6a8328d704880d1a4ca4c5ec90d773ca04d29f9b7161"
+  },
+  {
+    "id": "P03",
+    "title": "炼钢原料",
+    "publisher": "World Steel Association",
+    "url": "https://worldsteel.org/about-steel/raw-materials/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "行业介绍",
+    "topic": "炼钢原料",
+    "summary": [
+      "铁矿石、煤、石灰石和回收钢是钢铁生产涉及的重要原料，具体组合与生产路线有关。",
+      "公开原料介绍不构成特定订单的配料单、库存证明或替代材料批准。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "26397d84ff37b7a298399f95b196aa27d34b0a9e64199dbc5ba833480efd6c02"
+  },
+  {
+    "id": "P04",
+    "title": "钢铁制造流程",
+    "publisher": "World Steel Association",
+    "url": "https://worldsteel.org/about-steel/steelmaking-process/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "流程图解",
+    "topic": "钢铁制造流程",
+    "summary": [
+      "钢铁制造包括原料准备、炼铁或其他铁源准备、炼钢、铸造及后续轧制加工等相互衔接的环节。",
+      "流程图表达行业生产环节，不能替代MES提供某炉次当前处于哪个阶段的事实。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "3d8f82ba0e343665664f34ad51192b5d022e87262d288822f3638f9e230813de"
+  },
+  {
+    "id": "P05",
+    "title": "钢铁能源使用",
+    "publisher": "World Steel Association",
+    "url": "https://worldsteel.org/about-steel/energy-use-in-the-steel-industry/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "行业说明",
+    "topic": "钢铁能源使用",
+    "summary": [
+      "钢铁生产的能源需求受到生产路线、原料、产品组合和所采用技术等因素影响。",
+      "比较能耗需要交代生产与统计边界，不能把一般行业说明当作本厂某炉次的能耗上限。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "f6d6881d5200bc1cfccfd05c84ca2042cef007a880e0751078331c77b87c91fe"
+  },
+  {
+    "id": "P06",
+    "title": "生命周期清单",
+    "publisher": "World Steel Association",
+    "url": "https://worldsteel.org/wider-sustainability/life-cycle-thinking/about-lca-lci/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "方法介绍",
+    "topic": "生命周期清单",
+    "summary": [
+      "生命周期清单汇集资源、能源及排放等数据；worldsteel的相关数据集采用明确的产品和系统边界。",
+      "上游生产与运输是否计入会影响结果，使用清单前应先核对其覆盖范围。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "4a3cf50eb394185545935817b8126fc2a5f5f408d734d66a571c678a5a8d8806"
+  },
+  {
+    "id": "P07",
+    "title": "生命周期评价",
+    "publisher": "World Steel Association",
+    "url": "https://worldsteel.org/wider-sustainability/life-cycle-thinking/life-cycle-assessment-in-the-steel-industry/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "方法介绍",
+    "topic": "生命周期评价",
+    "summary": [
+      "生命周期评价用于考察产品生命周期中的环境影响，钢铁行业采用共同方法支持比较。",
+      "比较必须使用一致的功能与边界；评价方法介绍不证明某企业或产品已经达标。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "90424707a5d18a51ae341639a18e37493145228d1b028e787b2b0f8964329f55"
+  },
+  {
+    "id": "P08",
+    "title": "钢铁循环经济",
+    "publisher": "World Steel Association",
+    "url": "https://worldsteel.org/wider-sustainability/circular-economy/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "行业介绍",
+    "topic": "钢铁循环经济",
+    "summary": [
+      "钢铁循环经济涉及材料回收、再利用以及副产物的利用。",
+      "是否能够在特定工厂使用某种回收料或副产物，仍需确认其身份、质量与适用要求。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "afe22688025e45e62e0a3a5490f0795f2b0786723d2e95ba73abc01a884fa41a"
+  },
+  {
+    "id": "P09",
+    "title": "安全健康原则",
+    "publisher": "World Steel Association",
+    "url": "https://worldsteel.org/safety-and-health/safety-and-health-principles/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "原则说明",
+    "topic": "安全健康原则",
+    "summary": [
+      "安全管理需要领导责任、人员参与和预防性管理，并关注风险控制措施的有效性。",
+      "仅凭较低的伤害事件数字，不能完整判断一个组织的安全管理水平。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "d73a0474f3dd6c0169621a8f9910d820bbbc2366c76c51f25a97811d5f6e0224"
+  },
+  {
+    "id": "P10",
+    "title": "过程安全管理",
+    "publisher": "World Steel Association",
+    "url": "https://worldsteel.org/safety-and-health/process-safety-management-fundamentals/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "管理框架",
+    "topic": "过程安全管理",
+    "summary": [
+      "过程安全涉及管理承诺、危险识别与风险理解、风险控制及经验学习。",
+      "这些要素是管理框架，不是现场故障诊断结论，也不是设备调整指令。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "4af971e7d1950d6f7173348b76dfe152d3a7622dcbcd0f6e88bd429930a53491"
+  },
+  {
+    "id": "P11",
+    "title": "水管理政策",
+    "publisher": "World Steel Association",
+    "url": "https://worldsteel.org/media/publications/water-management-ppp/",
+    "publication_date": "2020",
+    "accessed_at": "2026-10-05",
+    "type": "政策文件介绍",
+    "topic": "水管理政策",
+    "summary": [
+      "worldsteel的水管理政策强调结合当地条件，综合考虑水资源使用与管理。",
+      "一般政策不能直接给出特定工厂的取水、回用或排放限值，限值需要适用的正式标准。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "3564993c340fd92eac721da9c810065197056580529f2b1fbfd6dd5d2d60c9ac"
+  },
+  {
+    "id": "P12",
+    "title": "用水系统边界",
+    "publisher": "World Steel Association",
+    "url": "https://worldsteel.org/media/publications/water/",
+    "publication_date": "2011",
+    "accessed_at": "2026-10-05",
+    "type": "研究报告介绍",
+    "topic": "用水系统边界",
+    "summary": [
+      "钢铁用水涉及取水、内部使用和回用以及排水等不同环节。",
+      "水资源可获得性、水质和当地要求会影响管理方式，比较数据时应区分各环节。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "5564683583b1df753fa068d1dd1ccb4a3638582befc762678cf2c9c0a9287c62"
+  },
+  {
+    "id": "P13",
+    "title": "钢铁副产物",
+    "publisher": "World Steel Association",
+    "url": "https://worldsteel.org/media/publications/steel-industry-co-products-ppp/",
+    "publication_date": "2020",
+    "accessed_at": "2026-10-05",
+    "type": "政策文件介绍",
+    "topic": "钢铁副产物",
+    "summary": [
+      "钢铁副产物包括炉渣、含金属粉尘或污泥以及可回收利用的工艺气体等。",
+      "公开资料介绍其潜在用途，不证明某一具体批次符合外售、回用或其他使用要求。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "39d0a5cdc2db0fc2e63ec6108532b5a551074c3fd5638158484e61109c35940f"
+  },
+  {
+    "id": "P14",
+    "title": "钢的应用",
+    "publisher": "World Steel Association",
+    "url": "https://worldsteel.org/wp-content/uploads/Fact-sheet-Advanced-steel-applications.pdf",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "公开事实简报",
+    "topic": "钢的应用",
+    "summary": [
+      "钢材的强度、耐久性和可回收性使其用于交通、建筑及能源等领域。",
+      "具体应用需要匹配产品性能和使用条件，行业简报不能代替订单技术要求或检验报告。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "6472cf5b68e0bb46823e75f119822e1f28ef485adeef8acc7bdea1672bb3bd86"
+  },
+  {
+    "id": "P15",
+    "title": "LF精炼",
+    "publisher": "Primetals Technologies",
+    "url": "https://www.primetals.com/en/portfolio/solutions/steelmaking/secondary-metallurgy/ladle-furnace/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "设备原理介绍",
+    "topic": "LF精炼",
+    "summary": [
+      "钢包炉位于熔炼与铸造之间，可承担加热、合金化及相关冶金处理任务。",
+      "它也参与工序衔接与节奏协调；设备原理不提供本厂可直接执行的温度或加料设定。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "fc291d348f974ed6827cf107d820f780011e6ff603c7c714fb7789c6913be6b1"
+  },
+  {
+    "id": "P16",
+    "title": "二次冶金",
+    "publisher": "Primetals Technologies",
+    "url": "https://www.primetals.com/en/portfolio/solutions/steelmaking/secondary-metallurgy/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "工艺概览",
+    "topic": "二次冶金",
+    "summary": [
+      "二次冶金包括钢包炉和真空处理等不同方法，RH与VD等工艺的装备形式及任务存在区别。",
+      "工艺概览不能证明某炉次已经完成精炼或达到质量要求，这些事实需要正式生产与检验记录。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "f3640b411ed10ec603a3ea5a711c68517b5a22d46540ec3b5baf9c66b68d9933"
+  },
+  {
+    "id": "P17",
+    "title": "电弧炉炼钢",
+    "publisher": "Primetals Technologies",
+    "url": "https://www.primetals.com/en/portfolio/solutions/steelmaking/electric-steelmaking/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "工艺概览",
+    "topic": "电弧炉炼钢",
+    "summary": [
+      "电弧炉方案可结合回收钢、直接还原铁或铁水等不同铁源，具体配置取决于工厂条件。",
+      "铁源与物流需要共同考虑；供应商的方案介绍不是本企业的配料或设备操作规程。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "223ffd27ddbf5e9f443de0ccfe857dde8042bc400ed4c08ba3b81fcab67acbfb"
+  },
+  {
+    "id": "P18",
+    "title": "AOD精炼",
+    "publisher": "Primetals Technologies",
+    "url": "https://www.primetals.com/en/portfolio/solutions/steelmaking/aod-converter/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "工艺原理",
+    "topic": "AOD精炼",
+    "summary": [
+      "AOD用于不锈钢等生产中的精炼，关注脱碳等冶金任务与合金元素保留之间的关系。",
+      "公开原理不能确定某炉次的工艺参数，也不能据此自动调整供气或加料。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "5fa88ddb4f9090fa8a986da04a4976fdaa30ce738fbcf30dd28a785e752ccd91"
+  },
+  {
+    "id": "P19",
+    "title": "方坯连铸",
+    "publisher": "Primetals Technologies",
+    "url": "https://www.primetals.com/en/portfolio/solutions/continuous-casting/billet-casting/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "设备概览",
+    "topic": "方坯连铸",
+    "summary": [
+      "方坯连铸用于生产供后续加工使用的方坯，面向包括棒材和特钢在内的产品需求。",
+      "铸造质量与设备、测量及过程控制相关；方案介绍不能代替实际铸坯的检验结论。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "b36d0826b3724f0663f5ddcc2298cf8ee03142e539b7345148e6225b42558f67"
+  },
+  {
+    "id": "P20",
+    "title": "板坯连铸",
+    "publisher": "Primetals Technologies",
+    "url": "https://www.primetals.com/en/portfolio/solutions/continuous-casting/slab-casting/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "设备概览",
+    "topic": "板坯连铸",
+    "summary": [
+      "板坯连铸需要适应不同钢种与产品尺寸，并关注表面和内部质量。",
+      "裂纹、夹杂和偏析等问题需要结合实际测量与检验，不能由一般介绍推定某炉次已经发生这些缺陷。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "f4704989e8fc1070d8ee212fe7f8483a3dcacb17342eb2a8cfce1dc7afc496df"
+  },
+  {
+    "id": "P21",
+    "title": "钢厂物流瓶颈",
+    "publisher": "Primetals Technologies",
+    "url": "https://www.primetals.com/en/metals-magazine/overcoming-bottlenecks-with-steel-plant-logistics/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "供应商案例",
+    "topic": "钢厂物流瓶颈",
+    "summary": [
+      "该案例通过钢厂物流与工序衔接分析，讨论熔炼、精炼及连铸之间的瓶颈。",
+      "案例说明应结合设备占用和运输安排分析节奏，不能将案例结论直接套用为本企业的瓶颈判断。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "10f031f488a1ffaa9609726e552a886bcb109a91cfb67a84a83e8041d16b4aa4"
+  },
+  {
+    "id": "P22",
+    "title": "副枪测量",
+    "publisher": "Primetals Technologies",
+    "url": "https://www.primetals.com/en/portfolio/solutions/steelmaking/vaicon-sublance/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "测量设备介绍",
+    "topic": "副枪测量",
+    "summary": [
+      "副枪系统可支持温度、取样以及其他与转炉过程有关的测量任务。",
+      "测量用于为过程判断提供输入；公开设备介绍不是具体炉次的测量结果或校准证明。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "f0c9538777ca917444e25423f4670039097e1041447339d49e3c4643ddc95d85"
+  },
+  {
+    "id": "P23",
+    "title": "连铸质量跟踪",
+    "publisher": "Primetals Technologies",
+    "url": "https://www.primetals.com/en/metals-magazine/remarkable-solutions-in-continuous-casting-automation/",
+    "publication_date": "2018-03-01",
+    "accessed_at": "2026-10-05",
+    "type": "供应商技术文章",
+    "topic": "连铸质量跟踪",
+    "summary": [
+      "文章介绍连铸自动化中利用过程数据进行质量跟踪、提示与产品评价的做法。",
+      "这是供应商产品的公开示例，不表示工域Copilot已经实现相同自动控制或质量判定能力。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "4f76f951a827f3ae3cd0c0ac4371789ecdf813993b4588fe3e24907b9f623f17"
+  },
+  {
+    "id": "P24",
+    "title": "连铸岗位培训",
+    "publisher": "Primetals Technologies",
+    "url": "https://www.primetals.com/en/portfolio/services/continuous-casting/training/slab-casting-and-the-casting-platform/",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "公开课程概览",
+    "topic": "连铸岗位培训",
+    "summary": [
+      "该课程概览把钢水化学、冶金、流动与传热等基础知识同连铸环节联系起来。",
+      "从钢包到中间包、浸入式水口和结晶器的环节需要整体理解；课程介绍不代替岗位授权或现场规程。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "bacc460c798810daded01cbd29ede3eda657a2244c6fce56cae06e4dfc99f266"
+  },
+  {
+    "id": "P25",
+    "title": "MES定位",
+    "publisher": "SAP",
+    "url": "https://www.sap.com/resources/what-is-mes",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "产品知识说明",
+    "topic": "MES定位",
+    "summary": [
+      "MES连接企业计划系统与现场生产执行，支持生产过程、质量和追溯相关信息的管理。",
+      "ERP计划与MES执行记录承担不同职责；两者连接并不意味着可以忽略对象身份或数据更新时间。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "0f89a38904cddf92edd0cb867bb6ba6b0ee6e029891fcbabb24a02016ef880bc"
+  },
+  {
+    "id": "P26",
+    "title": "批次管理",
+    "publisher": "SAP",
+    "url": "https://help.sap.com/docs/sap-digital-manufacturing/execution/batch-management",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "产品官方文档",
+    "topic": "批次管理",
+    "summary": [
+      "批次管理将材料的具体批次与生产执行记录联系起来，为质量追溯和必要的召回提供依据。",
+      "批次身份需要按系统的材料和组织范围解释，不能仅凭相似名称合并批次。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "0ba5da2e6b2c808f65948e2d657b0c929e0504f202d61af1eace9df46b9f2452"
+  },
+  {
+    "id": "P27",
+    "title": "生产物料配送",
+    "publisher": "SAP",
+    "url": "https://help.sap.com/docs/PRODUCT_ID/3d97bec9bf1649099384bb8167df3cf2/252245dc92d247eeb7054b9bd58fc026.html",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "产品官方文档",
+    "topic": "生产物料配送",
+    "summary": [
+      "ERP与仓储系统的生产集成围绕生产或流程订单，组织相关物料的仓储与配送。",
+      "计划需求、仓储配送和实际消耗属于不同记录，关联查询需要明确的订单和物料身份。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "324309dbb4d9d18d11d9bbedf4b65151d0f10ce705d6e9d759bca24acdefe157"
+  },
+  {
+    "id": "P28",
+    "title": "ERP定位",
+    "publisher": "SAP",
+    "url": "https://www.sap.com/products/erp/what-is-erp.html",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "产品知识说明",
+    "topic": "ERP定位",
+    "summary": [
+      "ERP将财务、采购、制造及供应链等企业业务流程与信息联系起来。",
+      "ERP的统一业务视图不等于所有数据都是实时现场测量，回答执行状态仍应查询对应事实来源。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "38c05c42a35e7653ef66217f5ad1c97be51c83a29ee83df1c920da6e7b1a91c0"
+  },
+  {
+    "id": "P29",
+    "title": "WMS定位",
+    "publisher": "SAP",
+    "url": "https://www.sap.com/products/scm/extended-warehouse-management/what-is-a-wms.html",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "产品知识说明",
+    "topic": "WMS定位",
+    "summary": [
+      "WMS支持收货、存储、拣选、包装与发运等仓储活动，并提供库存可见性。",
+      "仓储管理能力的介绍不证明某一批次的可用数量，实际库存与限制状态仍以WMS记录为准。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "5447cbcb60445d0a187391fdd6b8894a6f857c27e380c62b6af983e7b7cfe635"
+  },
+  {
+    "id": "P30",
+    "title": "制造数字线程",
+    "publisher": "NIST",
+    "url": "https://www.nist.gov/programs-projects/digital-thread-manufacturing",
+    "publication_date": "2022-04-19",
+    "accessed_at": "2026-10-05",
+    "type": "研究项目说明",
+    "topic": "制造数字线程",
+    "summary": [
+      "制造数字线程关注设计、制造和质量等环节之间信息的衔接与反馈。",
+      "数据的身份、版本、所有权和可追溯性影响跨环节使用的可信程度，概念本身不能替代实际来源核验。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "39561cb8657d6b74693d10bcbd3a7427439d7d961196be7c2d49879a02c79c28"
+  },
+  {
+    "id": "P31",
+    "title": "供应链数据可信",
+    "publisher": "NIST",
+    "url": "https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/trustworthiness-and",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "研究主题说明",
+    "topic": "供应链数据可信",
+    "summary": [
+      "供应链数据共享需要考虑数据的可信性及可追溯性，包括来源、版本和使用授权等问题。",
+      "可访问一份数据不等于该数据适用于当前任务，也不能因此猜测缺失的跨系统关系。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "2a5d581a7908b390d7ec525528cf31a2f6e51bf4f681ac65fe6487f7ba57d7e1"
+  },
+  {
+    "id": "P32",
+    "title": "供应链追溯框架",
+    "publisher": "NIST",
+    "url": "https://csrc.nist.gov/pubs/ir/8536/final",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "公开技术报告",
+    "topic": "供应链追溯框架",
+    "summary": [
+      "NIST IR 8536讨论制造供应链追溯的元框架，用于组织、连接和查询不同参与方的数据。",
+      "这是框架性资料，不提供本企业现成的炉次、订单或批次对应关系。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "d06ac270cb74fed93a5c62348cce86fac5a8d267e1b5f6b8a4dafca1cea33346"
+  },
+  {
+    "id": "P33",
+    "title": "OT安全指南",
+    "publisher": "NIST",
+    "url": "https://csrc.nist.gov/pubs/sp/800/82/r3/final",
+    "publication_date": "2023-09-28",
+    "accessed_at": "2026-10-05",
+    "type": "公开技术指南",
+    "topic": "OT安全指南",
+    "summary": [
+      "NIST SP 800-82修订版3讨论OT系统安全，并强调其性能、可靠性和安全性方面的特殊要求。",
+      "OT与物理过程相联系，安全措施需结合实际环境评估；公开指南不能授权AI修改现场控制系统。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "a0a88c2339b4370d715d33ab849bcdc788e65e8eaee15b552fafc7636462c535"
+  },
+  {
+    "id": "P34",
+    "title": "OT备份",
+    "publisher": "NIST",
+    "url": "https://www.nist.gov/publications/ot-backup-quick-start-guide",
+    "publication_date": "2026-06-17",
+    "accessed_at": "2026-10-05",
+    "type": "公开技术指南",
+    "topic": "OT备份",
+    "summary": [
+      "OT备份快速指南关注定期备份、备份测试、变更管理以及恢复准备。",
+      "存在备份文件不等于恢复已验证，恢复能力需要通过适用环境中的检查与演练确认。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "ec4dc6ef43ecae3375f5974bbfb67b14ab3b07afc7bb20dc684efafb4bb757ad"
+  },
+  {
+    "id": "P35",
+    "title": "ISA95分层",
+    "publisher": "ISA",
+    "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-95-standard",
+    "publication_date": null,
+    "accessed_at": "2026-10-05",
+    "type": "标准公开概览",
+    "topic": "ISA95分层",
+    "summary": [
+      "ISA-95提供企业业务与制造运行之间集成的共同术语和模型，关注不同层次的信息交换。",
+      "标准概览帮助划分职责，不要求把所有接口都交给Agent，也不证明实际系统已完成集成。"
+    ],
+    "copyright": "保留原作者权利；只保存短篇中文改述与出处，不转载全文。",
+    "content_sha256": "e6d2cae4262c074cc931553f02660037c79136dd558b3891cb236bcf0d450ce3"
+  }
+]

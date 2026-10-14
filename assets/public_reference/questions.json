@@ -1,0 +1,90 @@
+[
+  {
+    "id": "F-PUBLIC-Q01",
+    "question": "一般来说转炉炼钢一炉需要多久？",
+    "source_keys": [
+      "F-PUBLIC-01"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-PUBLIC-Q02",
+    "question": "公开资料如何描述现代转炉的炼钢时间？",
+    "source_keys": [
+      "F-PUBLIC-01"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-PUBLIC-Q03",
+    "question": "行业中主要有哪些炼钢路线？",
+    "source_keys": [
+      "F-PUBLIC-02"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-PUBLIC-Q04",
+    "question": "一般电弧炉主要使用什么原料和能源？",
+    "source_keys": [
+      "F-PUBLIC-02"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-PUBLIC-Q05",
+    "question": "公开资料中电弧炉可以用直接还原铁吗？",
+    "source_keys": [
+      "F-PUBLIC-02"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-PUBLIC-Q06",
+    "question": "行业中钢可以重复回收吗？",
+    "source_keys": [
+      "F-PUBLIC-02"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-PUBLIC-Q07",
+    "question": "公开资料中钢铁制造有哪些环节？",
+    "source_keys": [
+      "F-PUBLIC-03"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-PUBLIC-Q08",
+    "question": "行业流程图中连铸位于哪个阶段？",
+    "source_keys": [
+      "F-PUBLIC-03"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-PUBLIC-Q09",
+    "question": "公开资料中炉渣有哪些示意用途？",
+    "source_keys": [
+      "F-PUBLIC-03"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-PUBLIC-Q10",
+    "question": "行业中MES的作用是什么？",
+    "source_keys": [
+      "F-PUBLIC-04"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-PUBLIC-Q11",
+    "question": "公开制造业案例中MES和ERP如何协同？",
+    "source_keys": [
+      "F-PUBLIC-04"
+    ],
+    "expected": "answered"
+  }
+]

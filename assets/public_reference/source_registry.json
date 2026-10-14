@@ -1,0 +1,52 @@
+{
+  "sources": [
+    {
+      "title": "转炉时间公开参考摘要",
+      "publisher": "World Steel Association",
+      "url": "https://worldsteel.org/about-steel/steel-story/",
+      "accessed_at": "2026-10-03",
+      "publication_date": null,
+      "source_type": "PUBLIC_REFERENCE",
+      "copyright_or_access_note": "无需登录的官方公开页面或流程图；保留原站权利，仅索引简短原创中文改述，不复制全文。",
+      "content_sha256": "371b42828f080577515879c9e07b512a43d6885e49116307d6c6fce28f9670c6",
+      "hash_basis": "indexed_original_chinese_summary",
+      "source_key": "F-PUBLIC-01"
+    },
+    {
+      "title": "炼钢路线与回收公开参考摘要",
+      "publisher": "World Steel Association",
+      "url": "https://worldsteel.org/about-steel/what-is%20steel/",
+      "accessed_at": "2026-10-03",
+      "publication_date": null,
+      "source_type": "PUBLIC_REFERENCE",
+      "copyright_or_access_note": "无需登录的官方公开页面或流程图；保留原站权利，仅索引简短原创中文改述，不复制全文。",
+      "content_sha256": "328f6a8d172f37def63a71e7eafd758ff8109b940e602c92efd533093dc7d290",
+      "hash_basis": "indexed_original_chinese_summary",
+      "source_key": "F-PUBLIC-02"
+    },
+    {
+      "title": "钢铁制造流程公开参考摘要",
+      "publisher": "World Steel Association",
+      "url": "https://worldsteel.org/wp-content/uploads/steelmaking-process.pdf",
+      "accessed_at": "2026-10-03",
+      "publication_date": null,
+      "source_type": "PUBLIC_REFERENCE",
+      "copyright_or_access_note": "无需登录的官方公开页面或流程图；保留原站权利，仅索引简短原创中文改述，不复制全文。",
+      "content_sha256": "46ef317cb86f9f96c0e376347d6a2883316f7b68c6266333721ae502bca27150",
+      "hash_basis": "indexed_original_chinese_summary",
+      "source_key": "F-PUBLIC-03"
+    },
+    {
+      "title": "MES作用与系统协同公开案例摘要",
+      "publisher": "国家市场监督管理总局计量司",
+      "url": "https://www.samr.gov.cn/jls/zt/jlfwzxqy/qyal/art/2023/art_28a057a295d14e99a5acd959f59d1c2a.html",
+      "accessed_at": "2026-10-03",
+      "publication_date": "2020-09-08",
+      "source_type": "PUBLIC_REFERENCE",
+      "copyright_or_access_note": "无需登录的官方公开页面或流程图；保留原站权利，仅索引简短原创中文改述，不复制全文。",
+      "content_sha256": "efc2e281725638fc0ab9523d98548861f108b28f59320ca5a3defa15dc392bab",
+      "hash_basis": "indexed_original_chinese_summary",
+      "source_key": "F-PUBLIC-04"
+    }
+  ]
+}

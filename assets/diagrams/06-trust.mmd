@@ -1,0 +1,15 @@
+flowchart LR
+  MES["MES / ERP / WMS：业务事实权威"] --> HTTP["本次可信HTTP执行与响应"]
+  HTTP --> API["Code验证事实 / API provenance"]
+  Rules["MES正式有效规则：参数判断依据"] --> Compare["确定性工艺比较"]
+  HTTP --> Compare
+  Docs["虚构正式企业文档：规程权威"] --> Hit["本次用户真实Retrieval Hit"]
+  Registry["受控登记：约束身份 / 版本 / hash"] --> Verify["验证hit与直接支持"]
+  Hit --> Verify
+  Verify --> Cite["Code创建请求绑定Citation"]
+  API --> Bundle["Enterprise Evidence Bundle"]
+  Compare --> Bundle
+  Cite --> Bundle
+  Bundle --> LLM["LLM只组织允许的事实和原句"]
+  LLM --> Post["从原始HTTP / hit再校验"]
+  Post --> Human["人工确认；无自动控制"]

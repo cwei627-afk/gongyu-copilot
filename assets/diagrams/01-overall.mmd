@@ -1,0 +1,17 @@
+flowchart LR
+  User["用户：三个独立入口"] --> C["Stage C 确定性异常分析 Workflow"]
+  User --> D["Stage D 只读 Function Calling Agent"]
+  User --> E["Stage E1 单轮有限知识问答 Workflow"]
+  C --> API["FastAPI 只读 Mock API"]
+  D --> Gate["请求权限 / 关联 / 事实门禁"]
+  Gate --> API
+  API --> MES["MES SQLite：炉次 / 实测 / 正式规则 / 关联"]
+  API --> ERP["ERP SQLite：生产订单"]
+  API --> WMS["WMS SQLite：指定批次库存"]
+  C --> RAG["Dify Knowledge Retrieval"]
+  E --> RAG
+  RAG --> Evidence["有效版本 / 真实 hit / 直接支持"]
+  Evidence --> LLM["DeepSeek：受约束组织已验证内容"]
+  LLM --> Post["结构化 / 事实 / Citation 后验"]
+  Post --> Human["输出与人工确认提醒"]
+  Gate --> Human

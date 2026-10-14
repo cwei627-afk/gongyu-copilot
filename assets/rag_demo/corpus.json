@@ -1,0 +1,107 @@
+{
+  "notice": "完全虚构的教学演示资料；不来源于任何真实企业，不适用于真实生产，不构成设备操作指令。",
+  "documents": [
+    {
+      "document_id": "DEMO-SOP-01-v1",
+      "document_name": "演示交接记录规程",
+      "document_family": "DEMO-SOP-01",
+      "doc_type": "sop",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "effective_until": "2026-09-01",
+      "status": "published",
+      "scope": "DEMO-LINE-A",
+      "fictional": true
+    },
+    {
+      "document_id": "DEMO-SOP-01-v2",
+      "document_name": "演示交接记录规程",
+      "document_family": "DEMO-SOP-01",
+      "doc_type": "sop",
+      "version": "2.0",
+      "effective_date": "2026-09-01",
+      "effective_until": "2027-01-01",
+      "status": "published",
+      "scope": "DEMO-LINE-A",
+      "fictional": true
+    },
+    {
+      "document_id": "DEMO-SOP-01-v3",
+      "document_name": "演示交接记录规程",
+      "document_family": "DEMO-SOP-01",
+      "doc_type": "sop",
+      "version": "3.0",
+      "effective_date": "2027-01-01",
+      "effective_until": null,
+      "status": "published",
+      "scope": "DEMO-LINE-A",
+      "fictional": true
+    },
+    {
+      "document_id": "DEMO-PROC-02-v1",
+      "document_name": "演示温度记录工艺规程",
+      "document_family": "DEMO-PROC-02",
+      "doc_type": "process_procedure",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "effective_until": null,
+      "status": "published",
+      "scope": "DEMO-LINE-A",
+      "fictional": true
+    },
+    {
+      "document_id": "DEMO-QS-03-v1",
+      "document_name": "演示质量记录完整性标准",
+      "document_family": "DEMO-QS-03",
+      "doc_type": "quality_standard",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "effective_until": null,
+      "status": "published",
+      "scope": "DEMO-LINE-A",
+      "fictional": true
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "handover-v1",
+      "document_id": "DEMO-SOP-01-v1",
+      "chapter": "第2章 交接",
+      "section": "2.1 缺失记录",
+      "page": 1,
+      "content": "在虚构的 DEMO-LINE-A 教学场景中，温度记录缺失时，由记录员确认缺失项，并在交接单填写炉次号和缺失字段。本条不规定设备操作或温度调整方法。"
+    },
+    {
+      "chunk_id": "handover-v2",
+      "document_id": "DEMO-SOP-01-v2",
+      "chapter": "第2章 交接",
+      "section": "2.1 缺失记录",
+      "page": 1,
+      "content": "在虚构的 DEMO-LINE-A 教学场景中，温度记录缺失时，由值班复核员确认缺失项，并在交接单填写炉次号、缺失字段和确认时间。本条不规定设备操作或温度调整方法。"
+    },
+    {
+      "chunk_id": "handover-v3",
+      "document_id": "DEMO-SOP-01-v3",
+      "chapter": "第2章 交接",
+      "section": "2.1 缺失记录",
+      "page": 1,
+      "content": "在虚构的 DEMO-LINE-A 教学场景中，温度记录缺失时，由演示质量复核员确认缺失项，并在交接单填写炉次号、缺失字段、确认时间和复核单号。本条不规定设备操作或温度调整方法。"
+    },
+    {
+      "chunk_id": "temperature-record",
+      "document_id": "DEMO-PROC-02-v1",
+      "chapter": "第1章 数据记录",
+      "section": "1.1 温度记录字段",
+      "page": 1,
+      "content": "在虚构的 DEMO-LINE-A 教学场景中，温度记录包含炉次号、测量时间和摄氏温度数值。记录表只保存实测值。本规程未定义正常温度范围、温度偏高的处置步骤或调节参数。"
+    },
+    {
+      "chunk_id": "quality-record",
+      "document_id": "DEMO-QS-03-v1",
+      "chapter": "第3章 完整性",
+      "section": "3.2 成分记录缺项",
+      "page": 1,
+      "content": "在虚构的 DEMO-LINE-A 教学场景中，成分记录的碳、硅、锰任一字段为空时，应将记录完整性标记为“待补全”，由质量记录员核对原始记录。本条仅规定数据记录完整性，不规定成分合格范围或材料放行条件。"
+    }
+  ]
+}

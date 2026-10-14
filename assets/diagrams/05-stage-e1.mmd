@@ -1,0 +1,14 @@
+flowchart TD
+  Q["question：无需heat_id"] --> Input["有限已评审别名 / 输入边界"]
+  Input --> Catalog["官方完整目录 / 当前版本与范围"]
+  Catalog --> Health["真实Ollama调用：模型 / 1024维 / 有限数值"]
+  Health --> Canary["原生检索健康探针：不作为答案证据"]
+  Canary --> Retrieval["用户问题原生Knowledge Retrieval"]
+  Retrieval --> Gate["目录复核 / 真实hit身份hash / 原文直接支持"]
+  Gate -->|"无或部分证据"| Abstain["abstain / 不调用正常生成"]
+  Gate -->|"充分"| LLM["DeepSeek原生结构化组织"]
+  LLM --> Check["目录再复核 / 完整schema / 原句与Citation覆盖 / HITL"]
+  Check --> Output["answered：真实引用、适用边界、人工提醒"]
+  Health -->|"失败"| Error["系统失败；无正常结论"]
+  Canary -->|"失败"| Error
+  LLM -->|"失败"| Error

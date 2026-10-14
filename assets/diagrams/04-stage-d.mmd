@@ -1,0 +1,15 @@
+flowchart TD
+  Q["单轮明确业务ID查询"] --> Begin["有限意图 / 服务端请求权限与capability"]
+  Begin -->|"范围不明或工艺请求"| Stop["澄清 / 拒绝 / 转Stage C入口"]
+  Begin --> Agent["唯一官方 Function Calling Agent / DeepSeek"]
+  Agent --> Choose["模型按需选择允许工具子集"]
+  Choose --> Tools["mes_heat / mes_links / erp_order / wms_batch：仅GET"]
+  Tools --> Gate["固定后端 / 前置事实 / 同一请求关联 / 调用预算"]
+  Gate --> Source["真实MES / ERP / WMS HTTP"]
+  Source --> Check["格式 / 身份 / 单位 / revision / 时效 / hash"]
+  Check --> Agent
+  Agent --> Terminal["原生日志最后无工具轮次"]
+  Terminal --> Finish["完整JSON / 全量原文事实覆盖"]
+  Finish --> Output["服务端 facts与API provenance / citations空"]
+  Gate -->|"越权 / 重复 / 超限"| Fail["停止 / 清空最终事实与出处"]
+  Check -->|"源失败或身份冲突"| Fail

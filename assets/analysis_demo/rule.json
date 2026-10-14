@@ -1,0 +1,40 @@
+{
+  "rule_id": "DEMO-RULE-A-REVIEW-v1",
+  "steel_grade": "DEMO-A",
+  "process_stage": "review",
+  "scope": "DEMO-LINE-A",
+  "required_status": "in_progress",
+  "effective_from": "2026-01-01T00:00:00+00:00",
+  "effective_until": "2030-01-01T00:00:00+00:00",
+  "max_age_seconds": 21600,
+  "limits": {
+    "temperature_c": {
+      "minimum": 1570.0,
+      "maximum": 1590.0,
+      "unit": "°C"
+    },
+    "carbon_pct": {
+      "minimum": 0.15,
+      "maximum": 0.22,
+      "unit": "%"
+    },
+    "silicon_pct": {
+      "minimum": 0.2,
+      "maximum": 0.35,
+      "unit": "%"
+    },
+    "manganese_pct": {
+      "minimum": 0.55,
+      "maximum": 0.85,
+      "unit": "%"
+    }
+  },
+  "source": {
+    "document_name": "虚构 DEMO-A 复核阶段参数标准",
+    "version": "1.0",
+    "effective_date": "2026-01-01",
+    "chapter": "第1章 演示目标",
+    "section": "1.1 参数与有效期",
+    "page": 1
+  }
+}

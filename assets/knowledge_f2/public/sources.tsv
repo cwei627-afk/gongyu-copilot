@@ -1,0 +1,36 @@
+转炉时间|转炉炼钢;转炉时间|World Steel Association|https://worldsteel.org/about-steel/steel-story/||行业介绍|worldsteel列举现代转炉在不足40分钟内把最多350吨铁料转为钢的例子。|这是公开介绍中的例子，不是所有钢种和工厂从准备到交接的完整周期，也不是本企业的合格时长标准。
+炼钢路线|炼钢路线;钢的回收|World Steel Association|https://worldsteel.org/about-steel/what-is%20steel/||行业介绍|高炉—转炉与电弧炉是两类主要炼钢路线，使用的原料和能源组合有所区别。|钢可以反复回收；路线介绍不能确定本企业某炉次使用了什么实际原料。
+炼钢原料|炼钢原料;钢铁原料|World Steel Association|https://worldsteel.org/about-steel/raw-materials/||行业介绍|铁矿石、煤、石灰石和回收钢是钢铁生产涉及的重要原料，具体组合与生产路线有关。|公开原料介绍不构成特定订单的配料单、库存证明或替代材料批准。
+钢铁制造流程|钢铁制造流程;钢铁生产链|World Steel Association|https://worldsteel.org/about-steel/steelmaking-process/||流程图解|钢铁制造包括原料准备、炼铁或其他铁源准备、炼钢、铸造及后续轧制加工等相互衔接的环节。|流程图表达行业生产环节，不能替代MES提供某炉次当前处于哪个阶段的事实。
+钢铁能源使用|钢铁能源;能耗比较|World Steel Association|https://worldsteel.org/about-steel/energy-use-in-the-steel-industry/||行业说明|钢铁生产的能源需求受到生产路线、原料、产品组合和所采用技术等因素影响。|比较能耗需要交代生产与统计边界，不能把一般行业说明当作本厂某炉次的能耗上限。
+生命周期清单|生命周期清单;LCI|World Steel Association|https://worldsteel.org/wider-sustainability/life-cycle-thinking/about-lca-lci/||方法介绍|生命周期清单汇集资源、能源及排放等数据；worldsteel的相关数据集采用明确的产品和系统边界。|上游生产与运输是否计入会影响结果，使用清单前应先核对其覆盖范围。
+生命周期评价|生命周期评价;LCA|World Steel Association|https://worldsteel.org/wider-sustainability/life-cycle-thinking/life-cycle-assessment-in-the-steel-industry/||方法介绍|生命周期评价用于考察产品生命周期中的环境影响，钢铁行业采用共同方法支持比较。|比较必须使用一致的功能与边界；评价方法介绍不证明某企业或产品已经达标。
+钢铁循环经济|钢铁循环经济;循环利用|World Steel Association|https://worldsteel.org/wider-sustainability/circular-economy/||行业介绍|钢铁循环经济涉及材料回收、再利用以及副产物的利用。|是否能够在特定工厂使用某种回收料或副产物，仍需确认其身份、质量与适用要求。
+安全健康原则|安全健康原则;钢铁安全原则|World Steel Association|https://worldsteel.org/safety-and-health/safety-and-health-principles/||原则说明|安全管理需要领导责任、人员参与和预防性管理，并关注风险控制措施的有效性。|仅凭较低的伤害事件数字，不能完整判断一个组织的安全管理水平。
+过程安全管理|过程安全管理;工艺安全管理|World Steel Association|https://worldsteel.org/safety-and-health/process-safety-management-fundamentals/||管理框架|过程安全涉及管理承诺、危险识别与风险理解、风险控制及经验学习。|这些要素是管理框架，不是现场故障诊断结论，也不是设备调整指令。
+水管理政策|钢铁水管理;水资源管理|World Steel Association|https://worldsteel.org/media/publications/water-management-ppp/|2020|政策文件介绍|worldsteel的水管理政策强调结合当地条件，综合考虑水资源使用与管理。|一般政策不能直接给出特定工厂的取水、回用或排放限值，限值需要适用的正式标准。
+用水系统边界|用水系统边界;钢铁用水环节|World Steel Association|https://worldsteel.org/media/publications/water/|2011|研究报告介绍|钢铁用水涉及取水、内部使用和回用以及排水等不同环节。|水资源可获得性、水质和当地要求会影响管理方式，比较数据时应区分各环节。
+钢铁副产物|钢铁副产物;炉渣利用|World Steel Association|https://worldsteel.org/media/publications/steel-industry-co-products-ppp/|2020|政策文件介绍|钢铁副产物包括炉渣、含金属粉尘或污泥以及可回收利用的工艺气体等。|公开资料介绍其潜在用途，不证明某一具体批次符合外售、回用或其他使用要求。
+钢的应用|钢的应用;先进钢材用途|World Steel Association|https://worldsteel.org/wp-content/uploads/Fact-sheet-Advanced-steel-applications.pdf||公开事实简报|钢材的强度、耐久性和可回收性使其用于交通、建筑及能源等领域。|具体应用需要匹配产品性能和使用条件，行业简报不能代替订单技术要求或检验报告。
+LF精炼|LF精炼;钢包炉作用|Primetals Technologies|https://www.primetals.com/en/portfolio/solutions/steelmaking/secondary-metallurgy/ladle-furnace/||设备原理介绍|钢包炉位于熔炼与铸造之间，可承担加热、合金化及相关冶金处理任务。|它也参与工序衔接与节奏协调；设备原理不提供本厂可直接执行的温度或加料设定。
+二次冶金|二次冶金;RH和VD|Primetals Technologies|https://www.primetals.com/en/portfolio/solutions/steelmaking/secondary-metallurgy/||工艺概览|二次冶金包括钢包炉和真空处理等不同方法，RH与VD等工艺的装备形式及任务存在区别。|工艺概览不能证明某炉次已经完成精炼或达到质量要求，这些事实需要正式生产与检验记录。
+电弧炉炼钢|电弧炉炼钢;电炉原料|Primetals Technologies|https://www.primetals.com/en/portfolio/solutions/steelmaking/electric-steelmaking/||工艺概览|电弧炉方案可结合回收钢、直接还原铁或铁水等不同铁源，具体配置取决于工厂条件。|铁源与物流需要共同考虑；供应商的方案介绍不是本企业的配料或设备操作规程。
+AOD精炼|AOD精炼;不锈钢精炼|Primetals Technologies|https://www.primetals.com/en/portfolio/solutions/steelmaking/aod-converter/||工艺原理|AOD用于不锈钢等生产中的精炼，关注脱碳等冶金任务与合金元素保留之间的关系。|公开原理不能确定某炉次的工艺参数，也不能据此自动调整供气或加料。
+方坯连铸|方坯连铸;小方坯铸造|Primetals Technologies|https://www.primetals.com/en/portfolio/solutions/continuous-casting/billet-casting/||设备概览|方坯连铸用于生产供后续加工使用的方坯，面向包括棒材和特钢在内的产品需求。|铸造质量与设备、测量及过程控制相关；方案介绍不能代替实际铸坯的检验结论。
+板坯连铸|板坯连铸;板坯质量|Primetals Technologies|https://www.primetals.com/en/portfolio/solutions/continuous-casting/slab-casting/||设备概览|板坯连铸需要适应不同钢种与产品尺寸，并关注表面和内部质量。|裂纹、夹杂和偏析等问题需要结合实际测量与检验，不能由一般介绍推定某炉次已经发生这些缺陷。
+钢厂物流瓶颈|钢厂物流瓶颈;精炼物流|Primetals Technologies|https://www.primetals.com/en/metals-magazine/overcoming-bottlenecks-with-steel-plant-logistics/||供应商案例|该案例通过钢厂物流与工序衔接分析，讨论熔炼、精炼及连铸之间的瓶颈。|案例说明应结合设备占用和运输安排分析节奏，不能将案例结论直接套用为本企业的瓶颈判断。
+副枪测量|副枪测量;转炉测量|Primetals Technologies|https://www.primetals.com/en/portfolio/solutions/steelmaking/vaicon-sublance/||测量设备介绍|副枪系统可支持温度、取样以及其他与转炉过程有关的测量任务。|测量用于为过程判断提供输入；公开设备介绍不是具体炉次的测量结果或校准证明。
+连铸质量跟踪|连铸质量跟踪;QualityExpert|Primetals Technologies|https://www.primetals.com/en/metals-magazine/remarkable-solutions-in-continuous-casting-automation/|2018-03-01|供应商技术文章|文章介绍连铸自动化中利用过程数据进行质量跟踪、提示与产品评价的做法。|这是供应商产品的公开示例，不表示工域Copilot已经实现相同自动控制或质量判定能力。
+连铸岗位培训|连铸岗位培训;连铸知识基础|Primetals Technologies|https://www.primetals.com/en/portfolio/services/continuous-casting/training/slab-casting-and-the-casting-platform/||公开课程概览|该课程概览把钢水化学、冶金、流动与传热等基础知识同连铸环节联系起来。|从钢包到中间包、浸入式水口和结晶器的环节需要整体理解；课程介绍不代替岗位授权或现场规程。
+MES定位|MES定位;MES与ERP|SAP|https://www.sap.com/resources/what-is-mes||产品知识说明|MES连接企业计划系统与现场生产执行，支持生产过程、质量和追溯相关信息的管理。|ERP计划与MES执行记录承担不同职责；两者连接并不意味着可以忽略对象身份或数据更新时间。
+批次管理|批次管理;批次追溯|SAP|https://help.sap.com/docs/sap-digital-manufacturing/execution/batch-management||产品官方文档|批次管理将材料的具体批次与生产执行记录联系起来，为质量追溯和必要的召回提供依据。|批次身份需要按系统的材料和组织范围解释，不能仅凭相似名称合并批次。
+生产物料配送|生产物料配送;仓储生产集成|SAP|https://help.sap.com/docs/PRODUCT_ID/3d97bec9bf1649099384bb8167df3cf2/252245dc92d247eeb7054b9bd58fc026.html||产品官方文档|ERP与仓储系统的生产集成围绕生产或流程订单，组织相关物料的仓储与配送。|计划需求、仓储配送和实际消耗属于不同记录，关联查询需要明确的订单和物料身份。
+ERP定位|ERP定位;企业资源计划|SAP|https://www.sap.com/products/erp/what-is-erp.html||产品知识说明|ERP将财务、采购、制造及供应链等企业业务流程与信息联系起来。|ERP的统一业务视图不等于所有数据都是实时现场测量，回答执行状态仍应查询对应事实来源。
+WMS定位|WMS定位;仓库管理系统|SAP|https://www.sap.com/products/scm/extended-warehouse-management/what-is-a-wms.html||产品知识说明|WMS支持收货、存储、拣选、包装与发运等仓储活动，并提供库存可见性。|仓储管理能力的介绍不证明某一批次的可用数量，实际库存与限制状态仍以WMS记录为准。
+制造数字线程|制造数字线程;digital thread|NIST|https://www.nist.gov/programs-projects/digital-thread-manufacturing|2022-04-19|研究项目说明|制造数字线程关注设计、制造和质量等环节之间信息的衔接与反馈。|数据的身份、版本、所有权和可追溯性影响跨环节使用的可信程度，概念本身不能替代实际来源核验。
+供应链数据可信|供应链数据可信;数据可信与追溯|NIST|https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/trustworthiness-and||研究主题说明|供应链数据共享需要考虑数据的可信性及可追溯性，包括来源、版本和使用授权等问题。|可访问一份数据不等于该数据适用于当前任务，也不能因此猜测缺失的跨系统关系。
+供应链追溯框架|供应链追溯框架;IR8536|NIST|https://csrc.nist.gov/pubs/ir/8536/final||公开技术报告|NIST IR 8536讨论制造供应链追溯的元框架，用于组织、连接和查询不同参与方的数据。|这是框架性资料，不提供本企业现成的炉次、订单或批次对应关系。
+OT安全指南|OT安全指南;工业系统安全|NIST|https://csrc.nist.gov/pubs/sp/800/82/r3/final|2023-09-28|公开技术指南|NIST SP 800-82修订版3讨论OT系统安全，并强调其性能、可靠性和安全性方面的特殊要求。|OT与物理过程相联系，安全措施需结合实际环境评估；公开指南不能授权AI修改现场控制系统。
+OT备份|OT备份;工业备份|NIST|https://www.nist.gov/publications/ot-backup-quick-start-guide|2026-06-17|公开技术指南|OT备份快速指南关注定期备份、备份测试、变更管理以及恢复准备。|存在备份文件不等于恢复已验证，恢复能力需要通过适用环境中的检查与演练确认。
+ISA95分层|ISA95;企业控制集成|ISA|https://www.isa.org/standards-and-publications/isa-standards/isa-95-standard||标准公开概览|ISA-95提供企业业务与制造运行之间集成的共同术语和模型，关注不同层次的信息交换。|标准概览帮助划分职责，不要求把所有接口都交给Agent，也不证明实际系统已完成集成。
+质量管理原则|质量管理原则;ISO质量原则|ISO|https://www.iso.org/publication/PUB100080.html|2026|公开出版物介绍|ISO的公开出版物介绍构成ISO 9000系列质量管理标准基础的质量管理原则。|原则用于理解管理体系，不能替代产品质量标准、检验结果或企业质量放行审批。

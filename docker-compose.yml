@@ -1,0 +1,38 @@
+services:
+  api:
+    build:
+      context: .
+      target: runtime
+    ports:
+      - "${API_BIND_ADDRESS:-0.0.0.0}:${API_PORT:-18086}:8000"
+    environment:
+      MOCK_DATA_DIR: /app/data
+    volumes:
+      - mock-system-data:/app/data
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - from urllib.request import urlopen; urlopen('http://127.0.0.1:8000/health', timeout=3)
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 10s
+
+  e2e:
+    profiles: ["test"]
+    build:
+      context: .
+      target: test
+    environment:
+      API_BASE_URL: http://api:8000
+      RUN_DEPLOYMENT_E2E: "1"
+    depends_on:
+      api:
+        condition: service_healthy
+    command: ["python", "-m", "pytest", "-q", "tests/test_deployment_e2e.py"]
+
+volumes:
+  mock-system-data:

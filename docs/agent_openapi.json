@@ -1,0 +1,1470 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Stage D bounded read-only tools",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://host.docker.internal:18090"
+    }
+  ],
+  "paths": {
+    "/agent/tools/mes_heat/{entity_id}": {
+      "get": {
+        "operationId": "mes_heat",
+        "summary": "查询 MES 炉次基础信息",
+        "description": "查询用户明确输入的炉次身份、钢种及当前源状态。炉次入口必须首先调用本工具。200不是工艺判定。不得补数据。 仅GET，只读。capability由Workflow手动变量绑定，不由模型生成。返回status=verified/facts/verified_claims/output_schema；任何其他status立即停止。原源404/409/422/5xx语义保留在code/category；工具HTTP200不等于业务成功。禁止PLC、写操作、SQL、URL和正式工艺判断。",
+        "parameters": [
+          {
+            "name": "entity_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 128
+            },
+            "description": "用户明确ID或本次上游已验证关系返回ID；不得构造"
+          },
+          {
+            "name": "capability",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Workflow绑定的请求级只读能力；必须设置auto=0/variable，不交给模型"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "请检查status：verified才有已验证facts；失败清空事实/来源，后续调用关闭。",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "type": "string",
+                          "enum": [
+                            "verified"
+                          ]
+                        },
+                        "facts": {
+                          "$ref": "#/components/schemas/Heat"
+                        },
+                        "verified_claims": {
+                          "type": "array",
+                          "minItems": 1,
+                          "maxItems": 4,
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "claim_id": {
+                                "type": "string"
+                              },
+                              "text": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "claim_id",
+                              "text"
+                            ]
+                          }
+                        },
+                        "output_schema": {
+                          "type": "object"
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "facts",
+                        "verified_claims",
+                        "output_schema"
+                      ]
+                    },
+                    {
+                      "$ref": "#/components/schemas/AgentToolFailure"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "请求能力无效/过期；不是工艺异常",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AgentToolFailure"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "request / INVALID_PARAMETER：路径参数格式非法，未查询业务系统。",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "invalid_parameter": {
+                    "value": {
+                      "error": {
+                        "category": "request",
+                        "code": "INVALID_PARAMETER",
+                        "message": "请求参数格式非法",
+                        "fields": [
+                          "path.heat_id"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "system / INTERNAL_ERROR：内部系统失败，事实状态未知，不得推断生产异常。",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "internal_error": {
+                    "value": {
+                      "error": {
+                        "category": "system",
+                        "code": "INTERNAL_ERROR",
+                        "message": "内部系统失败，事实状态未知",
+                        "fields": []
+                      }
+                    }
+                  }
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/agent/tools/mes_links/{entity_id}": {
+      "get": {
+        "operationId": "mes_links",
+        "summary": "查询 MES 炉次的正式跨系统关联",
+        "description": "只在已经成功取得同一炉次MES基础事实且用户需要订单/库存时调用，获得正式订单/物料/批次关联和最低源版本；不得猜测关联键。 仅GET，只读。capability由Workflow手动变量绑定，不由模型生成。返回status=verified/facts/verified_claims/output_schema；任何其他status立即停止。原源404/409/422/5xx语义保留在code/category；工具HTTP200不等于业务成功。禁止PLC、写操作、SQL、URL和正式工艺判断。",
+        "parameters": [
+          {
+            "name": "entity_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 128
+            },
+            "description": "用户明确ID或本次上游已验证关系返回ID；不得构造"
+          },
+          {
+            "name": "capability",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Workflow绑定的请求级只读能力；必须设置auto=0/variable，不交给模型"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "请检查status：verified才有已验证facts；失败清空事实/来源，后续调用关闭。",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "type": "string",
+                          "enum": [
+                            "verified"
+                          ]
+                        },
+                        "facts": {
+                          "$ref": "#/components/schemas/HeatTaskLink",
+                          "description": "业务系统结构化事实，不是文档 citation"
+                        },
+                        "verified_claims": {
+                          "type": "array",
+                          "minItems": 1,
+                          "maxItems": 4,
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "claim_id": {
+                                "type": "string"
+                              },
+                              "text": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "claim_id",
+                              "text"
+                            ]
+                          }
+                        },
+                        "output_schema": {
+                          "type": "object"
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "facts",
+                        "verified_claims",
+                        "output_schema"
+                      ]
+                    },
+                    {
+                      "$ref": "#/components/schemas/AgentToolFailure"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "请求能力无效/过期；不是工艺异常",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AgentToolFailure"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "request / INVALID_PARAMETER：路径参数格式非法，未查询业务系统。",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "invalid_parameter": {
+                    "value": {
+                      "error": {
+                        "category": "request",
+                        "code": "INVALID_PARAMETER",
+                        "message": "请求参数格式非法",
+                        "fields": [
+                          "path.heat_id"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "system / INTERNAL_ERROR：内部系统失败，事实状态未知，不得推断生产异常。",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "internal_error": {
+                    "value": {
+                      "error": {
+                        "category": "system",
+                        "code": "INTERNAL_ERROR",
+                        "message": "内部系统失败，事实状态未知",
+                        "fields": []
+                      }
+                    }
+                  }
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/agent/tools/erp_order/{entity_id}": {
+      "get": {
+        "operationId": "erp_order",
+        "summary": "查询 ERP 生产订单及明确物料需求",
+        "description": "查询用户明确给定的订单，或本次mes_links已验证的production_order_id。炉次入口不能先猜订单ID；不得反推炉次。 仅GET，只读。capability由Workflow手动变量绑定，不由模型生成。返回status=verified/facts/verified_claims/output_schema；任何其他status立即停止。原源404/409/422/5xx语义保留在code/category；工具HTTP200不等于业务成功。禁止PLC、写操作、SQL、URL和正式工艺判断。",
+        "parameters": [
+          {
+            "name": "entity_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 128
+            },
+            "description": "用户明确ID或本次上游已验证关系返回ID；不得构造"
+          },
+          {
+            "name": "capability",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Workflow绑定的请求级只读能力；必须设置auto=0/variable，不交给模型"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "请检查status：verified才有已验证facts；失败清空事实/来源，后续调用关闭。",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "type": "string",
+                          "enum": [
+                            "verified"
+                          ]
+                        },
+                        "facts": {
+                          "$ref": "#/components/schemas/ProductionOrder",
+                          "description": "业务系统结构化事实，不是文档 citation"
+                        },
+                        "verified_claims": {
+                          "type": "array",
+                          "minItems": 1,
+                          "maxItems": 4,
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "claim_id": {
+                                "type": "string"
+                              },
+                              "text": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "claim_id",
+                              "text"
+                            ]
+                          }
+                        },
+                        "output_schema": {
+                          "type": "object"
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "facts",
+                        "verified_claims",
+                        "output_schema"
+                      ]
+                    },
+                    {
+                      "$ref": "#/components/schemas/AgentToolFailure"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "请求能力无效/过期；不是工艺异常",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AgentToolFailure"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "request / INVALID_PARAMETER：路径参数格式非法，未查询业务系统。",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "invalid_parameter": {
+                    "value": {
+                      "error": {
+                        "category": "request",
+                        "code": "INVALID_PARAMETER",
+                        "message": "请求参数格式非法",
+                        "fields": [
+                          "path.production_order_id"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "system / INTERNAL_ERROR：内部系统失败，事实状态未知，不得推断生产异常。",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "internal_error": {
+                    "value": {
+                      "error": {
+                        "category": "system",
+                        "code": "INTERNAL_ERROR",
+                        "message": "内部系统失败，事实状态未知",
+                        "fields": []
+                      }
+                    }
+                  }
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/agent/tools/wms_batch/{entity_id}": {
+      "get": {
+        "operationId": "wms_batch",
+        "summary": "查询 WMS 指定批次可用库存",
+        "description": "查询用户明确给定批次，或已验证ERP订单及MES关联（炉次入口）的batch_id。查询指定批次库存；缺批次不能补零。 仅GET，只读。capability由Workflow手动变量绑定，不由模型生成。返回status=verified/facts/verified_claims/output_schema；任何其他status立即停止。原源404/409/422/5xx语义保留在code/category；工具HTTP200不等于业务成功。禁止PLC、写操作、SQL、URL和正式工艺判断。",
+        "parameters": [
+          {
+            "name": "entity_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 128
+            },
+            "description": "用户明确ID或本次上游已验证关系返回ID；不得构造"
+          },
+          {
+            "name": "capability",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Workflow绑定的请求级只读能力；必须设置auto=0/variable，不交给模型"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "请检查status：verified才有已验证facts；失败清空事实/来源，后续调用关闭。",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "type": "string",
+                          "enum": [
+                            "verified"
+                          ]
+                        },
+                        "facts": {
+                          "$ref": "#/components/schemas/InventoryBatch",
+                          "description": "业务系统结构化事实，不是文档 citation"
+                        },
+                        "verified_claims": {
+                          "type": "array",
+                          "minItems": 1,
+                          "maxItems": 4,
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "claim_id": {
+                                "type": "string"
+                              },
+                              "text": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "claim_id",
+                              "text"
+                            ]
+                          }
+                        },
+                        "output_schema": {
+                          "type": "object"
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "facts",
+                        "verified_claims",
+                        "output_schema"
+                      ]
+                    },
+                    {
+                      "$ref": "#/components/schemas/AgentToolFailure"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "请求能力无效/过期；不是工艺异常",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AgentToolFailure"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "request / INVALID_PARAMETER：路径参数格式非法，未查询业务系统。",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "invalid_parameter": {
+                    "value": {
+                      "error": {
+                        "category": "request",
+                        "code": "INVALID_PARAMETER",
+                        "message": "请求参数格式非法",
+                        "fields": [
+                          "path.batch_id"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "system / INTERNAL_ERROR：内部系统失败，事实状态未知，不得推断生产异常。",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "internal_error": {
+                    "value": {
+                      "error": {
+                        "category": "system",
+                        "code": "INTERNAL_ERROR",
+                        "message": "内部系统失败，事实状态未知",
+                        "fields": []
+                      }
+                    }
+                  }
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AnalysisContext": {
+        "properties": {
+          "heat": {
+            "$ref": "#/components/schemas/Heat",
+            "description": "MES 炉次基础事实"
+          },
+          "process_stage": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Process Stage",
+            "description": "MES 当前工艺阶段"
+          },
+          "scope": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Scope",
+            "description": "MES 当前产线"
+          },
+          "stage_started_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Stage Started At",
+            "description": "当前阶段开始时刻；拒绝沿用之前阶段的测量"
+          },
+          "temperature": {
+            "$ref": "#/components/schemas/Temperature",
+            "description": "MES 保存的温度实测记录"
+          },
+          "chemistry": {
+            "$ref": "#/components/schemas/Chemistry",
+            "description": "MES 保存的成分实测记录"
+          },
+          "rule": {
+            "$ref": "#/components/schemas/ProcessRule",
+            "description": "匹配当前钢种、阶段、状态、产线和时刻的唯一有效规则"
+          },
+          "snapshot_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Snapshot At",
+            "description": "MES 服务端本次只读事务快照时刻"
+          }
+        },
+        "type": "object",
+        "required": [
+          "heat",
+          "process_stage",
+          "scope",
+          "stage_started_at",
+          "temperature",
+          "chemistry",
+          "rule",
+          "snapshot_at"
+        ],
+        "title": "AnalysisContext"
+      },
+      "Chemistry": {
+        "properties": {
+          "heat_id": {
+            "type": "string",
+            "title": "Heat Id",
+            "description": "MES 炉次号，动态业务标识；不是合法 ID 白名单"
+          },
+          "carbon_pct": {
+            "type": "number",
+            "title": "Carbon Pct",
+            "description": "碳质量百分比，0.18 表示 0.18%；不包含合格范围"
+          },
+          "silicon_pct": {
+            "type": "number",
+            "title": "Silicon Pct",
+            "description": "硅质量百分比，0.25 表示 0.25%；不包含合格范围"
+          },
+          "manganese_pct": {
+            "type": "number",
+            "title": "Manganese Pct",
+            "description": "锰质量百分比，0.65 表示 0.65%；不包含合格范围"
+          },
+          "measured_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Measured At",
+            "description": "源系统记录的测量时间；不代表本次查询时间"
+          }
+        },
+        "type": "object",
+        "required": [
+          "heat_id",
+          "carbon_pct",
+          "silicon_pct",
+          "manganese_pct",
+          "measured_at"
+        ],
+        "title": "Chemistry"
+      },
+      "ErrorDetail": {
+        "properties": {
+          "category": {
+            "type": "string",
+            "enum": [
+              "request",
+              "data",
+              "system"
+            ],
+            "title": "Category",
+            "description": "request：请求错误；data：事实不存在或数据不可用；system：系统失败、事实状态未知"
+          },
+          "code": {
+            "type": "string",
+            "title": "Code",
+            "description": "稳定机器错误码，与 HTTP 状态及 category 一起判断；见各响应示例"
+          },
+          "message": {
+            "type": "string",
+            "title": "Message",
+            "description": "可读错误提示，调用方不要依赖提示文本进行逻辑分支"
+          },
+          "fields": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Fields",
+            "description": "相关字段路径；参数错误如 path.heat_id，数据错误如 temperature_c；无字段级信息时为空数组"
+          }
+        },
+        "type": "object",
+        "required": [
+          "category",
+          "code",
+          "message"
+        ],
+        "title": "ErrorDetail"
+      },
+      "ErrorResponse": {
+        "properties": {
+          "error": {
+            "$ref": "#/components/schemas/ErrorDetail",
+            "description": "统一错误对象；不包含工艺判定或生产处置建议"
+          }
+        },
+        "type": "object",
+        "required": [
+          "error"
+        ],
+        "title": "ErrorResponse"
+      },
+      "HealthResponse": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "title": "Status",
+            "description": "全部 Mock 系统数据库可读时为 ok"
+          },
+          "backends": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object",
+            "title": "Backends",
+            "description": "SQLite 模拟后端连通状态"
+          }
+        },
+        "type": "object",
+        "required": [
+          "status",
+          "backends"
+        ],
+        "title": "HealthResponse"
+      },
+      "Heat": {
+        "properties": {
+          "heat_id": {
+            "type": "string",
+            "title": "Heat Id",
+            "description": "MES 炉次号，动态业务标识；不是合法 ID 白名单"
+          },
+          "steel_grade": {
+            "type": "string",
+            "title": "Steel Grade",
+            "description": "MES 记录的钢种；不包含该钢种的工艺标准"
+          },
+          "status": {
+            "type": "string",
+            "title": "Status",
+            "description": "源系统记录的业务状态，不是工艺正常/异常判定"
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Updated At",
+            "description": "源系统记录的更新时间；不代表本次 API 查询时间，不自动判断过期"
+          }
+        },
+        "type": "object",
+        "required": [
+          "heat_id",
+          "steel_grade",
+          "status",
+          "updated_at"
+        ],
+        "title": "Heat"
+      },
+      "HeatTaskLink": {
+        "properties": {
+          "heat_id": {
+            "type": "string",
+            "title": "Heat Id",
+            "description": "MES 确认的炉次身份"
+          },
+          "production_order_id": {
+            "type": "string",
+            "title": "Production Order Id",
+            "description": "MES 正式关联的 ERP 生产订单 ID"
+          },
+          "steel_grade": {
+            "type": "string",
+            "title": "Steel Grade",
+            "description": "MES 关联记录钢种，必须与炉次快照一致"
+          },
+          "material_code": {
+            "type": "string",
+            "title": "Material Code",
+            "description": "MES 任务关联的物料编码"
+          },
+          "batch_id": {
+            "type": "string",
+            "title": "Batch Id",
+            "description": "MES 任务关联的 WMS 指定批次"
+          },
+          "expected_erp_revision": {
+            "type": "integer",
+            "minimum": 1.0,
+            "title": "Expected Erp Revision",
+            "description": "MES 任务要求的 ERP 最低有效修订号，不由 AI 猜测"
+          },
+          "expected_wms_revision": {
+            "type": "integer",
+            "minimum": 1.0,
+            "title": "Expected Wms Revision",
+            "description": "MES 任务要求的 WMS 最低有效修订号"
+          },
+          "source_updated_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Source Updated At",
+            "description": "源记录更新时间，须有时区"
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1.0,
+            "title": "Revision",
+            "description": "MES 源记录修订号"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "heat_id",
+          "production_order_id",
+          "steel_grade",
+          "material_code",
+          "batch_id",
+          "expected_erp_revision",
+          "expected_wms_revision",
+          "source_updated_at",
+          "revision"
+        ],
+        "title": "HeatTaskLink"
+      },
+      "Inventory": {
+        "properties": {
+          "material_code": {
+            "type": "string",
+            "title": "Material Code",
+            "description": "源系统物料编码，可用于 WMS 库存查询"
+          },
+          "material_name": {
+            "type": "string",
+            "title": "Material Name",
+            "description": "WMS 记录的物料名称"
+          },
+          "quantity": {
+            "type": "number",
+            "title": "Quantity",
+            "description": "业务数量，单位见 unit；ERP 为申请数量，WMS 为汇总库存，0 是有效值"
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "description": "数量单位，例如 kg"
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Updated At",
+            "description": "源系统记录的更新时间；不代表本次 API 查询时间，不自动判断过期"
+          }
+        },
+        "type": "object",
+        "required": [
+          "material_code",
+          "material_name",
+          "quantity",
+          "unit",
+          "updated_at"
+        ],
+        "title": "Inventory"
+      },
+      "InventoryBatch": {
+        "properties": {
+          "batch_id": {
+            "type": "string",
+            "title": "Batch Id",
+            "description": "WMS 批次身份"
+          },
+          "material_code": {
+            "type": "string",
+            "title": "Material Code",
+            "description": "WMS 物料编码"
+          },
+          "material_name": {
+            "type": "string",
+            "title": "Material Name",
+            "description": "WMS 物料名称"
+          },
+          "production_order_id": {
+            "type": "string",
+            "title": "Production Order Id",
+            "description": "批次明确关联/预留的生产订单 ID"
+          },
+          "available_quantity": {
+            "type": "number",
+            "minimum": 0.0,
+            "title": "Available Quantity",
+            "description": "本批次可用数量，零是事实，缺失不补零"
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "description": "可用数量单位"
+          },
+          "warehouse": {
+            "type": "string",
+            "title": "Warehouse",
+            "description": "仓库标识"
+          },
+          "location": {
+            "type": "string",
+            "title": "Location",
+            "description": "仓位标识"
+          },
+          "status": {
+            "type": "string",
+            "title": "Status",
+            "description": "WMS 批次状态；只有 available 可参与本 PoC 可用量比较"
+          },
+          "source_updated_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Source Updated At",
+            "description": "WMS 源记录更新时间，含时区"
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1.0,
+            "title": "Revision",
+            "description": "WMS 源记录修订号"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "batch_id",
+          "material_code",
+          "material_name",
+          "production_order_id",
+          "available_quantity",
+          "unit",
+          "warehouse",
+          "location",
+          "status",
+          "source_updated_at",
+          "revision"
+        ],
+        "title": "InventoryBatch"
+      },
+      "Limit": {
+        "properties": {
+          "minimum": {
+            "type": "number",
+            "title": "Minimum",
+            "description": "有效标准规定的下限，包含边界"
+          },
+          "maximum": {
+            "type": "number",
+            "title": "Maximum",
+            "description": "有效标准规定的上限，包含边界"
+          },
+          "unit": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Unit",
+            "description": "与实际参数一致的单位"
+          }
+        },
+        "type": "object",
+        "required": [
+          "minimum",
+          "maximum",
+          "unit"
+        ],
+        "title": "Limit"
+      },
+      "MaterialRequest": {
+        "properties": {
+          "request_id": {
+            "type": "string",
+            "title": "Request Id",
+            "description": "ERP 物料申请单号"
+          },
+          "material_code": {
+            "type": "string",
+            "title": "Material Code",
+            "description": "源系统物料编码，可用于 WMS 库存查询"
+          },
+          "quantity": {
+            "type": "number",
+            "title": "Quantity",
+            "description": "业务数量，单位见 unit；ERP 为申请数量，WMS 为汇总库存，0 是有效值"
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "description": "数量单位，例如 kg"
+          },
+          "status": {
+            "type": "string",
+            "title": "Status",
+            "description": "源系统记录的业务状态，不是工艺正常/异常判定"
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Updated At",
+            "description": "源系统记录的更新时间；不代表本次 API 查询时间，不自动判断过期"
+          }
+        },
+        "type": "object",
+        "required": [
+          "request_id",
+          "material_code",
+          "quantity",
+          "unit",
+          "status",
+          "updated_at"
+        ],
+        "title": "MaterialRequest"
+      },
+      "ProcessRule": {
+        "properties": {
+          "rule_id": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Rule Id",
+            "description": "MES 受控规则标识，不由 LLM 决定"
+          },
+          "steel_grade": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Steel Grade",
+            "description": "适用钢种"
+          },
+          "process_stage": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Process Stage",
+            "description": "适用工艺阶段"
+          },
+          "scope": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Scope",
+            "description": "适用产线"
+          },
+          "required_status": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Required Status",
+            "description": "适用生产状态"
+          },
+          "effective_from": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Effective From",
+            "description": "生效时刻，含边界，带时区"
+          },
+          "effective_until": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Effective Until",
+            "description": "失效时刻，不含边界，带时区"
+          },
+          "max_age_seconds": {
+            "type": "integer",
+            "exclusiveMinimum": 0.0,
+            "title": "Max Age Seconds",
+            "description": "正式演示标准规定的数据有效期秒数"
+          },
+          "limits": {
+            "additionalProperties": {
+              "$ref": "#/components/schemas/Limit"
+            },
+            "type": "object",
+            "title": "Limits",
+            "description": "温度和碳硅锰有效上下限；纯虚构教学值"
+          },
+          "source": {
+            "$ref": "#/components/schemas/RuleSource",
+            "description": "规则的正式文档出处"
+          }
+        },
+        "type": "object",
+        "required": [
+          "rule_id",
+          "steel_grade",
+          "process_stage",
+          "scope",
+          "required_status",
+          "effective_from",
+          "effective_until",
+          "max_age_seconds",
+          "limits",
+          "source"
+        ],
+        "title": "ProcessRule"
+      },
+      "ProductionOrder": {
+        "properties": {
+          "production_order_id": {
+            "type": "string",
+            "title": "Production Order Id",
+            "description": "ERP 生产订单身份"
+          },
+          "heat_ids": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "minItems": 1,
+            "title": "Heat Ids",
+            "description": "ERP 明确关联的炉次列表，不由 AI 推测"
+          },
+          "steel_grade": {
+            "type": "string",
+            "title": "Steel Grade",
+            "description": "ERP 产品钢种要求"
+          },
+          "planned_quantity": {
+            "type": "number",
+            "minimum": 0.0,
+            "title": "Planned Quantity",
+            "description": "订单计划数量"
+          },
+          "completed_quantity": {
+            "type": "number",
+            "minimum": 0.0,
+            "title": "Completed Quantity",
+            "description": "订单完成数量"
+          },
+          "quantity_unit": {
+            "type": "string",
+            "title": "Quantity Unit",
+            "description": "计划与完成数量共同单位"
+          },
+          "due_date": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Due Date",
+            "description": "ERP 订单交期，含时区；不据此自行推断交期风险"
+          },
+          "status": {
+            "type": "string",
+            "title": "Status",
+            "description": "ERP 订单状态，只读事实"
+          },
+          "material_code": {
+            "type": "string",
+            "title": "Material Code",
+            "description": "该订单本次指定物料编码"
+          },
+          "batch_id": {
+            "type": "string",
+            "title": "Batch Id",
+            "description": "该订单本次指定 WMS 批次"
+          },
+          "required_quantity": {
+            "type": "number",
+            "minimum": 0.0,
+            "title": "Required Quantity",
+            "description": "该任务明确物料需求量，不由模型估算"
+          },
+          "material_unit": {
+            "type": "string",
+            "title": "Material Unit",
+            "description": "需求量单位，只允许与 WMS 同单位比较，无隐式换算"
+          },
+          "source_updated_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Source Updated At",
+            "description": "ERP 源记录更新时间，含时区"
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1.0,
+            "title": "Revision",
+            "description": "ERP 源记录修订号"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "production_order_id",
+          "heat_ids",
+          "steel_grade",
+          "planned_quantity",
+          "completed_quantity",
+          "quantity_unit",
+          "due_date",
+          "status",
+          "material_code",
+          "batch_id",
+          "required_quantity",
+          "material_unit",
+          "source_updated_at",
+          "revision"
+        ],
+        "title": "ProductionOrder"
+      },
+      "RuleSource": {
+        "properties": {
+          "document_name": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Document Name",
+            "description": "正式演示标准名称"
+          },
+          "version": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Version",
+            "description": "标准版本"
+          },
+          "effective_date": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Effective Date",
+            "description": "标准生效日期"
+          },
+          "chapter": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Chapter",
+            "description": "章"
+          },
+          "section": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Section",
+            "description": "节"
+          },
+          "page": {
+            "type": "integer",
+            "minimum": 1.0,
+            "title": "Page",
+            "description": "演示逻辑页码"
+          }
+        },
+        "type": "object",
+        "required": [
+          "document_name",
+          "version",
+          "effective_date",
+          "chapter",
+          "section",
+          "page"
+        ],
+        "title": "RuleSource"
+      },
+      "SourceResponse_HeatTaskLink_": {
+        "properties": {
+          "request_id": {
+            "type": "string",
+            "title": "Request Id",
+            "description": "回显 X-Request-ID；未提供则由服务端生成。Workflow 必须与本次运行身份相等"
+          },
+          "data": {
+            "$ref": "#/components/schemas/HeatTaskLink",
+            "description": "业务系统结构化事实，不是文档 citation"
+          },
+          "content_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$",
+            "title": "Content Sha256",
+            "description": "data 的 canonical JSON SHA-256；检测传输/验证后的改动，不代替鉴权或数字签名"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "request_id",
+          "data",
+          "content_sha256"
+        ],
+        "title": "SourceResponse[HeatTaskLink]"
+      },
+      "SourceResponse_InventoryBatch_": {
+        "properties": {
+          "request_id": {
+            "type": "string",
+            "title": "Request Id",
+            "description": "回显 X-Request-ID；未提供则由服务端生成。Workflow 必须与本次运行身份相等"
+          },
+          "data": {
+            "$ref": "#/components/schemas/InventoryBatch",
+            "description": "业务系统结构化事实，不是文档 citation"
+          },
+          "content_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$",
+            "title": "Content Sha256",
+            "description": "data 的 canonical JSON SHA-256；检测传输/验证后的改动，不代替鉴权或数字签名"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "request_id",
+          "data",
+          "content_sha256"
+        ],
+        "title": "SourceResponse[InventoryBatch]"
+      },
+      "SourceResponse_ProductionOrder_": {
+        "properties": {
+          "request_id": {
+            "type": "string",
+            "title": "Request Id",
+            "description": "回显 X-Request-ID；未提供则由服务端生成。Workflow 必须与本次运行身份相等"
+          },
+          "data": {
+            "$ref": "#/components/schemas/ProductionOrder",
+            "description": "业务系统结构化事实，不是文档 citation"
+          },
+          "content_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$",
+            "title": "Content Sha256",
+            "description": "data 的 canonical JSON SHA-256；检测传输/验证后的改动，不代替鉴权或数字签名"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "request_id",
+          "data",
+          "content_sha256"
+        ],
+        "title": "SourceResponse[ProductionOrder]"
+      },
+      "Temperature": {
+        "properties": {
+          "heat_id": {
+            "type": "string",
+            "title": "Heat Id",
+            "description": "MES 炉次号，动态业务标识；不是合法 ID 白名单"
+          },
+          "temperature_c": {
+            "type": "number",
+            "title": "Temperature C",
+            "description": "实测温度，单位 °C；有限数值，不包含目标范围"
+          },
+          "measured_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Measured At",
+            "description": "源系统记录的测量时间；不代表本次查询时间"
+          }
+        },
+        "type": "object",
+        "required": [
+          "heat_id",
+          "temperature_c",
+          "measured_at"
+        ],
+        "title": "Temperature"
+      },
+      "AgentToolFailure": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "request_error",
+              "data_error",
+              "system_error"
+            ]
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "request",
+              "data",
+              "system"
+            ]
+          },
+          "code": {
+            "type": "string"
+          },
+          "answer": {
+            "type": "string"
+          },
+          "facts": {
+            "type": "object",
+            "maxProperties": 0
+          },
+          "data_sources": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            },
+            "maxItems": 0
+          },
+          "citations": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            },
+            "maxItems": 0
+          },
+          "automatic_actions": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            },
+            "maxItems": 0
+          },
+          "human_confirmation": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "status",
+          "category",
+          "code",
+          "answer",
+          "facts",
+          "data_sources",
+          "citations",
+          "automatic_actions",
+          "human_confirmation"
+        ]
+      }
+    }
+  }
+}

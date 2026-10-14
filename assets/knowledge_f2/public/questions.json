@@ -1,0 +1,452 @@
+[
+  {
+    "id": "F2-P-001",
+    "question": "一般来说转炉炼钢一炉需要多久？",
+    "expected": "answered",
+    "topic_ids": [
+      "P01"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-002",
+    "question": "公开资料中炼钢路线有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P02"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-003",
+    "question": "公开资料中炼钢原料有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P03"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-004",
+    "question": "公开资料中钢铁制造流程有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P04"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-005",
+    "question": "公开资料中钢铁能源有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P05"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-006",
+    "question": "公开资料中生命周期清单有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P06"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-007",
+    "question": "公开资料中生命周期评价有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P07"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-008",
+    "question": "公开资料中钢铁循环经济有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P08"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-009",
+    "question": "公开资料中安全健康原则有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P09"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-010",
+    "question": "公开资料中过程安全管理有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P10"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-011",
+    "question": "公开资料中钢铁水管理有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P11"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-012",
+    "question": "公开资料中用水系统边界有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P12"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-013",
+    "question": "公开资料中钢铁副产物有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P13"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-014",
+    "question": "公开资料中钢的应用有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P14"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-015",
+    "question": "公开资料中LF精炼有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P15"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-016",
+    "question": "公开资料中二次冶金有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P16"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-017",
+    "question": "公开资料中电弧炉炼钢有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P17"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-018",
+    "question": "公开资料中AOD精炼有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P18"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-019",
+    "question": "公开资料中方坯连铸有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P19"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-020",
+    "question": "公开资料中板坯连铸有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P20"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-021",
+    "question": "公开资料中钢厂物流瓶颈有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P21"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-022",
+    "question": "公开资料中副枪测量有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P22"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-023",
+    "question": "公开资料中连铸质量跟踪有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P23"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-024",
+    "question": "公开资料中连铸岗位培训有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P24"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-025",
+    "question": "公开资料中MES定位有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P25"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-026",
+    "question": "公开资料中批次管理有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P26"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-027",
+    "question": "公开资料中生产物料配送有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P27"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-028",
+    "question": "公开资料中ERP定位有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P28"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-029",
+    "question": "公开资料中WMS定位有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P29"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-030",
+    "question": "公开资料中制造数字线程有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P30"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-031",
+    "question": "公开资料中供应链数据可信有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P31"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-032",
+    "question": "公开资料中供应链追溯框架有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P32"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-033",
+    "question": "公开资料中OT安全指南有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P33"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-034",
+    "question": "公开资料中OT备份有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P34"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-035",
+    "question": "公开资料中ISA95有哪些要点？",
+    "expected": "answered",
+    "topic_ids": [
+      "P35"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-P-036",
+    "question": "一般来说转炉时间是什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "P01"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-P-037",
+    "question": "一般来说钢的回收是什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "P02"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-P-038",
+    "question": "一般来说钢铁原料是什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "P03"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-P-039",
+    "question": "一般来说钢铁生产链是什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "P04"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-P-040",
+    "question": "一般来说能耗比较是什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "P05"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-P-041",
+    "question": "一般来说LCI是什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "P06"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-P-042",
+    "question": "一般来说LCA是什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "P07"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-P-043",
+    "question": "一般来说循环利用是什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "P08"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-P-044",
+    "question": "一般来说钢铁安全原则是什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "P09"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-P-045",
+    "question": "一般来说工艺安全管理是什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "P10"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-P-046",
+    "question": "一般来说水资源管理是什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "P11"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-P-047",
+    "question": "一般来说钢铁用水环节是什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "P12"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-P-048",
+    "question": "一般来说炉渣利用是什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "P13"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-P-049",
+    "question": "一般来说先进钢材用途是什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "P14"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-P-050",
+    "question": "一般来说钢包炉作用是什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "P15"
+    ],
+    "kind": "paraphrase"
+  }
+]

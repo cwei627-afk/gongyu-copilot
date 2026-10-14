@@ -1,0 +1,267 @@
+[
+  {
+    "id": "F-INTERNAL-01",
+    "question": "炼钢生产管理有哪些要求？",
+    "source_keys": [
+      "F-SOP-01-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-02",
+    "question": "转炉操作前需要核对什么？",
+    "source_keys": [
+      "F-SOP-02-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-03",
+    "question": "精炼操作记录需要保留哪些信息？",
+    "source_keys": [
+      "F-SOP-03-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-04",
+    "question": "炉次状态如何管理？",
+    "source_keys": [
+      "F-SOP-04-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-05",
+    "question": "公司如何管理生产节拍记录？",
+    "source_keys": [
+      "F-SOP-05-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-06",
+    "question": "温度偏差时应该检查什么？",
+    "source_keys": [
+      "F-SOP-06-v1"
+    ],
+    "expected": "answered",
+    "aliases": [
+      "温度偏差时规程要求检查什么？",
+      "温度偏差时应该核对哪些记录？"
+    ]
+  },
+  {
+    "id": "F-INTERNAL-07",
+    "question": "成分偏差时应该检查什么？",
+    "source_keys": [
+      "F-SOP-07-v1"
+    ],
+    "expected": "answered",
+    "aliases": [
+      "成分偏差时规程要求检查什么？"
+    ]
+  },
+  {
+    "id": "F-INTERNAL-08",
+    "question": "温度和成分同时偏差如何复核？",
+    "source_keys": [
+      "F-SOP-08-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-09",
+    "question": "生产记录缺失应该怎么办？",
+    "source_keys": [
+      "F-SOP-09-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-10",
+    "question": "质量异常由谁复核？",
+    "source_keys": [
+      "F-SOP-10-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-11",
+    "question": "MES数据录入有什么要求？",
+    "source_keys": [
+      "F-SOP-11-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-12",
+    "question": "MES的生产中和已完成有什么区别？",
+    "source_keys": [
+      "F-SOP-12-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-13",
+    "question": "生产订单管理需要核对什么？",
+    "source_keys": [
+      "F-SOP-13-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-14",
+    "question": "订单延期应该怎样复核？",
+    "source_keys": [
+      "F-SOP-14-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-15",
+    "question": "库存批次管理有什么要求？",
+    "source_keys": [
+      "F-SOP-15-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-16",
+    "question": "原材料领用前需要核对什么？",
+    "source_keys": [
+      "F-SOP-16-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-17",
+    "question": "低库存预警怎样处理？",
+    "source_keys": [
+      "F-SOP-17-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-18",
+    "question": "待检物料可以直接领用吗？",
+    "source_keys": [
+      "F-SOP-18-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-19",
+    "question": "公司对交接班有什么要求？",
+    "source_keys": [
+      "F-SOP-19-v1"
+    ],
+    "expected": "answered",
+    "aliases": [
+      "交接班需要核对什么？"
+    ]
+  },
+  {
+    "id": "F-INTERNAL-20",
+    "question": "公司安全生产有哪些基本要求？",
+    "source_keys": [
+      "F-SOP-20-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-21",
+    "question": "设备异常应该怎样报告？",
+    "source_keys": [
+      "F-SOP-21-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-22",
+    "question": "系统异常应该怎么上报？",
+    "source_keys": [
+      "F-SOP-22-v1"
+    ],
+    "expected": "answered",
+    "aliases": [
+      "系统故障应该怎样上报？"
+    ]
+  },
+  {
+    "id": "F-INTERNAL-23",
+    "question": "应急情况可以直接执行AI建议吗？",
+    "source_keys": [
+      "F-SOP-23-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-24",
+    "question": "生产人员有哪些岗位职责？",
+    "source_keys": [
+      "F-SOP-24-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-25",
+    "question": "工艺人员有哪些岗位职责？",
+    "source_keys": [
+      "F-SOP-25-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-26",
+    "question": "质量人员有哪些岗位职责？",
+    "source_keys": [
+      "F-SOP-26-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-27",
+    "question": "信息化人员有哪些岗位职责？",
+    "source_keys": [
+      "F-SOP-27-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-28",
+    "question": "使用AI Copilot有什么限制？",
+    "source_keys": [
+      "F-SOP-28-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-INTERNAL-29",
+    "question": "AI辅助结论需要谁确认？",
+    "source_keys": [
+      "F-SOP-29-v1"
+    ],
+    "expected": "answered",
+    "aliases": [
+      "现行规程对复核员有什么要求？"
+    ]
+  },
+  {
+    "id": "F-INTERNAL-30",
+    "question": "受控文档如何管理版本？",
+    "source_keys": [
+      "F-SOP-30-v1"
+    ],
+    "expected": "answered"
+  },
+  {
+    "id": "F-CROSS-01",
+    "question": "生产和质量人员分别有哪些职责？",
+    "source_keys": [
+      "F-SOP-24-v1",
+      "F-SOP-26-v1"
+    ],
+    "expected": "answered"
+  }
+]

@@ -1,0 +1,4 @@
+# No additional Agent tools. The new lists are called only by the deterministic BFF.
+services:
+  api:
+    command: ["sh", "-c", "python -m app.init_db && python -m app.enterprise.seed_demo && exec uvicorn app.copilot.mock:app_d --host 0.0.0.0 --port 8000"]

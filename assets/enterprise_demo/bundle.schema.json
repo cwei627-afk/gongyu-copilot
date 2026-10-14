@@ -1,0 +1,882 @@
+{
+  "$defs": {
+    "AnalysisContext": {
+      "properties": {
+        "heat": {
+          "$ref": "#/$defs/Heat",
+          "description": "MES 炉次基础事实"
+        },
+        "process_stage": {
+          "description": "MES 当前工艺阶段",
+          "minLength": 1,
+          "title": "Process Stage",
+          "type": "string"
+        },
+        "scope": {
+          "description": "MES 当前产线",
+          "minLength": 1,
+          "title": "Scope",
+          "type": "string"
+        },
+        "stage_started_at": {
+          "description": "当前阶段开始时刻；拒绝沿用之前阶段的测量",
+          "format": "date-time",
+          "title": "Stage Started At",
+          "type": "string"
+        },
+        "temperature": {
+          "$ref": "#/$defs/Temperature",
+          "description": "MES 保存的温度实测记录"
+        },
+        "chemistry": {
+          "$ref": "#/$defs/Chemistry",
+          "description": "MES 保存的成分实测记录"
+        },
+        "rule": {
+          "$ref": "#/$defs/ProcessRule",
+          "description": "匹配当前钢种、阶段、状态、产线和时刻的唯一有效规则"
+        },
+        "snapshot_at": {
+          "description": "MES 服务端本次只读事务快照时刻",
+          "format": "date-time",
+          "title": "Snapshot At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "heat",
+        "process_stage",
+        "scope",
+        "stage_started_at",
+        "temperature",
+        "chemistry",
+        "rule",
+        "snapshot_at"
+      ],
+      "title": "AnalysisContext",
+      "type": "object"
+    },
+    "ApiProvenance": {
+      "additionalProperties": false,
+      "properties": {
+        "system": {
+          "description": "MES / ERP / WMS；不是文档 citation",
+          "title": "System",
+          "type": "string"
+        },
+        "operation_id": {
+          "description": "固定只读 OpenAPI operation identity",
+          "title": "Operation Id",
+          "type": "string"
+        },
+        "endpoint": {
+          "description": "实际查询路径，不含凭证",
+          "title": "Endpoint",
+          "type": "string"
+        },
+        "entity_id": {
+          "description": "源实体身份",
+          "title": "Entity Id",
+          "type": "string"
+        },
+        "request_id": {
+          "description": "本次 Workflow run identity",
+          "title": "Request Id",
+          "type": "string"
+        },
+        "revision": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "源修订号；冻结 MES context 接口没有此字段，明确 null",
+          "title": "Revision"
+        },
+        "source_updated_at": {
+          "description": "源记录更新时间或冻结 MES snapshot_at",
+          "format": "date-time",
+          "title": "Source Updated At",
+          "type": "string"
+        },
+        "content_sha256": {
+          "description": "规范事实对象 hash",
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Content Sha256",
+          "type": "string"
+        },
+        "response_body_sha256": {
+          "description": "原始响应正文 hash",
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Response Body Sha256",
+          "type": "string"
+        }
+      },
+      "required": [
+        "system",
+        "operation_id",
+        "endpoint",
+        "entity_id",
+        "request_id",
+        "revision",
+        "source_updated_at",
+        "content_sha256",
+        "response_body_sha256"
+      ],
+      "title": "ApiProvenance",
+      "type": "object"
+    },
+    "Chemistry": {
+      "properties": {
+        "heat_id": {
+          "description": "MES 炉次号，动态业务标识；不是合法 ID 白名单",
+          "title": "Heat Id",
+          "type": "string"
+        },
+        "carbon_pct": {
+          "description": "碳质量百分比，0.18 表示 0.18%；不包含合格范围",
+          "title": "Carbon Pct",
+          "type": "number"
+        },
+        "silicon_pct": {
+          "description": "硅质量百分比，0.25 表示 0.25%；不包含合格范围",
+          "title": "Silicon Pct",
+          "type": "number"
+        },
+        "manganese_pct": {
+          "description": "锰质量百分比，0.65 表示 0.65%；不包含合格范围",
+          "title": "Manganese Pct",
+          "type": "number"
+        },
+        "measured_at": {
+          "description": "源系统记录的测量时间；不代表本次查询时间",
+          "format": "date-time",
+          "title": "Measured At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "heat_id",
+        "carbon_pct",
+        "silicon_pct",
+        "manganese_pct",
+        "measured_at"
+      ],
+      "title": "Chemistry",
+      "type": "object"
+    },
+    "Heat": {
+      "properties": {
+        "heat_id": {
+          "description": "MES 炉次号，动态业务标识；不是合法 ID 白名单",
+          "title": "Heat Id",
+          "type": "string"
+        },
+        "steel_grade": {
+          "description": "MES 记录的钢种；不包含该钢种的工艺标准",
+          "title": "Steel Grade",
+          "type": "string"
+        },
+        "status": {
+          "description": "源系统记录的业务状态，不是工艺正常/异常判定",
+          "title": "Status",
+          "type": "string"
+        },
+        "updated_at": {
+          "description": "源系统记录的更新时间；不代表本次 API 查询时间，不自动判断过期",
+          "format": "date-time",
+          "title": "Updated At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "heat_id",
+        "steel_grade",
+        "status",
+        "updated_at"
+      ],
+      "title": "Heat",
+      "type": "object"
+    },
+    "HeatTaskLink": {
+      "additionalProperties": false,
+      "properties": {
+        "heat_id": {
+          "description": "MES 确认的炉次身份",
+          "title": "Heat Id",
+          "type": "string"
+        },
+        "production_order_id": {
+          "description": "MES 正式关联的 ERP 生产订单 ID",
+          "title": "Production Order Id",
+          "type": "string"
+        },
+        "steel_grade": {
+          "description": "MES 关联记录钢种，必须与炉次快照一致",
+          "title": "Steel Grade",
+          "type": "string"
+        },
+        "material_code": {
+          "description": "MES 任务关联的物料编码",
+          "title": "Material Code",
+          "type": "string"
+        },
+        "batch_id": {
+          "description": "MES 任务关联的 WMS 指定批次",
+          "title": "Batch Id",
+          "type": "string"
+        },
+        "expected_erp_revision": {
+          "description": "MES 任务要求的 ERP 最低有效修订号，不由 AI 猜测",
+          "minimum": 1,
+          "title": "Expected Erp Revision",
+          "type": "integer"
+        },
+        "expected_wms_revision": {
+          "description": "MES 任务要求的 WMS 最低有效修订号",
+          "minimum": 1,
+          "title": "Expected Wms Revision",
+          "type": "integer"
+        },
+        "source_updated_at": {
+          "description": "源记录更新时间，须有时区",
+          "format": "date-time",
+          "title": "Source Updated At",
+          "type": "string"
+        },
+        "revision": {
+          "description": "MES 源记录修订号",
+          "minimum": 1,
+          "title": "Revision",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "heat_id",
+        "production_order_id",
+        "steel_grade",
+        "material_code",
+        "batch_id",
+        "expected_erp_revision",
+        "expected_wms_revision",
+        "source_updated_at",
+        "revision"
+      ],
+      "title": "HeatTaskLink",
+      "type": "object"
+    },
+    "InventoryBatch": {
+      "additionalProperties": false,
+      "properties": {
+        "batch_id": {
+          "description": "WMS 批次身份",
+          "title": "Batch Id",
+          "type": "string"
+        },
+        "material_code": {
+          "description": "WMS 物料编码",
+          "title": "Material Code",
+          "type": "string"
+        },
+        "material_name": {
+          "description": "WMS 物料名称",
+          "title": "Material Name",
+          "type": "string"
+        },
+        "production_order_id": {
+          "description": "批次明确关联/预留的生产订单 ID",
+          "title": "Production Order Id",
+          "type": "string"
+        },
+        "available_quantity": {
+          "description": "本批次可用数量，零是事实，缺失不补零",
+          "minimum": 0,
+          "title": "Available Quantity",
+          "type": "number"
+        },
+        "unit": {
+          "description": "可用数量单位",
+          "title": "Unit",
+          "type": "string"
+        },
+        "warehouse": {
+          "description": "仓库标识",
+          "title": "Warehouse",
+          "type": "string"
+        },
+        "location": {
+          "description": "仓位标识",
+          "title": "Location",
+          "type": "string"
+        },
+        "status": {
+          "description": "WMS 批次状态；只有 available 可参与本 PoC 可用量比较",
+          "title": "Status",
+          "type": "string"
+        },
+        "source_updated_at": {
+          "description": "WMS 源记录更新时间，含时区",
+          "format": "date-time",
+          "title": "Source Updated At",
+          "type": "string"
+        },
+        "revision": {
+          "description": "WMS 源记录修订号",
+          "minimum": 1,
+          "title": "Revision",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "batch_id",
+        "material_code",
+        "material_name",
+        "production_order_id",
+        "available_quantity",
+        "unit",
+        "warehouse",
+        "location",
+        "status",
+        "source_updated_at",
+        "revision"
+      ],
+      "title": "InventoryBatch",
+      "type": "object"
+    },
+    "Limit": {
+      "properties": {
+        "minimum": {
+          "description": "有效标准规定的下限，包含边界",
+          "title": "Minimum",
+          "type": "number"
+        },
+        "maximum": {
+          "description": "有效标准规定的上限，包含边界",
+          "title": "Maximum",
+          "type": "number"
+        },
+        "unit": {
+          "description": "与实际参数一致的单位",
+          "minLength": 1,
+          "title": "Unit",
+          "type": "string"
+        }
+      },
+      "required": [
+        "minimum",
+        "maximum",
+        "unit"
+      ],
+      "title": "Limit",
+      "type": "object"
+    },
+    "MesFacts": {
+      "additionalProperties": false,
+      "properties": {
+        "analysis_context": {
+          "$ref": "#/$defs/AnalysisContext",
+          "description": "已经 Stage A 比较验证的 MES 快照与规则"
+        },
+        "task_link": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/HeatTaskLink"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "MES 正式关联；尚未取得/验证时 null，不猜测"
+        }
+      },
+      "required": [
+        "analysis_context",
+        "task_link"
+      ],
+      "title": "MesFacts",
+      "type": "object"
+    },
+    "ProcessRule": {
+      "properties": {
+        "rule_id": {
+          "description": "MES 受控规则标识，不由 LLM 决定",
+          "minLength": 1,
+          "title": "Rule Id",
+          "type": "string"
+        },
+        "steel_grade": {
+          "description": "适用钢种",
+          "minLength": 1,
+          "title": "Steel Grade",
+          "type": "string"
+        },
+        "process_stage": {
+          "description": "适用工艺阶段",
+          "minLength": 1,
+          "title": "Process Stage",
+          "type": "string"
+        },
+        "scope": {
+          "description": "适用产线",
+          "minLength": 1,
+          "title": "Scope",
+          "type": "string"
+        },
+        "required_status": {
+          "description": "适用生产状态",
+          "minLength": 1,
+          "title": "Required Status",
+          "type": "string"
+        },
+        "effective_from": {
+          "description": "生效时刻，含边界，带时区",
+          "format": "date-time",
+          "title": "Effective From",
+          "type": "string"
+        },
+        "effective_until": {
+          "description": "失效时刻，不含边界，带时区",
+          "format": "date-time",
+          "title": "Effective Until",
+          "type": "string"
+        },
+        "max_age_seconds": {
+          "description": "正式演示标准规定的数据有效期秒数",
+          "exclusiveMinimum": 0,
+          "title": "Max Age Seconds",
+          "type": "integer"
+        },
+        "limits": {
+          "additionalProperties": {
+            "$ref": "#/$defs/Limit"
+          },
+          "description": "温度和碳硅锰有效上下限；纯虚构教学值",
+          "title": "Limits",
+          "type": "object"
+        },
+        "source": {
+          "$ref": "#/$defs/RuleSource",
+          "description": "规则的正式文档出处"
+        }
+      },
+      "required": [
+        "rule_id",
+        "steel_grade",
+        "process_stage",
+        "scope",
+        "required_status",
+        "effective_from",
+        "effective_until",
+        "max_age_seconds",
+        "limits",
+        "source"
+      ],
+      "title": "ProcessRule",
+      "type": "object"
+    },
+    "ProductionOrder": {
+      "additionalProperties": false,
+      "properties": {
+        "production_order_id": {
+          "description": "ERP 生产订单身份",
+          "title": "Production Order Id",
+          "type": "string"
+        },
+        "heat_ids": {
+          "description": "ERP 明确关联的炉次列表，不由 AI 推测",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Heat Ids",
+          "type": "array"
+        },
+        "steel_grade": {
+          "description": "ERP 产品钢种要求",
+          "title": "Steel Grade",
+          "type": "string"
+        },
+        "planned_quantity": {
+          "description": "订单计划数量",
+          "minimum": 0,
+          "title": "Planned Quantity",
+          "type": "number"
+        },
+        "completed_quantity": {
+          "description": "订单完成数量",
+          "minimum": 0,
+          "title": "Completed Quantity",
+          "type": "number"
+        },
+        "quantity_unit": {
+          "description": "计划与完成数量共同单位",
+          "title": "Quantity Unit",
+          "type": "string"
+        },
+        "due_date": {
+          "description": "ERP 订单交期，含时区；不据此自行推断交期风险",
+          "format": "date-time",
+          "title": "Due Date",
+          "type": "string"
+        },
+        "status": {
+          "description": "ERP 订单状态，只读事实",
+          "title": "Status",
+          "type": "string"
+        },
+        "material_code": {
+          "description": "该订单本次指定物料编码",
+          "title": "Material Code",
+          "type": "string"
+        },
+        "batch_id": {
+          "description": "该订单本次指定 WMS 批次",
+          "title": "Batch Id",
+          "type": "string"
+        },
+        "required_quantity": {
+          "description": "该任务明确物料需求量，不由模型估算",
+          "minimum": 0,
+          "title": "Required Quantity",
+          "type": "number"
+        },
+        "material_unit": {
+          "description": "需求量单位，只允许与 WMS 同单位比较，无隐式换算",
+          "title": "Material Unit",
+          "type": "string"
+        },
+        "source_updated_at": {
+          "description": "ERP 源记录更新时间，含时区",
+          "format": "date-time",
+          "title": "Source Updated At",
+          "type": "string"
+        },
+        "revision": {
+          "description": "ERP 源记录修订号",
+          "minimum": 1,
+          "title": "Revision",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "production_order_id",
+        "heat_ids",
+        "steel_grade",
+        "planned_quantity",
+        "completed_quantity",
+        "quantity_unit",
+        "due_date",
+        "status",
+        "material_code",
+        "batch_id",
+        "required_quantity",
+        "material_unit",
+        "source_updated_at",
+        "revision"
+      ],
+      "title": "ProductionOrder",
+      "type": "object"
+    },
+    "RagSources": {
+      "additionalProperties": false,
+      "properties": {
+        "verified_hits": {
+          "description": "Stage A 实际 verified hit 记录；进入生成前由其来源门禁校验，不是 API 事实",
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Verified Hits",
+          "type": "array"
+        }
+      },
+      "required": [
+        "verified_hits"
+      ],
+      "title": "RagSources",
+      "type": "object"
+    },
+    "RuleSource": {
+      "properties": {
+        "document_name": {
+          "description": "正式演示标准名称",
+          "minLength": 1,
+          "title": "Document Name",
+          "type": "string"
+        },
+        "version": {
+          "description": "标准版本",
+          "minLength": 1,
+          "title": "Version",
+          "type": "string"
+        },
+        "effective_date": {
+          "description": "标准生效日期",
+          "minLength": 1,
+          "title": "Effective Date",
+          "type": "string"
+        },
+        "chapter": {
+          "description": "章",
+          "minLength": 1,
+          "title": "Chapter",
+          "type": "string"
+        },
+        "section": {
+          "description": "节",
+          "minLength": 1,
+          "title": "Section",
+          "type": "string"
+        },
+        "page": {
+          "description": "演示逻辑页码",
+          "minimum": 1,
+          "title": "Page",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "document_name",
+        "version",
+        "effective_date",
+        "chapter",
+        "section",
+        "page"
+      ],
+      "title": "RuleSource",
+      "type": "object"
+    },
+    "Temperature": {
+      "properties": {
+        "heat_id": {
+          "description": "MES 炉次号，动态业务标识；不是合法 ID 白名单",
+          "title": "Heat Id",
+          "type": "string"
+        },
+        "temperature_c": {
+          "description": "实测温度，单位 °C；有限数值，不包含目标范围",
+          "title": "Temperature C",
+          "type": "number"
+        },
+        "measured_at": {
+          "description": "源系统记录的测量时间；不代表本次查询时间",
+          "format": "date-time",
+          "title": "Measured At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "heat_id",
+        "temperature_c",
+        "measured_at"
+      ],
+      "title": "Temperature",
+      "type": "object"
+    },
+    "VerifiedSource_InventoryBatch_": {
+      "additionalProperties": false,
+      "properties": {
+        "verified": {
+          "description": "该系统事实是否验证通过",
+          "title": "Verified",
+          "type": "boolean"
+        },
+        "entity_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "关联明确前可为 null",
+          "title": "Entity Id"
+        },
+        "facts": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/InventoryBatch"
+            },
+            {
+              "additionalProperties": true,
+              "maxProperties": 0,
+              "type": "object"
+            }
+          ],
+          "description": "已验证结构化事实；未验证时为空对象",
+          "title": "Facts"
+        },
+        "provenance": {
+          "description": "只读 API provenance，与 citation 分离",
+          "items": {
+            "$ref": "#/$defs/ApiProvenance"
+          },
+          "title": "Provenance",
+          "type": "array"
+        }
+      },
+      "required": [
+        "verified",
+        "entity_id",
+        "facts",
+        "provenance"
+      ],
+      "title": "VerifiedSource[InventoryBatch]",
+      "type": "object"
+    },
+    "VerifiedSource_MesFacts_": {
+      "additionalProperties": false,
+      "properties": {
+        "verified": {
+          "description": "该系统事实是否验证通过",
+          "title": "Verified",
+          "type": "boolean"
+        },
+        "entity_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "关联明确前可为 null",
+          "title": "Entity Id"
+        },
+        "facts": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MesFacts"
+            },
+            {
+              "additionalProperties": true,
+              "maxProperties": 0,
+              "type": "object"
+            }
+          ],
+          "description": "已验证结构化事实；未验证时为空对象",
+          "title": "Facts"
+        },
+        "provenance": {
+          "description": "只读 API provenance，与 citation 分离",
+          "items": {
+            "$ref": "#/$defs/ApiProvenance"
+          },
+          "title": "Provenance",
+          "type": "array"
+        }
+      },
+      "required": [
+        "verified",
+        "entity_id",
+        "facts",
+        "provenance"
+      ],
+      "title": "VerifiedSource[MesFacts]",
+      "type": "object"
+    },
+    "VerifiedSource_ProductionOrder_": {
+      "additionalProperties": false,
+      "properties": {
+        "verified": {
+          "description": "该系统事实是否验证通过",
+          "title": "Verified",
+          "type": "boolean"
+        },
+        "entity_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "关联明确前可为 null",
+          "title": "Entity Id"
+        },
+        "facts": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ProductionOrder"
+            },
+            {
+              "additionalProperties": true,
+              "maxProperties": 0,
+              "type": "object"
+            }
+          ],
+          "description": "已验证结构化事实；未验证时为空对象",
+          "title": "Facts"
+        },
+        "provenance": {
+          "description": "只读 API provenance，与 citation 分离",
+          "items": {
+            "$ref": "#/$defs/ApiProvenance"
+          },
+          "title": "Provenance",
+          "type": "array"
+        }
+      },
+      "required": [
+        "verified",
+        "entity_id",
+        "facts",
+        "provenance"
+      ],
+      "title": "VerifiedSource[ProductionOrder]",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "request_id": {
+      "description": "本次 Workflow run ID，跨请求不可复用",
+      "title": "Request Id",
+      "type": "string"
+    },
+    "heat_id": {
+      "description": "本次 MES 炉次身份",
+      "title": "Heat Id",
+      "type": "string"
+    },
+    "mes": {
+      "$ref": "#/$defs/VerifiedSource_MesFacts_",
+      "description": "MES 事实和两次只读 API provenance"
+    },
+    "erp": {
+      "$ref": "#/$defs/VerifiedSource_ProductionOrder_",
+      "description": "ERP 生产任务事实或显式未验证状态"
+    },
+    "wms": {
+      "$ref": "#/$defs/VerifiedSource_InventoryBatch_",
+      "description": "WMS 指定批次事实或显式未验证状态"
+    },
+    "rag": {
+      "$ref": "#/$defs/RagSources",
+      "description": "企业规程来源；引用链保持 Stage A/B 定义"
+    },
+    "integrity_sha256": {
+      "description": "除本字段外的 canonical bundle hash；非数字签名",
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Integrity Sha256",
+      "type": "string"
+    }
+  },
+  "required": [
+    "request_id",
+    "heat_id",
+    "mes",
+    "erp",
+    "wms",
+    "rag",
+    "integrity_sha256"
+  ],
+  "title": "EnterpriseEvidenceBundle",
+  "type": "object"
+}

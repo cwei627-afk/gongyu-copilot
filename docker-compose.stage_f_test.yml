@@ -1,0 +1,7 @@
+services:
+  api:
+    command: ["sh", "-c", "python -m app.init_db && python -m app.enterprise.seed_demo && python -m app.demo_dataset && exec uvicorn app.copilot.mock:app_d --host 0.0.0.0 --port 8000"]
+  e2e:
+    environment:
+      RUN_STAGE_F_E2E: "1"
+    command: ["python", "-m", "pytest", "-q", "tests/test_deployment_e2e.py", "tests/test_enterprise_deployment.py", "tests/test_readonly_agent_deployment.py", "tests/test_stage_f_deployment.py"]

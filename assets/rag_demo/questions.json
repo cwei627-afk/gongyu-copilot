@@ -1,0 +1,468 @@
+[
+  {
+    "id": "Q01",
+    "note": "明确可回答；只回答字段，不推断温度是否正常。",
+    "request": {
+      "question": {
+        "question_id": "Q01",
+        "question": "演示温度记录应包含哪些字段？",
+        "scope": "DEMO-LINE-A",
+        "as_of": "2026-09-28",
+        "required_points": [
+          "record_fields"
+        ]
+      },
+      "retrieval_status": "ok",
+      "candidates": [
+        {
+          "chunk_id": "temperature-record",
+          "content": "在虚构的 DEMO-LINE-A 教学场景中，温度记录包含炉次号、测量时间和摄氏温度数值。记录表只保存实测值。本规程未定义正常温度范围、温度偏高的处置步骤或调节参数。",
+          "similarity_score": 0.99
+        }
+      ],
+      "assessments": [
+        {
+          "chunk_id": "temperature-record",
+          "question_id": "Q01",
+          "question": "演示温度记录应包含哪些字段？",
+          "reviewer": "人工编写的演示测试标注（非模型输出）",
+          "verdict": "direct",
+          "quote": "在虚构的 DEMO-LINE-A 教学场景中，温度记录包含炉次号、测量时间和摄氏温度数值。记录表只保存实测值。本规程未定义正常温度范围、温度偏高的处置步骤或调节参数。",
+          "covered_points": [
+            "record_fields"
+          ],
+          "rationale": "正文明确列出炉次号、测量时间和摄氏温度数值。"
+        }
+      ]
+    },
+    "expected": {
+      "decision": "supported",
+      "reason_codes": [
+        "DIRECT_EVIDENCE"
+      ],
+      "evidence_chunk_ids": [
+        "temperature-record"
+      ]
+    }
+  },
+  {
+    "id": "Q02",
+    "note": "高相似度 0.99 也不能替代正文支持。",
+    "request": {
+      "question": {
+        "question_id": "Q02",
+        "question": "演示温度偏高时，应如何调整设备参数？",
+        "scope": "DEMO-LINE-A",
+        "as_of": "2026-09-28",
+        "required_points": [
+          "adjustment_steps"
+        ]
+      },
+      "retrieval_status": "ok",
+      "candidates": [
+        {
+          "chunk_id": "temperature-record",
+          "content": "在虚构的 DEMO-LINE-A 教学场景中，温度记录包含炉次号、测量时间和摄氏温度数值。记录表只保存实测值。本规程未定义正常温度范围、温度偏高的处置步骤或调节参数。",
+          "similarity_score": 0.99
+        }
+      ],
+      "assessments": [
+        {
+          "chunk_id": "temperature-record",
+          "question_id": "Q02",
+          "question": "演示温度偏高时，应如何调整设备参数？",
+          "reviewer": "人工编写的演示测试标注（非模型输出）",
+          "verdict": "related_only",
+          "quote": "",
+          "covered_points": [],
+          "rationale": "标题与温度相关，但正文只有记录字段，并明确没有调节参数。"
+        }
+      ]
+    },
+    "expected": {
+      "decision": "abstain",
+      "reason_codes": [
+        "NO_DIRECT_SUPPORT"
+      ],
+      "evidence_chunk_ids": []
+    }
+  },
+  {
+    "id": "Q03",
+    "note": "完全无相关资料。",
+    "request": {
+      "question": {
+        "question_id": "Q03",
+        "question": "演示工场的差旅报销额度是多少？",
+        "scope": "DEMO-LINE-A",
+        "as_of": "2026-09-28",
+        "required_points": [
+          "reimbursement_limit"
+        ]
+      },
+      "retrieval_status": "ok",
+      "candidates": [],
+      "assessments": []
+    },
+    "expected": {
+      "decision": "abstain",
+      "reason_codes": [
+        "NO_EVIDENCE"
+      ],
+      "evidence_chunk_ids": []
+    }
+  },
+  {
+    "id": "Q04",
+    "note": "标题不含温度，正文直接支持，允许作答。",
+    "request": {
+      "question": {
+        "question_id": "Q04",
+        "question": "温度记录缺失时由谁确认，交接单填写哪些字段？",
+        "scope": "DEMO-LINE-A",
+        "as_of": "2026-09-28",
+        "required_points": [
+          "confirmation_role",
+          "handover_fields"
+        ]
+      },
+      "retrieval_status": "ok",
+      "candidates": [
+        {
+          "chunk_id": "handover-v2",
+          "content": "在虚构的 DEMO-LINE-A 教学场景中，温度记录缺失时，由值班复核员确认缺失项，并在交接单填写炉次号、缺失字段和确认时间。本条不规定设备操作或温度调整方法。",
+          "similarity_score": 0.99
+        }
+      ],
+      "assessments": [
+        {
+          "chunk_id": "handover-v2",
+          "question_id": "Q04",
+          "question": "温度记录缺失时由谁确认，交接单填写哪些字段？",
+          "reviewer": "人工编写的演示测试标注（非模型输出）",
+          "verdict": "direct",
+          "quote": "在虚构的 DEMO-LINE-A 教学场景中，温度记录缺失时，由值班复核员确认缺失项，并在交接单填写炉次号、缺失字段和确认时间。本条不规定设备操作或温度调整方法。",
+          "covered_points": [
+            "confirmation_role",
+            "handover_fields"
+          ],
+          "rationale": "标题是交接记录，正文直接规定温度记录缺失时的确认角色及字段。"
+        }
+      ]
+    },
+    "expected": {
+      "decision": "supported",
+      "reason_codes": [
+        "DIRECT_EVIDENCE"
+      ],
+      "evidence_chunk_ids": [
+        "handover-v2"
+      ]
+    }
+  },
+  {
+    "id": "Q05",
+    "note": "仅检索旧版，即使知道新版存在也不能自动捏造新版检索证据。",
+    "request": {
+      "question": {
+        "question_id": "Q05",
+        "question": "温度记录缺失时由谁确认，交接单填写哪些字段？",
+        "scope": "DEMO-LINE-A",
+        "as_of": "2026-09-28",
+        "required_points": [
+          "confirmation_role",
+          "handover_fields"
+        ]
+      },
+      "retrieval_status": "ok",
+      "candidates": [
+        {
+          "chunk_id": "handover-v1",
+          "content": "在虚构的 DEMO-LINE-A 教学场景中，温度记录缺失时，由记录员确认缺失项，并在交接单填写炉次号和缺失字段。本条不规定设备操作或温度调整方法。",
+          "similarity_score": 0.99
+        }
+      ],
+      "assessments": [
+        {
+          "chunk_id": "handover-v1",
+          "question_id": "Q05",
+          "question": "温度记录缺失时由谁确认，交接单填写哪些字段？",
+          "reviewer": "人工编写的演示测试标注（非模型输出）",
+          "verdict": "direct",
+          "quote": "在虚构的 DEMO-LINE-A 教学场景中，温度记录缺失时，由记录员确认缺失项，并在交接单填写炉次号和缺失字段。本条不规定设备操作或温度调整方法。",
+          "covered_points": [
+            "confirmation_role",
+            "handover_fields"
+          ],
+          "rationale": "旧版正文直接回答，但版本有效性应由校验器拒绝。"
+        }
+      ]
+    },
+    "expected": {
+      "decision": "abstain",
+      "reason_codes": [
+        "INACTIVE_VERSION"
+      ],
+      "evidence_chunk_ids": []
+    }
+  },
+  {
+    "id": "Q06",
+    "note": "新旧版本同时命中，只引用当前有效 v2，不按相似度或版本字符串排序。",
+    "request": {
+      "question": {
+        "question_id": "Q06",
+        "question": "温度记录缺失时由谁确认，交接单填写哪些字段？",
+        "scope": "DEMO-LINE-A",
+        "as_of": "2026-09-28",
+        "required_points": [
+          "confirmation_role",
+          "handover_fields"
+        ]
+      },
+      "retrieval_status": "ok",
+      "candidates": [
+        {
+          "chunk_id": "handover-v1",
+          "content": "在虚构的 DEMO-LINE-A 教学场景中，温度记录缺失时，由记录员确认缺失项，并在交接单填写炉次号和缺失字段。本条不规定设备操作或温度调整方法。",
+          "similarity_score": 0.99
+        },
+        {
+          "chunk_id": "handover-v2",
+          "content": "在虚构的 DEMO-LINE-A 教学场景中，温度记录缺失时，由值班复核员确认缺失项，并在交接单填写炉次号、缺失字段和确认时间。本条不规定设备操作或温度调整方法。",
+          "similarity_score": 0.99
+        }
+      ],
+      "assessments": [
+        {
+          "chunk_id": "handover-v1",
+          "question_id": "Q06",
+          "question": "温度记录缺失时由谁确认，交接单填写哪些字段？",
+          "reviewer": "人工编写的演示测试标注（非模型输出）",
+          "verdict": "direct",
+          "quote": "在虚构的 DEMO-LINE-A 教学场景中，温度记录缺失时，由记录员确认缺失项，并在交接单填写炉次号和缺失字段。本条不规定设备操作或温度调整方法。",
+          "covered_points": [
+            "confirmation_role",
+            "handover_fields"
+          ],
+          "rationale": "各版本正文均有对应条款；版本有效性由受控目录决定。"
+        },
+        {
+          "chunk_id": "handover-v2",
+          "question_id": "Q06",
+          "question": "温度记录缺失时由谁确认，交接单填写哪些字段？",
+          "reviewer": "人工编写的演示测试标注（非模型输出）",
+          "verdict": "direct",
+          "quote": "在虚构的 DEMO-LINE-A 教学场景中，温度记录缺失时，由值班复核员确认缺失项，并在交接单填写炉次号、缺失字段和确认时间。本条不规定设备操作或温度调整方法。",
+          "covered_points": [
+            "confirmation_role",
+            "handover_fields"
+          ],
+          "rationale": "各版本正文均有对应条款；版本有效性由受控目录决定。"
+        }
+      ]
+    },
+    "expected": {
+      "decision": "supported",
+      "reason_codes": [
+        "DIRECT_EVIDENCE"
+      ],
+      "evidence_chunk_ids": [
+        "handover-v2"
+      ]
+    }
+  },
+  {
+    "id": "Q07",
+    "note": "",
+    "request": {
+      "question": {
+        "question_id": "Q07",
+        "question": "温度记录缺失时由谁确认，交接单填写哪些字段？",
+        "scope": "DEMO-LINE-A",
+        "as_of": "2026-09-28",
+        "required_points": [
+          "confirmation_role",
+          "handover_fields"
+        ]
+      },
+      "retrieval_status": "ok",
+      "candidates": [
+        {
+          "chunk_id": "handover-v3",
+          "content": "在虚构的 DEMO-LINE-A 教学场景中，温度记录缺失时，由演示质量复核员确认缺失项，并在交接单填写炉次号、缺失字段、确认时间和复核单号。本条不规定设备操作或温度调整方法。",
+          "similarity_score": 0.99
+        }
+      ],
+      "assessments": [
+        {
+          "chunk_id": "handover-v3",
+          "question_id": "Q07",
+          "question": "温度记录缺失时由谁确认，交接单填写哪些字段？",
+          "reviewer": "人工编写的演示测试标注（非模型输出）",
+          "verdict": "direct",
+          "quote": "在虚构的 DEMO-LINE-A 教学场景中，温度记录缺失时，由演示质量复核员确认缺失项，并在交接单填写炉次号、缺失字段、确认时间和复核单号。本条不规定设备操作或温度调整方法。",
+          "covered_points": [
+            "confirmation_role",
+            "handover_fields"
+          ],
+          "rationale": "未来版已发布，但尚未生效。"
+        }
+      ]
+    },
+    "expected": {
+      "decision": "abstain",
+      "reason_codes": [
+        "INACTIVE_VERSION"
+      ],
+      "evidence_chunk_ids": []
+    }
+  },
+  {
+    "id": "Q08",
+    "note": "",
+    "request": {
+      "question": {
+        "question_id": "Q08",
+        "question": "成分记录碳字段为空时，记录完整性如何标记？",
+        "scope": "DEMO-LINE-A",
+        "as_of": "2026-09-28",
+        "required_points": [
+          "record_status"
+        ]
+      },
+      "retrieval_status": "ok",
+      "candidates": [
+        {
+          "chunk_id": "quality-record",
+          "content": "在虚构的 DEMO-LINE-A 教学场景中，成分记录的碳、硅、锰任一字段为空时，应将记录完整性标记为“待补全”，由质量记录员核对原始记录。本条仅规定数据记录完整性，不规定成分合格范围或材料放行条件。",
+          "similarity_score": 0.99
+        }
+      ],
+      "assessments": [
+        {
+          "chunk_id": "quality-record",
+          "question_id": "Q08",
+          "question": "成分记录碳字段为空时，记录完整性如何标记？",
+          "reviewer": "人工编写的演示测试标注（非模型输出）",
+          "verdict": "direct",
+          "quote": "在虚构的 DEMO-LINE-A 教学场景中，成分记录的碳、硅、锰任一字段为空时，应将记录完整性标记为“待补全”，由质量记录员核对原始记录。本条仅规定数据记录完整性，不规定成分合格范围或材料放行条件。",
+          "covered_points": [
+            "record_status"
+          ],
+          "rationale": "正文规定待补全；不能外推为成分超标或材料不合格。"
+        }
+      ]
+    },
+    "expected": {
+      "decision": "supported",
+      "reason_codes": [
+        "DIRECT_EVIDENCE"
+      ],
+      "evidence_chunk_ids": [
+        "quality-record"
+      ]
+    }
+  },
+  {
+    "id": "Q09",
+    "note": "复合问题未全覆盖，本轮整体 abstain，不输出部分处置。",
+    "request": {
+      "question": {
+        "question_id": "Q09",
+        "question": "温度记录包括哪些字段，温度偏高时如何调整设备？",
+        "scope": "DEMO-LINE-A",
+        "as_of": "2026-09-28",
+        "required_points": [
+          "record_fields",
+          "adjustment_steps"
+        ]
+      },
+      "retrieval_status": "ok",
+      "candidates": [
+        {
+          "chunk_id": "temperature-record",
+          "content": "在虚构的 DEMO-LINE-A 教学场景中，温度记录包含炉次号、测量时间和摄氏温度数值。记录表只保存实测值。本规程未定义正常温度范围、温度偏高的处置步骤或调节参数。",
+          "similarity_score": 0.99
+        }
+      ],
+      "assessments": [
+        {
+          "chunk_id": "temperature-record",
+          "question_id": "Q09",
+          "question": "温度记录包括哪些字段，温度偏高时如何调整设备？",
+          "reviewer": "人工编写的演示测试标注（非模型输出）",
+          "verdict": "direct",
+          "quote": "在虚构的 DEMO-LINE-A 教学场景中，温度记录包含炉次号、测量时间和摄氏温度数值。记录表只保存实测值。本规程未定义正常温度范围、温度偏高的处置步骤或调节参数。",
+          "covered_points": [
+            "record_fields"
+          ],
+          "rationale": "只覆盖字段部分；没有设备调整步骤。"
+        }
+      ]
+    },
+    "expected": {
+      "decision": "abstain",
+      "reason_codes": [
+        "INCOMPLETE_SUPPORT"
+      ],
+      "evidence_chunk_ids": []
+    }
+  },
+  {
+    "id": "Q10",
+    "note": "有检索内容但未审查，不默认放行。",
+    "request": {
+      "question": {
+        "question_id": "Q10",
+        "question": "演示温度记录应包含哪些字段？",
+        "scope": "DEMO-LINE-A",
+        "as_of": "2026-09-28",
+        "required_points": [
+          "record_fields"
+        ]
+      },
+      "retrieval_status": "ok",
+      "candidates": [
+        {
+          "chunk_id": "temperature-record",
+          "content": "在虚构的 DEMO-LINE-A 教学场景中，温度记录包含炉次号、测量时间和摄氏温度数值。记录表只保存实测值。本规程未定义正常温度范围、温度偏高的处置步骤或调节参数。",
+          "similarity_score": 0.99
+        }
+      ],
+      "assessments": []
+    },
+    "expected": {
+      "decision": "abstain",
+      "reason_codes": [
+        "UNREVIEWED_EVIDENCE"
+      ],
+      "evidence_chunk_ids": []
+    }
+  },
+  {
+    "id": "Q11",
+    "note": "检索服务失败不同于检索无结果。",
+    "request": {
+      "question": {
+        "question_id": "Q11",
+        "question": "演示温度记录应包含哪些字段？",
+        "scope": "DEMO-LINE-A",
+        "as_of": "2026-09-28",
+        "required_points": [
+          "record_fields"
+        ]
+      },
+      "retrieval_status": "failed",
+      "candidates": [],
+      "assessments": []
+    },
+    "expected": {
+      "decision": "abstain",
+      "reason_codes": [
+        "RETRIEVAL_FAILED"
+      ],
+      "evidence_chunk_ids": []
+    }
+  }
+]

@@ -1,0 +1,12 @@
+flowchart TD
+  Query["查询与验证"] --> Kind{"来源结果"}
+  Kind -->|"500 / timeout / 鉴权或协议失败"| System["system_error：事实未知"]
+  Kind -->|"404 / 空字段 / 过期 / 版本或身份冲突"| Data["data_error：对象或数据不可用"]
+  Kind -->|"有效事实 + 唯一有效规则"| Compare["Code参数比较"]
+  Compare -->|"未违反规则"| Normal["no_anomaly：返回事实"]
+  Compare -->|"违反有效规则"| Anomaly["真实业务或工艺异常"]
+  Anomaly --> Evidence{"有效企业证据充分?"}
+  Evidence -->|"否"| Abstain["abstain：无确定性处置"]
+  Evidence -->|"是"| Generate["受约束生成 + 后验 + 人工复核"]
+  System --> Stop["停止正常推断 / 不补造事实或出处"]
+  Data --> Stop

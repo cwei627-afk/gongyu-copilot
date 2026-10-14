@@ -1,0 +1,12 @@
+flowchart TD
+ U[用户] --> C[Copilot统一入口]
+ C --> W[Workflow / 受约束只读查询]
+ W --> API[MES / ERP / WMS API]
+ W --> RAG[RAG企业知识库 / 独立公开参考]
+ API --> V[Validation: 身份 关联 时效 有效规则]
+ RAG --> V
+ V --> L[LLM组织已验证内容]
+ L --> P[Citation + Validation: 事实与引用覆盖]
+ P --> H[事实 检查项 来源 人工确认]
+ V -->|失败或不足| S[停止确定性结论]
+ C -.一般非量化讨论.-> G[独立未核验模型参考 / 无可信Citation]

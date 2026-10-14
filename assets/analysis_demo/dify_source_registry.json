@@ -1,0 +1,183 @@
+{
+  "notice": "完全虚构；Dify API 读取的正式受控来源身份，非生产事实副本。",
+  "registry_version": "2.0",
+  "documents": [
+    {
+      "chunk_id": "DEMO-CHECK-temperature-v1",
+      "document_name": "虚构复核记录核对规程",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "effective_from": "2026-01-01T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "status": "active",
+      "scope": "DEMO-LINE-A",
+      "steel_grade": "DEMO-A",
+      "process_stage": "review",
+      "rule_id": "DEMO-RULE-A-REVIEW-v1",
+      "parameters": [
+        "temperature_c"
+      ],
+      "directions": [
+        "low",
+        "high"
+      ],
+      "chapter": "第2章 人工复核",
+      "section": "2.1 偏差检查项",
+      "page": null,
+      "content": "完全虚构的教学规程，仅适用于 DEMO-LINE-A 的 DEMO-A 钢种 review 阶段。依据 DEMO-RULE-A-REVIEW-v1 确认温度低于下限或高于上限时，仅进行下列人工检查：核对该炉次温度采集记录与测量时间是否一致。核对钢种、复核阶段和当前使用的参数标准版本。将温度偏差事实及记录提交值班复核员人工确认。本条不规定设备调节、加料、升降温或 PLC 执行动作。",
+      "checks": [
+        "核对该炉次温度采集记录与测量时间是否一致。",
+        "核对钢种、复核阶段和当前使用的参数标准版本。",
+        "将温度偏差事实及记录提交值班复核员人工确认。"
+      ],
+      "fictional": true,
+      "dataset_id": "553a2ee9-b37e-4d0f-b3de-0251267d2f59",
+      "document_id": "5c17fa76-a8c5-4c0b-b3fd-e81c53d03de4",
+      "segment_id": "74069df4-07cd-487d-bea3-0bfe820c3269",
+      "source_file_name": "DEMO-CHECK-temperature-v1.md",
+      "content_sha256": "a656af58c20383b36a3e072da02d06b2755195e7f8cebc9b3692edd0fd1896e7"
+    },
+    {
+      "chunk_id": "DEMO-CHECK-chemistry-v1",
+      "document_name": "虚构质量复核检查规程",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "effective_from": "2026-01-01T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "status": "active",
+      "scope": "DEMO-LINE-A",
+      "steel_grade": "DEMO-A",
+      "process_stage": "review",
+      "rule_id": "DEMO-RULE-A-REVIEW-v1",
+      "parameters": [
+        "carbon_pct",
+        "silicon_pct",
+        "manganese_pct"
+      ],
+      "directions": [
+        "low",
+        "high"
+      ],
+      "chapter": "第2章 人工复核",
+      "section": "2.1 偏差检查项",
+      "page": null,
+      "content": "完全虚构的教学规程，仅适用于 DEMO-LINE-A 的 DEMO-A 钢种 review 阶段。依据 DEMO-RULE-A-REVIEW-v1 确认碳、硅或锰成分低于下限或高于上限时，仅进行下列人工检查：核对该炉次成分报告的样本编号、检测时间与炉次关联。核对钢种、复核阶段和当前使用的成分标准版本。将成分偏差事实及原始报告提交质量复核员人工确认。本条不规定设备调节、加料、升降温或 PLC 执行动作。",
+      "checks": [
+        "核对该炉次成分报告的样本编号、检测时间与炉次关联。",
+        "核对钢种、复核阶段和当前使用的成分标准版本。",
+        "将成分偏差事实及原始报告提交质量复核员人工确认。"
+      ],
+      "fictional": true,
+      "dataset_id": "553a2ee9-b37e-4d0f-b3de-0251267d2f59",
+      "document_id": "09be0345-f783-4c47-8e61-67c949c5fc65",
+      "segment_id": "3ad74a0b-6924-4e12-8601-931012d9825b",
+      "source_file_name": "DEMO-CHECK-chemistry-v1.md",
+      "content_sha256": "746fc839110bbb1d99934c29956848ac5fc9b843913da5ca87e128315536c8d8"
+    },
+    {
+      "chunk_id": "DEMO-CHECK-temperature-historical",
+      "document_name": "虚构复核记录核对规程",
+      "version": "0.8",
+      "effective_date": "2025-01-01",
+      "effective_from": "2025-01-01T00:00:00+00:00",
+      "effective_until": "2026-01-01T00:00:00+00:00",
+      "status": "expired",
+      "scope": "DEMO-LINE-A",
+      "steel_grade": "DEMO-A",
+      "process_stage": "review",
+      "rule_id": "DEMO-RULE-A-REVIEW-v1",
+      "parameters": [
+        "temperature_c"
+      ],
+      "directions": [
+        "low",
+        "high"
+      ],
+      "chapter": "第2章 人工复核",
+      "section": "2.1 偏差检查项",
+      "page": null,
+      "content": "完全虚构的教学规程，仅适用于 DEMO-LINE-A 的 DEMO-A 钢种 review 阶段。依据 DEMO-RULE-A-REVIEW-v1 确认温度低于下限或高于上限时，仅进行下列人工检查：核对该炉次温度采集记录与测量时间是否一致。核对钢种、复核阶段和当前使用的参数标准版本。将温度偏差事实及记录提交值班复核员人工确认。本条不规定设备调节、加料、升降温或 PLC 执行动作。",
+      "checks": [
+        "核对该炉次温度采集记录与测量时间是否一致。",
+        "核对钢种、复核阶段和当前使用的参数标准版本。",
+        "将温度偏差事实及记录提交值班复核员人工确认。"
+      ],
+      "fictional": true,
+      "dataset_id": "553a2ee9-b37e-4d0f-b3de-0251267d2f59",
+      "document_id": "08e85c4f-8423-47b5-8b03-753183f9f524",
+      "segment_id": "ba6a6fa8-49e2-4041-b5aa-8623d04b92da",
+      "source_file_name": "DEMO-CHECK-temperature-historical.md",
+      "content_sha256": "a656af58c20383b36a3e072da02d06b2755195e7f8cebc9b3692edd0fd1896e7"
+    },
+    {
+      "chunk_id": "DEMO-CHECK-temperature-revoked",
+      "document_name": "虚构复核记录核对规程",
+      "version": "0.9",
+      "effective_date": "2026-01-01",
+      "effective_from": "2026-01-01T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "status": "revoked",
+      "scope": "DEMO-LINE-A",
+      "steel_grade": "DEMO-A",
+      "process_stage": "review",
+      "rule_id": "DEMO-RULE-A-REVIEW-v1",
+      "parameters": [
+        "temperature_c"
+      ],
+      "directions": [
+        "low",
+        "high"
+      ],
+      "chapter": "第2章 人工复核",
+      "section": "2.1 偏差检查项",
+      "page": null,
+      "content": "完全虚构的教学规程，仅适用于 DEMO-LINE-A 的 DEMO-A 钢种 review 阶段。依据 DEMO-RULE-A-REVIEW-v1 确认温度低于下限或高于上限时，仅进行下列人工检查：核对该炉次温度采集记录与测量时间是否一致。核对钢种、复核阶段和当前使用的参数标准版本。将温度偏差事实及记录提交值班复核员人工确认。本条不规定设备调节、加料、升降温或 PLC 执行动作。",
+      "checks": [
+        "核对该炉次温度采集记录与测量时间是否一致。",
+        "核对钢种、复核阶段和当前使用的参数标准版本。",
+        "将温度偏差事实及记录提交值班复核员人工确认。"
+      ],
+      "fictional": true,
+      "dataset_id": "553a2ee9-b37e-4d0f-b3de-0251267d2f59",
+      "document_id": "996845dc-636f-41f4-8f0e-3837f6c55efb",
+      "segment_id": "0a740c7d-1263-49f3-8ffd-ed1b4dd22a7b",
+      "source_file_name": "DEMO-CHECK-temperature-revoked.md",
+      "content_sha256": "a656af58c20383b36a3e072da02d06b2755195e7f8cebc9b3692edd0fd1896e7"
+    },
+    {
+      "chunk_id": "DEMO-CHECK-temperature-future",
+      "document_name": "虚构复核记录核对规程",
+      "version": "2.0",
+      "effective_date": "2027-01-01",
+      "effective_from": "2027-01-01T00:00:00+00:00",
+      "effective_until": "2030-01-01T00:00:00+00:00",
+      "status": "active",
+      "scope": "DEMO-LINE-A",
+      "steel_grade": "DEMO-A",
+      "process_stage": "review",
+      "rule_id": "DEMO-RULE-A-REVIEW-v1",
+      "parameters": [
+        "temperature_c"
+      ],
+      "directions": [
+        "low",
+        "high"
+      ],
+      "chapter": "第2章 人工复核",
+      "section": "2.1 偏差检查项",
+      "page": null,
+      "content": "完全虚构的教学规程，仅适用于 DEMO-LINE-A 的 DEMO-A 钢种 review 阶段。依据 DEMO-RULE-A-REVIEW-v1 确认温度低于下限或高于上限时，仅进行下列人工检查：核对该炉次温度采集记录与测量时间是否一致。核对钢种、复核阶段和当前使用的参数标准版本。将温度偏差事实及记录提交值班复核员人工确认。本条不规定设备调节、加料、升降温或 PLC 执行动作。",
+      "checks": [
+        "核对该炉次温度采集记录与测量时间是否一致。",
+        "核对钢种、复核阶段和当前使用的参数标准版本。",
+        "将温度偏差事实及记录提交值班复核员人工确认。"
+      ],
+      "fictional": true,
+      "dataset_id": "553a2ee9-b37e-4d0f-b3de-0251267d2f59",
+      "document_id": "490b1979-28b1-4f39-8c29-6918ecbcc581",
+      "segment_id": "e0d8f38d-c339-4765-92e2-207cffaa8063",
+      "source_file_name": "DEMO-CHECK-temperature-future.md",
+      "content_sha256": "a656af58c20383b36a3e072da02d06b2755195e7f8cebc9b3692edd0fd1896e7"
+    }
+  ]
+}

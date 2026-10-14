@@ -1,0 +1,17 @@
+flowchart TD
+  S["heat_id + analysis_request"] --> H["MES存在性 / 当前快照"]
+  H --> Rule["唯一有效规则 / 当前数据与时间"]
+  Rule --> Compare["Code比较真实参数与有效范围"]
+  Compare --> Links["MES正式关联 → ERP → WMS"]
+  Links --> Identity["身份 / 钢种 / 物料 / 批次 / 单位 / 版本 / 时效"]
+  Identity --> Joint["Enterprise Evidence Bundle与库存比较"]
+  Joint -->|"无工艺异常"| Facts["联合事实；不检索、不调用LLM"]
+  Joint -->|"确认工艺异常"| Retrieval["Qwen原生检索 + 目录版本过滤"]
+  Retrieval --> Evidence["Stage A身份 / hash / 直接支持门禁"]
+  Evidence -->|"不足"| Abstain["abstain / 无确定性处置"]
+  Evidence -->|"充分"| Generate["Stage B/C DeepSeek结构化生成"]
+  Generate --> Check["从原始HTTP与hit重建 / 事实与引用覆盖"]
+  Check --> Review["review_required / 人工复核 / automatic_actions空"]
+  H -->|"不存在或接口失败"| Stop["数据或系统错误；停止"]
+  Rule -->|"缺失或冲突"| Stop
+  Identity -->|"不匹配"| Stop

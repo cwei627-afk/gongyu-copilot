@@ -1,0 +1,4 @@
+# Stage C only extends the test command. Existing Stage A/B projects/volumes stay intact.
+services:
+  e2e:
+    command: ["python", "-m", "pytest", "-q", "tests/test_deployment_e2e.py", "tests/test_enterprise_deployment.py"]

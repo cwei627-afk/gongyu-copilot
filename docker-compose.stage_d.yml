@@ -1,0 +1,10 @@
+# Independent fresh fictional PoC volume; Stage C's project/config stays untouched.
+services:
+  api:
+    environment:
+      AGENT_CONTROL_SECRET: ${AGENT_CONTROL_SECRET:?set a local control secret}
+    command: ["sh", "-c", "python -m app.init_db && python -m app.enterprise.seed_demo && exec uvicorn app.readonly_agent.main:app --host 0.0.0.0 --port 8000"]
+  e2e:
+    command: ["python", "-m", "pytest", "-q", "tests/test_deployment_e2e.py", "tests/test_enterprise_deployment.py", "tests/test_readonly_agent_deployment.py"]
+    environment:
+      AGENT_CONTROL_SECRET: ${AGENT_CONTROL_SECRET:?set a local control secret}

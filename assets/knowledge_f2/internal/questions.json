@@ -1,0 +1,1818 @@
+[
+  {
+    "id": "F2-I-001",
+    "question": "企业生产组织有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "A01"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-002",
+    "question": "企业生产计划有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "A02"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-003",
+    "question": "企业炉次管理有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "A03"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-004",
+    "question": "企业炉次状态有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "A04"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-005",
+    "question": "企业生产节拍有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "A05"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-006",
+    "question": "企业生产记录有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "A06"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-007",
+    "question": "企业交接班有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "A07"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-008",
+    "question": "企业停产恢复有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "A08"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-009",
+    "question": "企业转炉流程有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "B01"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-010",
+    "question": "企业装料核对有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "B02"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-011",
+    "question": "企业吹炼记录有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "B03"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-012",
+    "question": "企业测温核对有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "B04"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-013",
+    "question": "企业取样核对有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "B05"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-014",
+    "question": "企业终点确认有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "B06"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-015",
+    "question": "企业温度偏差有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "B07"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-016",
+    "question": "企业成分偏差有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "B08"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-017",
+    "question": "企业LF精炼有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "C01"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-018",
+    "question": "企业RH精炼有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "C02"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-019",
+    "question": "企业VD精炼有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "C03"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-020",
+    "question": "企业精炼状态有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "C04"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-021",
+    "question": "企业精炼温度有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "C05"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-022",
+    "question": "企业精炼成分有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "C06"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-023",
+    "question": "企业精炼异常有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "C07"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-024",
+    "question": "企业精炼准备有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "C08"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-025",
+    "question": "企业浇次管理有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "D01"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-026",
+    "question": "企业中间包记录有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "D02"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-027",
+    "question": "企业拉速核对有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "D03"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-028",
+    "question": "企业连铸温度有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "D04"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-029",
+    "question": "企业铸坯追溯有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "D05"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-030",
+    "question": "企业连铸异常有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "D06"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-031",
+    "question": "企业连铸质量有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "D07"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-032",
+    "question": "企业连铸交接有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "D08"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-033",
+    "question": "企业废钢验收有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "E01"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-034",
+    "question": "企业合金验收有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "E02"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-035",
+    "question": "企业石灰验收有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "E03"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-036",
+    "question": "企业辅料管理有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "E04"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-037",
+    "question": "企业领料核对有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "E05"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-038",
+    "question": "企业退料核对有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "E06"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-039",
+    "question": "企业替代料审批有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "E07"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-040",
+    "question": "企业缺料上报有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "E08"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-041",
+    "question": "企业MES建档有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "F01"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-042",
+    "question": "企业MES状态更新有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "F02"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-043",
+    "question": "企业MES补录有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "F03"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-044",
+    "question": "企业MES数据异常有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "F04"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-045",
+    "question": "企业MES接口故障有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "F05"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-046",
+    "question": "企业MES重复数据有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "F06"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-047",
+    "question": "企业MES时间戳有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "F07"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-048",
+    "question": "企业MES参数权限有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "F08"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-049",
+    "question": "企业生产订单有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "G01"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-050",
+    "question": "企业订单释放有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "G02"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-051",
+    "question": "企业订单变更有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "G03"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-052",
+    "question": "企业订单取消有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "G04"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-053",
+    "question": "企业订单数量有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "G05"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-054",
+    "question": "企业订单交期有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "G06"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-055",
+    "question": "企业订单延期有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "G07"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-056",
+    "question": "企业订单炉次关联有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "G08"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-057",
+    "question": "企业WMS入库有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "H01"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-058",
+    "question": "企业WMS出库有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "H02"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-059",
+    "question": "企业库存可用量有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "H03"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-060",
+    "question": "企业库存批次有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "H04"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-061",
+    "question": "企业库存冻结有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "H05"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-062",
+    "question": "企业库存预留有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "H06"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-063",
+    "question": "企业库存盘点有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "H07"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-064",
+    "question": "企业库位管理有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "H08"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-065",
+    "question": "企业化验报告有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "I01"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-066",
+    "question": "企业质量取样有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "I02"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-067",
+    "question": "企业复验管理有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "I03"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-068",
+    "question": "企业不合格管理有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "I04"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-069",
+    "question": "企业质量待检有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "I05"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-070",
+    "question": "企业质量放行有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "I06"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-071",
+    "question": "企业质量追溯有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "I07"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-072",
+    "question": "企业质量异常报告有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "I08"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-073",
+    "question": "企业交班安全有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "J01"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-074",
+    "question": "企业作业许可有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "J02"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-075",
+    "question": "企业危险区域有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "J03"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-076",
+    "question": "企业应急上报有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "J04"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-077",
+    "question": "企业设备隔离有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "J05"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-078",
+    "question": "企业人员确认有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "J06"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-079",
+    "question": "企业异常停机有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "J07"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-080",
+    "question": "企业事故报告有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "J08"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-081",
+    "question": "企业设备异常有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "K01"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-082",
+    "question": "企业设备点检有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "K02"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-083",
+    "question": "企业维护申请有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "K03"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-084",
+    "question": "企业故障升级有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "K04"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-085",
+    "question": "企业停机记录有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "K05"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-086",
+    "question": "企业备件管理有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "K06"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-087",
+    "question": "企业检修协调有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "K07"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-088",
+    "question": "企业维修验收有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "K08"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-089",
+    "question": "企业网络故障有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "L01"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-090",
+    "question": "企业终端故障有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "L02"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-091",
+    "question": "企业接口中断有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "L03"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-092",
+    "question": "企业账号权限有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "L04"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-093",
+    "question": "企业数据同步有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "L05"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-094",
+    "question": "企业系统恢复有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "L06"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-095",
+    "question": "企业系统变更有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "L07"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-096",
+    "question": "企业日志管理有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "L08"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-097",
+    "question": "企业Copilot使用有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "M01"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-098",
+    "question": "企业事实来源有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "M02"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-099",
+    "question": "企业只读边界有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "M03"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-100",
+    "question": "企业人工确认有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "M04"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-101",
+    "question": "企业模型异常有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "M05"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-102",
+    "question": "企业引用核验有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "M06"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-103",
+    "question": "企业知识更新有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "M07"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-104",
+    "question": "企业错误反馈有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "M08"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-105",
+    "question": "企业操作工职责有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "N01"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-106",
+    "question": "企业工艺员职责有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "N02"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-107",
+    "question": "企业班长职责有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "N03"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-108",
+    "question": "企业调度职责有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "N04"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-109",
+    "question": "企业质量人员职责有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "N05"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-110",
+    "question": "企业仓储人员职责有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "N06"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-111",
+    "question": "企业计划人员职责有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "N07"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-112",
+    "question": "企业支持岗位职责有哪些核对要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "N08"
+    ],
+    "kind": "direct"
+  },
+  {
+    "id": "F2-I-113",
+    "question": "请问我们公司班组组织应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "A01"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-114",
+    "question": "请问我们公司排产计划应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "A02"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-115",
+    "question": "请问我们公司炉次身份应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "A03"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-116",
+    "question": "请问我们公司生产状态应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "A04"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-117",
+    "question": "请问我们公司节拍管理应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "A05"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-118",
+    "question": "请问我们公司原始生产记录应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "A06"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-119",
+    "question": "请问我们公司交班接班应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "A07"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-120",
+    "question": "请问我们公司停产与恢复应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "A08"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-121",
+    "question": "请问我们公司转炉生产流程应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "B01"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-122",
+    "question": "请问我们公司装料记录应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "B02"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-123",
+    "question": "请问我们公司吹炼过程应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "B03"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-124",
+    "question": "请问我们公司测温记录应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "B04"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-125",
+    "question": "请问我们公司转炉取样应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "B05"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-126",
+    "question": "请问我们公司转炉终点应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "B06"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-127",
+    "question": "请问我们公司温度偏低应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "B07"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-128",
+    "question": "请问我们公司化学成分偏差应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "B08"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-129",
+    "question": "请问我们公司LF炉应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "C01"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-130",
+    "question": "请问我们公司RH处理应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "C02"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-131",
+    "question": "请问我们公司VD处理应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "C03"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-132",
+    "question": "请问我们公司精炼进度应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "C04"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-133",
+    "question": "请问我们公司精炼测温应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "C05"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-134",
+    "question": "请问我们公司精炼化验应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "C06"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-135",
+    "question": "请问我们公司精炼问题应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "C07"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-136",
+    "question": "请问我们公司精炼设备准备应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "C08"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-137",
+    "question": "请问我们公司浇次关联应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "D01"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-138",
+    "question": "请问我们公司中间包管理应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "D02"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-139",
+    "question": "请问我们公司拉速记录应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "D03"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-140",
+    "question": "请问我们公司连铸测温应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "D04"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-141",
+    "question": "请问我们公司铸坯身份应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "D05"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-142",
+    "question": "请问我们公司浇铸异常应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "D06"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-143",
+    "question": "请问我们公司铸坯质量应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "D07"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-144",
+    "question": "请问我们公司浇铸交接应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "D08"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-145",
+    "question": "请问我们公司废钢来料应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "E01"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-146",
+    "question": "请问我们公司合金来料应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "E02"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-147",
+    "question": "请问我们公司石灰来料应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "E03"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-148",
+    "question": "请问我们公司辅料批次应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "E04"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-149",
+    "question": "请问我们公司领料申请应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "E05"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-150",
+    "question": "请问我们公司退料管理应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "E06"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-151",
+    "question": "请问我们公司材料替代应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "E07"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-152",
+    "question": "请问我们公司缺料应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "E08"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-153",
+    "question": "请问我们公司炉次建档应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "F01"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-154",
+    "question": "请问我们公司状态更新应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "F02"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-155",
+    "question": "请问我们公司补录应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "F03"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-156",
+    "question": "请问我们公司异常数据应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "F04"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-157",
+    "question": "请问我们公司MES超时应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "F05"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-158",
+    "question": "请问我们公司重复数据应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "F06"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-159",
+    "question": "请问我们公司时间对齐应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "F07"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-160",
+    "question": "请问我们公司工艺参数权限应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "F08"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-161",
+    "question": "请问我们公司ERP订单应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "G01"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-162",
+    "question": "请问我们公司释放订单应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "G02"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-163",
+    "question": "请问我们公司变更订单应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "G03"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-164",
+    "question": "请问我们公司取消订单应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "G04"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-165",
+    "question": "请问我们公司完成数量应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "G05"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-166",
+    "question": "请问我们公司交期管理应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "G06"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-167",
+    "question": "请问我们公司延期订单应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "G07"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-168",
+    "question": "请问我们公司订单与炉次关联应该检查什么？",
+    "expected": "answered",
+    "topic_ids": [
+      "G08"
+    ],
+    "kind": "colloquial"
+  },
+  {
+    "id": "F2-I-169",
+    "question": "帮我说说安全交接的管理要点。",
+    "expected": "answered",
+    "topic_ids": [
+      "J01"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-I-170",
+    "question": "帮我说说许可管理的管理要点。",
+    "expected": "answered",
+    "topic_ids": [
+      "J02"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-I-171",
+    "question": "帮我说说区域管控的管理要点。",
+    "expected": "answered",
+    "topic_ids": [
+      "J03"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-I-172",
+    "question": "帮我说说应急报告的管理要点。",
+    "expected": "answered",
+    "topic_ids": [
+      "J04"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-I-173",
+    "question": "帮我说说隔离确认的管理要点。",
+    "expected": "answered",
+    "topic_ids": [
+      "J05"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-I-174",
+    "question": "帮我说说作业人员资格的管理要点。",
+    "expected": "answered",
+    "topic_ids": [
+      "J06"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-I-175",
+    "question": "帮我说说停机上报的管理要点。",
+    "expected": "answered",
+    "topic_ids": [
+      "J07"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-I-176",
+    "question": "帮我说说事故记录的管理要点。",
+    "expected": "answered",
+    "topic_ids": [
+      "J08"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-I-177",
+    "question": "帮我说说设备故障的管理要点。",
+    "expected": "answered",
+    "topic_ids": [
+      "K01"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-I-178",
+    "question": "帮我说说点检的管理要点。",
+    "expected": "answered",
+    "topic_ids": [
+      "K02"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-I-179",
+    "question": "帮我说说维修申请的管理要点。",
+    "expected": "answered",
+    "topic_ids": [
+      "K03"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-I-180",
+    "question": "帮我说说维修升级的管理要点。",
+    "expected": "answered",
+    "topic_ids": [
+      "K04"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-I-181",
+    "question": "帮我说说设备停机记录的管理要点。",
+    "expected": "answered",
+    "topic_ids": [
+      "K05"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-I-182",
+    "question": "帮我说说备件核对的管理要点。",
+    "expected": "answered",
+    "topic_ids": [
+      "K06"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-I-183",
+    "question": "帮我说说检修窗口的管理要点。",
+    "expected": "answered",
+    "topic_ids": [
+      "K07"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-I-184",
+    "question": "帮我说说维护验收的管理要点。",
+    "expected": "answered",
+    "topic_ids": [
+      "K08"
+    ],
+    "kind": "paraphrase"
+  },
+  {
+    "id": "F2-I-185",
+    "question": "企业生产组织与生产计划分别有哪些要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "A01",
+      "A02"
+    ],
+    "kind": "cross_document"
+  },
+  {
+    "id": "F2-I-186",
+    "question": "企业炉次管理与炉次状态分别有哪些要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "A03",
+      "A04"
+    ],
+    "kind": "cross_document"
+  },
+  {
+    "id": "F2-I-187",
+    "question": "企业生产节拍与生产记录分别有哪些要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "A05",
+      "A06"
+    ],
+    "kind": "cross_document"
+  },
+  {
+    "id": "F2-I-188",
+    "question": "企业交接班与停产恢复分别有哪些要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "A07",
+      "A08"
+    ],
+    "kind": "cross_document"
+  },
+  {
+    "id": "F2-I-189",
+    "question": "企业转炉流程与装料核对分别有哪些要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "B01",
+      "B02"
+    ],
+    "kind": "cross_document"
+  },
+  {
+    "id": "F2-I-190",
+    "question": "企业吹炼记录与测温核对分别有哪些要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "B03",
+      "B04"
+    ],
+    "kind": "cross_document"
+  },
+  {
+    "id": "F2-I-191",
+    "question": "企业取样核对与终点确认分别有哪些要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "B05",
+      "B06"
+    ],
+    "kind": "cross_document"
+  },
+  {
+    "id": "F2-I-192",
+    "question": "企业温度偏差与成分偏差分别有哪些要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "B07",
+      "B08"
+    ],
+    "kind": "cross_document"
+  },
+  {
+    "id": "F2-I-193",
+    "question": "企业LF精炼与RH精炼分别有哪些要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "C01",
+      "C02"
+    ],
+    "kind": "cross_document"
+  },
+  {
+    "id": "F2-I-194",
+    "question": "企业VD精炼与精炼状态分别有哪些要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "C03",
+      "C04"
+    ],
+    "kind": "cross_document"
+  },
+  {
+    "id": "F2-I-195",
+    "question": "企业精炼温度与精炼成分分别有哪些要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "C05",
+      "C06"
+    ],
+    "kind": "cross_document"
+  },
+  {
+    "id": "F2-I-196",
+    "question": "企业精炼异常与精炼准备分别有哪些要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "C07",
+      "C08"
+    ],
+    "kind": "cross_document"
+  },
+  {
+    "id": "F2-I-197",
+    "question": "企业浇次管理与中间包记录分别有哪些要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "D01",
+      "D02"
+    ],
+    "kind": "cross_document"
+  },
+  {
+    "id": "F2-I-198",
+    "question": "企业拉速核对与连铸温度分别有哪些要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "D03",
+      "D04"
+    ],
+    "kind": "cross_document"
+  },
+  {
+    "id": "F2-I-199",
+    "question": "企业铸坯追溯与连铸异常分别有哪些要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "D05",
+      "D06"
+    ],
+    "kind": "cross_document"
+  },
+  {
+    "id": "F2-I-200",
+    "question": "企业连铸质量与连铸交接分别有哪些要求？",
+    "expected": "answered",
+    "topic_ids": [
+      "D07",
+      "D08"
+    ],
+    "kind": "cross_document"
+  }
+]
